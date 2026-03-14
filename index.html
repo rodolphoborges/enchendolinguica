@@ -193,14 +193,20 @@
             }
         }
 
-        // ==========================================
+// ==========================================
         // LÓGICA DE SUBMISSÃO E VALIDAÇÃO
         // ==========================================
         
-        // Dicionário de palavras-chave para validação
-        const PALAVRAS_CHAVE = {
-            "Paolla & Diogo": ["paolla", "paola", "diogo", "oliveira", "nogueira"],
-            "Bruna & Shawn Mendes": ["bruna", "marquezine", "shawn", "mendes"]
+        // A nova regra cirúrgica para inserção manual
+        const REGRAS_CASAIS = {
+            "Paolla & Diogo": {
+                pessoaA: ["paolla", "paola", "oliveira"],
+                pessoaB: ["diogo", "nogueira"]
+            },
+            "Bruna & Shawn Mendes": {
+                pessoaA: ["bruna", "marquezine"],
+                pessoaB: ["shawn", "mendes"]
+            }
         };
 
         document.getElementById('form-materia').addEventListener('submit', async (e) => {
@@ -214,7 +220,6 @@
             // --- VALIDAÇÃO 1: É uma homepage? ---
             try {
                 const urlObj = new URL(urlInput);
-                // Se o caminho for vazio ou só '/', provavelmente é a home do site
                 if (urlObj.pathname === '/' || urlObj.pathname.length < 5) {
                     throw new Error("Parece que colou a página inicial de um site, e não uma matéria específica.");
                 }
@@ -223,7 +228,6 @@
                 return;
             }
 
-            // Início da extração
             btnSubmit.disabled = true;
             btnSubmit.innerHTML = '<span class="animate-pulse">Analisando...</span>';
             statusMsg.classList.remove('hidden');
@@ -232,19 +236,18 @@
 
             const { titulo, veiculo } = await extrairMetadados(urlInput);
 
-            // --- VALIDAÇÃO 2: A matéria realmente fala sobre eles? ---
-            // Junta o título e a URL para procurar as palavras-chave, tudo em minúsculo
+            // --- VALIDAÇÃO 2: A matéria tem as DUAS pessoas? ---
             const textoAnalise = `${titulo} ${urlInput}`.toLowerCase();
-            const termosPermitidos = PALAVRAS_CHAVE[casalInput];
+            const regras = REGRAS_CASAIS[casalInput];
             
-            // Verifica se pelo menos um dos termos do casal existe no título ou na URL
-            const passouNoTeste = termosPermitidos.some(termo => textoAnalise.includes(termo));
+            const temPessoaA = regras.pessoaA.some(termo => textoAnalise.includes(termo));
+            const temPessoaB = regras.pessoaB.some(termo => textoAnalise.includes(termo));
 
-            if (!passouNoTeste) {
-                exibirErro(statusMsg, `🕵️ Mentira detetada! Não encontrámos menção a ${casalInput} nesta matéria.`);
+            if (!(temPessoaA && temPessoaB)) {
+                exibirErro(statusMsg, `🕵️ Mentira detetada! A matéria não fala do casal ${casalInput} (os dois precisam ser mencionados).`);
                 btnSubmit.disabled = false;
                 btnSubmit.innerText = 'Eternizar';
-                return; // Interrompe o processo e não salva no banco
+                return; 
             }
 
             statusMsg.innerText = "A preparar para eternizar no banco de dados...";
@@ -263,6 +266,18 @@
                 carregarDashboard();
             }
 
+            btnSubmit.disabled = false;
+            btnSubmit.innerText = 'Eternizar';
+            
+            setTimeout(() => statusMsg.classList.add('hidden'), 6000);
+        });
+
+        function exibirErro(elemento, mensagem) {
+            elemento.innerText = mensagem;
+            elemento.className = 'mt-4 text-sm font-medium text-center text-red-400';
+            elemento.classList.remove('hidden');
+            setTimeout(() => elemento.classList.add('hidden'), 6000);
+        }
             btnSubmit.disabled = false;
             btnSubmit.innerText = 'Eternizar';
             
