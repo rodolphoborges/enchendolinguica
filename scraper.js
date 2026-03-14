@@ -13,13 +13,14 @@ const parser = new Parser({
     }
 });
 
-// Pelotão de Elite da Fofoca (Feeds atualizados e testados em campo)
+// Pelotão de Elite da Fofoca (Feeds estáveis e com XML validado)
 const FEEDS = [
     { veiculo: 'G1 Pop & Arte', url: 'https://g1.globo.com/dynamo/pop-arte/rss2.xml' },
     { veiculo: 'Metrópoles Celebridades', url: 'https://www.metropoles.com/celebridades/feed' },
     { veiculo: 'Contigo! (UOL)', url: 'https://contigo.uol.com.br/feed/' },
     { veiculo: 'Hugo Gloss (UOL)', url: 'https://hugogloss.uol.com.br/feed/' },
-    { veiculo: 'O Fuxico', url: 'https://www.ofuxico.com.br/feed/' }
+    { veiculo: 'Portal Leo Dias', url: 'https://portalleodias.com/feed/' },
+    { veiculo: 'Revista Caras', url: 'https://caras.uol.com.br/feed/' }
 ];
 
 const REGRAS_CASAIS = {
