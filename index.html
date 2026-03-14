@@ -68,13 +68,13 @@
                 Termômetro da <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-400">Encheção de Linguiça</span>
             </h1>
             <p class="text-zinc-500 text-sm md:text-base font-medium tracking-wide">
-                Monitorando o Índice de Depravação Jornalística e a falta de pauta da imprensa.
+                Monitorando o esforço diário da internet em nos manter (des)informados sobre o que realmente importa.
             </p>
         </header>
 
         <section class="bg-zinccard/50 border border-white/5 backdrop-blur-md p-6 rounded-2xl shadow-2xl">
             <form id="form-materia" class="flex flex-col md:flex-row gap-3">
-                <input type="url" id="url-input" required placeholder="Cole a URL da matéria aqui..." 
+                <input type="url" id="url-input" required placeholder="Cole o link daquela matéria que vai mudar o mundo..." 
                     class="flex-1 bg-zincbg border border-zinc-800 rounded-xl px-5 py-3 focus:outline-none focus:ring-2 focus:ring-red-500/50 focus:border-red-500 transition-all text-zinc-200 placeholder-zinc-600 text-sm">
                 
                 <select id="casal-input" class="bg-zincbg border border-zinc-800 rounded-xl px-5 py-3 focus:outline-none focus:ring-2 focus:ring-red-500/50 focus:border-red-500 transition-all text-zinc-200 text-sm md:w-64 cursor-pointer">
@@ -84,7 +84,7 @@
 
                 <button type="submit" id="btn-submit" 
                     class="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-8 rounded-xl transition-all active:scale-95 shadow-lg shadow-red-500/20 flex items-center justify-center min-w-[140px] text-sm">
-                    Catalogar
+                    Eternizar
                 </button>
             </form>
             <p id="status-msg" class="mt-4 text-sm text-zinc-400 hidden font-medium text-center"></p>
@@ -92,12 +92,12 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="bg-zinccard/50 border border-white/5 p-8 rounded-2xl shadow-xl flex flex-col items-center justify-center text-center">
-                <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-4">Total Inútil</h3>
+                <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-4">Total de Notícias "Vitais"</h3>
                 <span id="contador-total" class="text-7xl font-light tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-zinc-100 to-zinc-500">0</span>
             </div>
 
             <div class="bg-zinccard/50 border border-white/5 p-6 rounded-2xl shadow-xl md:col-span-2 flex flex-col">
-                <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-4">Desespero por Cliques (Evolução)</h3>
+                <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-4">Flutuação da Criatividade Editorial (Evolução Temporal)</h3>
                 <div class="flex-1 relative w-full">
                     <canvas id="grafico-ocio"></canvas>
                 </div>
@@ -109,7 +109,7 @@
             <section class="bg-zinccard/50 border border-white/5 p-6 rounded-2xl shadow-xl">
                 <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-5 flex items-center gap-2">
                     <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                    Ranking da Vergonha
+                    Hall da Fama do Conteúdo Aleatório
                 </h3>
                 <ul id="ranking-lista" class="space-y-1">
                     </ul>
@@ -118,7 +118,7 @@
             <section class="bg-zinccard/50 border border-white/5 p-6 rounded-2xl shadow-xl md:col-span-2">
                 <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-5 flex items-center gap-2">
                     <svg class="w-4 h-4 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H14"></path></svg>
-                    Acervo de Futilidades
+                    Arquivo de Pautas "Essenciais"
                 </h3>
                 <ul id="lista-materias" class="space-y-1 max-h-[320px] overflow-y-auto pr-2 custom-scrollbar">
                     </ul>
@@ -142,7 +142,7 @@
         // ==========================================
         async function extrairMetadados(url) {
             let titulo = '';
-            let veiculo = extrairDominio(url); // Já traz o nome limpo (Ex: Globo.com, UOL)
+            let veiculo = extrairDominio(url);
 
             try {
                 const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
@@ -152,15 +152,12 @@
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(data.contents, "text/html");
                 
-                // Tenta pegar o título das meta tags ou da tag <title>
                 titulo = doc.querySelector('meta[property="og:title"]')?.content || doc.title || '';
 
-                // Se a Globo (ou outro site) bloqueou, o título geralmente vem com mensagens de erro do firewall
                 if (titulo.includes('Access Denied') || titulo.includes('Bot Protection') || titulo === '403 Forbidden') {
-                    titulo = ''; // Zera para forçar o nosso fallback manual
+                    titulo = ''; 
                 }
 
-                // Atualiza o veículo apenas se o nosso extrairDominio não reconheceu e o site forneceu a tag
                 const siteName = doc.querySelector('meta[property="og:site_name"]')?.content;
                 if (siteName && veiculo === 'Desconhecido') {
                     veiculo = siteName;
@@ -170,9 +167,9 @@
                 console.warn("Proxy bloqueado pelo servidor de origem.", error);
             }
 
-            // PLANO B: Se a extração falhou (comum em portais grandes), pedimos o título a você
+            // PLANO B com texto mais sagaz
             if (!titulo || titulo.trim() === '') {
-                titulo = prompt("🚨 O site bloqueou nosso robô de fofoca!\nPor favor, cole o título da matéria abaixo:") || 'Título não informado (Bloqueio de Segurança)';
+                titulo = prompt("🕵️ O portal protegeu essa exclusividade do nosso robô!\nPor favor, cole o título da matéria manualmente abaixo:") || 'Título oculto pelas forças maiores da internet';
             }
 
             return { titulo, veiculo };
@@ -182,7 +179,6 @@
             try {
                 const hostname = new URL(url).hostname.toLowerCase();
                 
-                // Dicionário de padronização da imprensa
                 if (hostname.includes('globo.com')) return 'Globo.com';
                 if (hostname.includes('uol.com.br')) return 'UOL';
                 if (hostname.includes('metropoles.com') || hostname.includes('leodias')) return 'Metrópoles';
@@ -190,7 +186,6 @@
                 if (hostname.includes('ig.com.br')) return 'iG';
                 if (hostname.includes('r7.com')) return 'R7';
                 
-                // Se for um site diferente, tenta pegar só o nome principal removendo o www
                 const partes = hostname.replace('www.', '').split('.');
                 return partes[0].charAt(0).toUpperCase() + partes[0].slice(1);
             } catch (e) {
@@ -210,13 +205,13 @@
             const statusMsg = document.getElementById('status-msg');
 
             btnSubmit.disabled = true;
-            btnSubmit.innerHTML = '<span class="animate-pulse">Extraindo...</span>';
+            btnSubmit.innerHTML = '<span class="animate-pulse">Analisando...</span>';
             statusMsg.classList.remove('hidden');
-            statusMsg.innerText = "Lendo a fofoca para você não precisar...";
+            statusMsg.innerText = "Lendo a matéria para você focar no seu dia...";
 
             const { titulo, veiculo } = await extrairMetadados(urlInput);
 
-            statusMsg.innerText = "Salvando no banco de dados...";
+            statusMsg.innerText = "Preparando para eternizar no banco de dados...";
             const { data, error } = await supabaseClient
                 .from('materias_inuteis')
                 .insert([
@@ -224,17 +219,17 @@
                 ]);
 
             if (error) {
-                statusMsg.innerText = error.code === '23505' ? "Erro: Esta URL já foi catalogada!" : `Erro: ${error.message}`;
+                statusMsg.innerText = error.code === '23505' ? "Calma lá! Essa pérola já está no nosso acervo." : `Erro: ${error.message}`;
                 statusMsg.classList.replace('text-zinc-400', 'text-red-400');
             } else {
-                statusMsg.innerText = "Matéria catalogada com sucesso!";
+                statusMsg.innerText = "Obra de arte jornalística catalogada com sucesso!";
                 statusMsg.classList.replace('text-zinc-400', 'text-emerald-400');
                 document.getElementById('url-input').value = '';
                 carregarDashboard();
             }
 
             btnSubmit.disabled = false;
-            btnSubmit.innerText = 'Catalogar';
+            btnSubmit.innerText = 'Eternizar';
             
             setTimeout(() => {
                 statusMsg.classList.add('hidden');
@@ -299,7 +294,7 @@
                     datasets: [{
                         label: 'Matérias',
                         data: valores,
-                        borderColor: '#ef4444', // red-500
+                        borderColor: '#ef4444', 
                         backgroundColor: 'rgba(239, 68, 68, 0.05)',
                         borderWidth: 2,
                         fill: true,
@@ -318,8 +313,8 @@
                     scales: {
                         y: { 
                             beginAtZero: true, 
-                            ticks: { color: '#52525b', stepSize: 1, font: { family: 'Inter' } }, // zinc-600
-                            grid: { color: '#27272a', borderDash: [5, 5] }, // zinc-800
+                            ticks: { color: '#52525b', stepSize: 1, font: { family: 'Inter' } },
+                            grid: { color: '#27272a', borderDash: [5, 5] },
                             border: { display: false }
                         },
                         x: { 
@@ -347,7 +342,7 @@
             listaEl.innerHTML = '';
 
             if (top5.length === 0) {
-                listaEl.innerHTML = '<li class="text-zinc-600 text-sm italic py-4">Sem dados no momento.</li>';
+                listaEl.innerHTML = '<li class="text-zinc-600 text-sm italic py-4">A internet está surpreendentemente silenciosa hoje.</li>';
                 return;
             }
 
@@ -360,7 +355,6 @@
                     qtdAnterior = qtd;
                 }
 
-                // Cores minimalistas para o pódio
                 const coresPodio = ['text-amber-400', 'text-zinc-300', 'text-orange-400'];
                 const corPosicao = rankPosicao < 3 ? coresPodio[rankPosicao] : 'text-zinc-600';
                 const numDisplay = (rankPosicao + 1).toString().padStart(2, '0');
@@ -383,7 +377,7 @@
             listaEl.innerHTML = '';
 
             if (data.length === 0) {
-                listaEl.innerHTML = '<li class="text-zinc-600 text-sm italic py-4">O acervo está vazio.</li>';
+                listaEl.innerHTML = '<li class="text-zinc-600 text-sm italic py-4">Nenhuma notícia vital registrada ainda.</li>';
                 return;
             }
 
