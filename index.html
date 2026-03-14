@@ -141,6 +141,9 @@
         // EXTRAÇÃO DE METADADOS
         // ==========================================
         async function extrairMetadados(url) {
+            let titulo = '';
+            let veiculo = extrairDominio(url); // Já traz o nome limpo (Ex: Globo.com, UOL)
+
             try {
                 const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
                 const response = await fetch(proxyUrl);
@@ -149,19 +152,47 @@
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(data.contents, "text/html");
                 
-                const titulo = doc.querySelector('meta[property="og:title"]')?.content || doc.title || 'Título não encontrado';
-                const veiculo = doc.querySelector('meta[property="og:site_name"]')?.content || extrairDominio(url);
+                // Tenta pegar o título das meta tags ou da tag <title>
+                titulo = doc.querySelector('meta[property="og:title"]')?.content || doc.title || '';
 
-                return { titulo, veiculo };
+                // Se a Globo (ou outro site) bloqueou, o título geralmente vem com mensagens de erro do firewall
+                if (titulo.includes('Access Denied') || titulo.includes('Bot Protection') || titulo === '403 Forbidden') {
+                    titulo = ''; // Zera para forçar o nosso fallback manual
+                }
+
+                // Atualiza o veículo apenas se o nosso extrairDominio não reconheceu e o site forneceu a tag
+                const siteName = doc.querySelector('meta[property="og:site_name"]')?.content;
+                if (siteName && veiculo === 'Desconhecido') {
+                    veiculo = siteName;
+                }
+
             } catch (error) {
-                console.error("Erro ao extrair metadados:", error);
-                return { titulo: 'Falha ao ler título', veiculo: extrairDominio(url) };
+                console.warn("Proxy bloqueado pelo servidor de origem.", error);
             }
+
+            // PLANO B: Se a extração falhou (comum em portais grandes), pedimos o título a você
+            if (!titulo || titulo.trim() === '') {
+                titulo = prompt("🚨 O site bloqueou nosso robô de fofoca!\nPor favor, cole o título da matéria abaixo:") || 'Título não informado (Bloqueio de Segurança)';
+            }
+
+            return { titulo, veiculo };
         }
 
         function extrairDominio(url) {
             try {
-                return new URL(url).hostname.replace('www.', '');
+                const hostname = new URL(url).hostname.toLowerCase();
+                
+                // Dicionário de padronização da imprensa
+                if (hostname.includes('globo.com')) return 'Globo.com';
+                if (hostname.includes('uol.com.br')) return 'UOL';
+                if (hostname.includes('metropoles.com') || hostname.includes('leodias')) return 'Metrópoles';
+                if (hostname.includes('terra.com.br')) return 'Terra';
+                if (hostname.includes('ig.com.br')) return 'iG';
+                if (hostname.includes('r7.com')) return 'R7';
+                
+                // Se for um site diferente, tenta pegar só o nome principal removendo o www
+                const partes = hostname.replace('www.', '').split('.');
+                return partes[0].charAt(0).toUpperCase() + partes[0].slice(1);
             } catch (e) {
                 return 'Desconhecido';
             }
