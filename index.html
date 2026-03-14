@@ -317,7 +317,10 @@
 
         function atualizarGrafico(data) {
             const contagemPorData = data.reduce((acc, item) => {
-                const dataFormatada = new Date(item.data_registro).toISOString().split('T')[0];
+                // CORREÇÃO: Pega a data local garantindo o formato YYYY-MM-DD correto
+                const d = new Date(item.data_registro);
+                const dataFormatada = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+                
                 acc[dataFormatada] = (acc[dataFormatada] || 0) + 1;
                 return acc;
             }, {});
