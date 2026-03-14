@@ -7,11 +7,19 @@ const supabase = createClient(
     process.env.SUPABASE_SERVICE_KEY
 );
 
-const parser = new Parser();
+// Truque para furar os firewalls: fingir que o robô é um navegador Chrome real
+const parser = new Parser({
+    headers: {
+        'Accept': 'application/rss+xml, application/xml, text/xml; q=0.1',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+    }
+});
 
+// Os alvos atualizados com os feeds oficiais mais estáveis
 const FEEDS = [
-    { veiculo: 'Globo.com', url: 'https://gshow.globo.com/rss/c/tudo-mais/' },
-    { veiculo: 'UOL', url: 'https://www.uol.com.br/splash/rss.xml' }
+    { veiculo: 'G1 Pop & Arte', url: 'https://g1.globo.com/dynamo/pop-arte/rss2.xml' },
+    { veiculo: 'Metrópoles Celebridades', url: 'https://www.metropoles.com/celebridades/feed' },
+    { veiculo: 'UOL Entretenimento', url: 'https://rss.uol.com.br/feed/entretenimento.xml' }
 ];
 
 const PALAVRAS_CHAVE = {
@@ -25,15 +33,16 @@ async function iniciarGarimpo() {
 
     for (const feedConfig of FEEDS) {
         try {
-            console.log(`📡 A ler o feed de: ${feedConfig.veiculo}`);
+            console.log(`📡 A ler o feed de: ${feedConfig.veiculo}...`);
             const feed = await parser.parseURL(feedConfig.url);
 
             for (const item of feed.items) {
-                const titulo = item.title;
-                const link = item.link;
+                const titulo = item.title || '';
+                const link = item.link || '';
                 const textoAnalise = `${titulo} ${link}`.toLowerCase();
 
                 for (const [casal, termos] of Object.entries(PALAVRAS_CHAVE)) {
+                    // Verifica se encontra algum dos termos daquele casal
                     const passouNoTeste = termos.some(termo => textoAnalise.includes(termo));
 
                     if (passouNoTeste) {
@@ -53,9 +62,10 @@ async function iniciarGarimpo() {
                 }
             }
         } catch (err) {
-            console.error(`Erro ao ler ${feedConfig.veiculo}:`, err.message);
+            console.error(`❌ Erro ao ler ${feedConfig.veiculo}:`, err.message);
         }
     }
+    
     console.log(`🏁 Garimpo finalizado! ${inseridas} novas pérolas eternizadas.`);
 }
 
