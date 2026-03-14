@@ -18,6 +18,22 @@
             }
         }
     </script>
+    <style>
+        /* Estilização da barra de rolagem para o acervo */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #1e293b; 
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #475569; 
+            border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #64748b; 
+        }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
@@ -50,7 +66,6 @@
         </section>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            
             <div class="bg-darkcard p-6 rounded-xl shadow-lg border border-gray-800 flex flex-col items-center justify-center text-center">
                 <h3 class="text-gray-400 uppercase text-xs font-bold tracking-wider mb-2">Total de Matérias Inúteis</h3>
                 <span id="contador-total" class="text-6xl font-black text-red-500">0</span>
@@ -62,13 +77,24 @@
             </div>
         </div>
 
-        <section class="bg-darkcard p-6 rounded-xl shadow-lg border border-gray-800">
-            <h3 class="text-gray-400 uppercase text-xs font-bold tracking-wider mb-4 flex items-center gap-2">
-                🏆 Ranking da Vergonha (Top 5 Veículos)
-            </h3>
-            <ul id="ranking-lista" class="space-y-3">
-            </ul>
-        </section>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <section class="bg-darkcard p-6 rounded-xl shadow-lg border border-gray-800">
+                <h3 class="text-gray-400 uppercase text-xs font-bold tracking-wider mb-4 flex items-center gap-2">
+                    🏆 Ranking da Vergonha
+                </h3>
+                <ul id="ranking-lista" class="space-y-3">
+                </ul>
+            </section>
+
+            <section class="bg-darkcard p-6 rounded-xl shadow-lg border border-gray-800 md:col-span-2">
+                <h3 class="text-gray-400 uppercase text-xs font-bold tracking-wider mb-4 flex items-center gap-2">
+                    📰 Acervo de Futilidades Registradas
+                </h3>
+                <ul id="lista-materias" class="space-y-3 max-h-[300px] overflow-y-auto pr-2 custom-scrollbar">
+                    </ul>
+            </section>
+        </div>
 
     </div>
 
@@ -78,21 +104,15 @@
         // ==========================================
         const SUPABASE_URL = 'https://tfzutfllymhvbzcwuraj.supabase.co';
         const SUPABASE_ANON_KEY = 'sb_publishable_TGVGTt1VJqd0AlRURyzW8w_K6uPTQ7x';
-        
-        // CORREÇÃO: Variável renomeada para supabaseClient
         const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-        // ==========================================
-        // VARIÁVEIS GLOBAIS
-        // ==========================================
         let graficoInstancia = null;
 
         // ==========================================
-        // EXTRAÇÃO DE METADADOS (Via Proxy CORS)
+        // EXTRAÇÃO DE METADADOS
         // ==========================================
         async function extrairMetadados(url) {
             try {
-                // Usando allorigins como proxy para evitar bloqueio de CORS
                 const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
                 const response = await fetch(proxyUrl);
                 const data = await response.json();
@@ -134,10 +154,8 @@
             statusMsg.classList.remove('hidden');
             statusMsg.innerText = "Lendo a fofoca para você não precisar...";
 
-            // 1. Extrair Metadados
             const { titulo, veiculo } = await extrairMetadados(urlInput);
 
-            // 2. Salvar no Supabase (CORREÇÃO: Usando supabaseClient)
             statusMsg.innerText = "Salvando no banco de dados...";
             const { data, error } = await supabaseClient
                 .from('materias_inuteis')
@@ -153,7 +171,7 @@
                 statusMsg.classList.remove('text-red-400');
                 statusMsg.classList.add('text-green-400');
                 document.getElementById('url-input').value = '';
-                carregarDashboard(); // Atualiza a tela
+                carregarDashboard();
             }
 
             btnSubmit.disabled = false;
@@ -166,7 +184,6 @@
         // ATUALIZAÇÃO DO DASHBOARD
         // ==========================================
         async function carregarDashboard() {
-            // CORREÇÃO: Usando supabaseClient
             const { data, error } = await supabaseClient
                 .from('materias_inuteis')
                 .select('*')
@@ -180,6 +197,7 @@
             atualizarContador(data);
             atualizarGrafico(data);
             atualizarRanking(data);
+            atualizarListaAcervo(data);
         }
 
         function atualizarContador(data) {
@@ -189,19 +207,15 @@
                     if (!tempoInicio) tempoInicio = timestamp;
                     const progresso = Math.min((timestamp - tempoInicio) / duracao, 1);
                     obj.innerHTML = Math.floor(progresso * (fim - inicio) + inicio);
-                    if (progresso < 1) {
-                        window.requestAnimationFrame(passo);
-                    }
+                    if (progresso < 1) window.requestAnimationFrame(passo);
                 };
                 window.requestAnimationFrame(passo);
             }
-            
             const contadorEl = document.getElementById('contador-total');
             animar(contadorEl, 0, data.length, 1000);
         }
 
         function atualizarGrafico(data) {
-            // Agrupar por data (YYYY-MM-DD)
             const contagemPorData = data.reduce((acc, item) => {
                 const dataFormatada = new Date(item.data_registro).toISOString().split('T')[0];
                 acc[dataFormatada] = (acc[dataFormatada] || 0) + 1;
@@ -213,9 +227,7 @@
 
             const ctx = document.getElementById('grafico-ocio').getContext('2d');
             
-            if (graficoInstancia) {
-                graficoInstancia.destroy();
-            }
+            if (graficoInstancia) graficoInstancia.destroy();
 
             graficoInstancia = new Chart(ctx, {
                 type: 'line',
@@ -224,7 +236,7 @@
                     datasets: [{
                         label: 'Matérias publicadas',
                         data: valores,
-                        borderColor: '#ef4444', // red-500
+                        borderColor: '#ef4444',
                         backgroundColor: 'rgba(239, 68, 68, 0.1)',
                         borderWidth: 2,
                         fill: true,
@@ -234,34 +246,24 @@
                 },
                 options: {
                     responsive: true,
-                    plugins: {
-                        legend: { display: false }
-                    },
+                    plugins: { legend: { display: false } },
                     scales: {
-                        y: { 
-                            beginAtZero: true, 
-                            ticks: { color: '#9ca3af', stepSize: 1 },
-                            grid: { color: '#374151' }
-                        },
-                        x: { 
-                            ticks: { color: '#9ca3af' },
-                            grid: { display: false }
-                        }
+                        y: { beginAtZero: true, ticks: { color: '#9ca3af', stepSize: 1 }, grid: { color: '#374151' } },
+                        x: { ticks: { color: '#9ca3af' }, grid: { display: false } }
                     }
                 }
             });
         }
 
         function atualizarRanking(data) {
-            // Agrupar por veículo
             const contagemVeiculo = data.reduce((acc, item) => {
                 acc[item.veiculo] = (acc[item.veiculo] || 0) + 1;
                 return acc;
             }, {});
 
-            // Ordenar e pegar o Top 5
+            // Ordena por quantidade. Se empatar, ordena por ordem alfabética do veículo.
             const top5 = Object.entries(contagemVeiculo)
-                .sort((a, b) => b[1] - a[1])
+                .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
                 .slice(0, 5);
 
             const listaEl = document.getElementById('ranking-lista');
@@ -272,16 +274,68 @@
                 return;
             }
 
+            const medalhas = ['🥇', '🥈', '🥉', '4º', '5º'];
+            let rankPosicao = 0;
+            let qtdAnterior = null;
+
             top5.forEach(([veiculo, qtd], index) => {
-                const medalhas = ['🥇', '🥈', '🥉', '4º', '5º'];
+                // Se a quantidade for diferente do anterior, atualiza a posição (para lidar com empates)
+                if (qtd !== qtdAnterior) {
+                    rankPosicao = index;
+                    qtdAnterior = qtd;
+                }
+
+                const exibicaoPosicao = rankPosicao < 3 ? medalhas[rankPosicao] : `${rankPosicao + 1}º`;
+                const corPosicao = rankPosicao < 3 ? 'text-yellow-500' : 'text-gray-500';
+
                 const li = document.createElement('li');
                 li.className = "flex justify-between items-center bg-gray-900 p-3 rounded-lg border border-gray-700";
                 li.innerHTML = `
                     <div class="flex items-center gap-3">
-                        <span class="text-xl font-bold ${index < 3 ? 'text-yellow-500' : 'text-gray-500'}">${medalhas[index]}</span>
+                        <span class="text-xl font-bold ${corPosicao} w-6 text-center">${exibicaoPosicao}</span>
                         <span class="font-medium text-gray-200">${veiculo}</span>
                     </div>
-                    <span class="bg-red-900 text-red-200 text-xs font-bold px-2 py-1 rounded-full">${qtd} matérias</span>
+                    <span class="bg-red-900 text-red-200 text-xs font-bold px-2 py-1 rounded-full">${qtd}</span>
+                `;
+                listaEl.appendChild(li);
+            });
+        }
+
+        function atualizarListaAcervo(data) {
+            const listaEl = document.getElementById('lista-materias');
+            listaEl.innerHTML = '';
+
+            if (data.length === 0) {
+                listaEl.innerHTML = '<li class="text-gray-500 italic">Nenhum dado registrado ainda.</li>';
+                return;
+            }
+
+            // Inverte a ordem para mostrar as inserções mais recentes primeiro
+            const recentes = [...data].reverse();
+
+            recentes.forEach((item) => {
+                const li = document.createElement('li');
+                li.className = "flex flex-col bg-gray-900 p-3 rounded-lg border border-gray-700 hover:border-gray-500 transition-colors gap-2";
+                
+                // Trata a formatação da data
+                const dataFormatada = new Date(item.data_registro).toLocaleDateString('pt-BR', {
+                    day: '2-digit', month: '2-digit', hour: '2-digit', minute:'2-digit'
+                });
+
+                li.innerHTML = `
+                    <a href="${item.url}" target="_blank" rel="noopener noreferrer" 
+                       class="text-gray-200 font-medium hover:text-red-400 transition-colors truncate block w-full" 
+                       title="${item.titulo}">
+                        🔗 ${item.titulo}
+                    </a>
+                    <div class="flex justify-between items-center text-xs text-gray-500">
+                        <span class="bg-gray-800 px-2 py-1 rounded text-gray-300 border border-gray-700">${item.veiculo}</span>
+                        <div class="flex gap-3">
+                            <span>${item.casal_referenciado}</span>
+                            <span>•</span>
+                            <span>${dataFormatada}</span>
+                        </div>
+                    </div>
                 `;
                 listaEl.appendChild(li);
             });
