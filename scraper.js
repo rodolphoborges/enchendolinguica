@@ -7,7 +7,7 @@ const supabase = createClient(
     process.env.SUPABASE_SERVICE_KEY
 );
 
-// Truque para furar os firewalls: fingir que o robô é um navegador Chrome real
+// Truque para furar os firewalls
 const parser = new Parser({
     headers: {
         'Accept': 'application/rss+xml, application/xml, text/xml; q=0.1',
@@ -15,20 +15,26 @@ const parser = new Parser({
     }
 });
 
-// Os alvos atualizados com os feeds oficiais mais estáveis
 const FEEDS = [
     { veiculo: 'G1 Pop & Arte', url: 'https://g1.globo.com/dynamo/pop-arte/rss2.xml' },
     { veiculo: 'Metrópoles Celebridades', url: 'https://www.metropoles.com/celebridades/feed' },
     { veiculo: 'UOL Entretenimento', url: 'https://rss.uol.com.br/feed/entretenimento.xml' }
 ];
 
-const PALAVRAS_CHAVE = {
-    "Paolla & Diogo": ["paolla", "paola", "diogo", "oliveira", "nogueira"],
-    "Bruna & Shawn Mendes": ["bruna", "marquezine", "shawn", "mendes"]
+// O novo filtro cirúrgico: exige a presença de AMBOS para classificar como "fofoca de casal"
+const REGRAS_CASAIS = {
+    "Paolla & Diogo": {
+        pessoaA: ["paolla", "paola", "oliveira"],
+        pessoaB: ["diogo", "nogueira"]
+    },
+    "Bruna & Shawn Mendes": {
+        pessoaA: ["bruna", "marquezine"],
+        pessoaB: ["shawn", "mendes"]
+    }
 };
 
 async function iniciarGarimpo() {
-    console.log("🤖 A iniciar o garimpo de futilidades...");
+    console.log("🤖 A iniciar o garimpo cirúrgico de futilidades...");
     let inseridas = 0;
 
     for (const feedConfig of FEEDS) {
@@ -41,12 +47,14 @@ async function iniciarGarimpo() {
                 const link = item.link || '';
                 const textoAnalise = `${titulo} ${link}`.toLowerCase();
 
-                for (const [casal, termos] of Object.entries(PALAVRAS_CHAVE)) {
-                    // Verifica se encontra algum dos termos daquele casal
-                    const passouNoTeste = termos.some(termo => textoAnalise.includes(termo));
+                for (const [casal, regras] of Object.entries(REGRAS_CASAIS)) {
+                    // Verifica se o texto tem pelo menos um termo da Pessoa A *E* um termo da Pessoa B
+                    const temPessoaA = regras.pessoaA.some(termo => textoAnalise.includes(termo));
+                    const temPessoaB = regras.pessoaB.some(termo => textoAnalise.includes(termo));
 
-                    if (passouNoTeste) {
-                        console.log(`🚨 Achado! [${casal}] -> ${titulo}`);
+                    // Só é fofoca de casal se OS DOIS estiverem no radar da mesma matéria
+                    if (temPessoaA && temPessoaB) {
+                        console.log(`🚨 Fofoca Confirmada! [${casal}] -> ${titulo}`);
                         
                         const { error } = await supabase.from('materias_inuteis').insert([
                             { url: link, casal_referenciado: casal, titulo: titulo, veiculo: feedConfig.veiculo }
