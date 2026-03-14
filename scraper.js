@@ -1,13 +1,11 @@
 const Parser = require('rss-parser');
 const { createClient } = require('@supabase/supabase-js');
 
-// Configuração do Supabase via Variáveis de Ambiente
 const supabase = createClient(
     process.env.SUPABASE_URL,
     process.env.SUPABASE_SERVICE_KEY
 );
 
-// Truque para furar os firewalls
 const parser = new Parser({
     headers: {
         'Accept': 'application/rss+xml, application/xml, text/xml; q=0.1',
@@ -15,13 +13,15 @@ const parser = new Parser({
     }
 });
 
+// Pelotão de Elite da Fofoca (Feeds mais estáveis e sem bloqueio severo)
 const FEEDS = [
     { veiculo: 'G1 Pop & Arte', url: 'https://g1.globo.com/dynamo/pop-arte/rss2.xml' },
     { veiculo: 'Metrópoles Celebridades', url: 'https://www.metropoles.com/celebridades/feed' },
-    { veiculo: 'UOL Entretenimento', url: 'https://rss.uol.com.br/feed/entretenimento.xml' }
+    { veiculo: 'Contigo! (UOL)', url: 'https://contigo.uol.com.br/feed/' },
+    { veiculo: 'Notícias da TV (UOL)', url: 'https://noticiasdatv.uol.com.br/feed/rss' },
+    { veiculo: 'Revista Quem', url: 'https://revistaquem.globo.com/rss/' }
 ];
 
-// O novo filtro cirúrgico: exige a presença de AMBOS para classificar como "fofoca de casal"
 const REGRAS_CASAIS = {
     "Paolla & Diogo": {
         pessoaA: ["paolla", "paola", "oliveira"],
@@ -48,11 +48,9 @@ async function iniciarGarimpo() {
                 const textoAnalise = `${titulo} ${link}`.toLowerCase();
 
                 for (const [casal, regras] of Object.entries(REGRAS_CASAIS)) {
-                    // Verifica se o texto tem pelo menos um termo da Pessoa A *E* um termo da Pessoa B
                     const temPessoaA = regras.pessoaA.some(termo => textoAnalise.includes(termo));
                     const temPessoaB = regras.pessoaB.some(termo => textoAnalise.includes(termo));
 
-                    // Só é fofoca de casal se OS DOIS estiverem no radar da mesma matéria
                     if (temPessoaA && temPessoaB) {
                         console.log(`🚨 Fofoca Confirmada! [${casal}] -> ${titulo}`);
                         
