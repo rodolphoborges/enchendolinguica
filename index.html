@@ -67,7 +67,7 @@
                 🏆 Ranking da Vergonha (Top 5 Veículos)
             </h3>
             <ul id="ranking-lista" class="space-y-3">
-                </ul>
+            </ul>
         </section>
 
     </div>
@@ -78,7 +78,9 @@
         // ==========================================
         const SUPABASE_URL = 'https://tfzutfllymhvbzcwuraj.supabase.co';
         const SUPABASE_ANON_KEY = 'sb_publishable_TGVGTt1VJqd0AlRURyzW8w_K6uPTQ7x';
-        const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        
+        // CORREÇÃO: Variável renomeada para supabaseClient
+        const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
         // ==========================================
         // VARIÁVEIS GLOBAIS
@@ -135,9 +137,9 @@
             // 1. Extrair Metadados
             const { titulo, veiculo } = await extrairMetadados(urlInput);
 
-            // 2. Salvar no Supabase
+            // 2. Salvar no Supabase (CORREÇÃO: Usando supabaseClient)
             statusMsg.innerText = "Salvando no banco de dados...";
-            const { data, error } = await supabase
+            const { data, error } = await supabaseClient
                 .from('materias_inuteis')
                 .insert([
                     { url: urlInput, casal_referenciado: casalInput, titulo: titulo, veiculo: veiculo }
@@ -164,7 +166,8 @@
         // ATUALIZAÇÃO DO DASHBOARD
         // ==========================================
         async function carregarDashboard() {
-            const { data, error } = await supabase
+            // CORREÇÃO: Usando supabaseClient
+            const { data, error } = await supabaseClient
                 .from('materias_inuteis')
                 .select('*')
                 .order('data_registro', { ascending: true });
