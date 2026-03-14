@@ -1,11 +1,13 @@
 const Parser = require('rss-parser');
 const { createClient } = require('@supabase/supabase-js');
 
+// Configuração do Supabase via Variáveis de Ambiente
 const supabase = createClient(
     process.env.SUPABASE_URL,
     process.env.SUPABASE_SERVICE_KEY
 );
 
+// Truque para furar os firewalls
 const parser = new Parser({
     headers: {
         'Accept': 'application/rss+xml, application/xml, text/xml; q=0.1',
@@ -55,8 +57,17 @@ async function iniciarGarimpo() {
                     if (temPessoaA && temPessoaB) {
                         console.log(`🚨 Fofoca Confirmada! [${casal}] -> ${titulo}`);
                         
+                        // Captura a data real da matéria no RSS (ou usa a atual se falhar)
+                        const dataPublicacaoReal = item.isoDate || new Date().toISOString();
+                        
                         const { error } = await supabase.from('materias_inuteis').insert([
-                            { url: link, casal_referenciado: casal, titulo: titulo, veiculo: feedConfig.veiculo }
+                            { 
+                                url: link, 
+                                casal_referenciado: casal, 
+                                titulo: titulo, 
+                                veiculo: feedConfig.veiculo,
+                                data_publicacao: dataPublicacaoReal
+                            }
                         ]);
 
                         if (error && error.code !== '23505') {
