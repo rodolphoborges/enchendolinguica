@@ -194,24 +194,60 @@
         }
 
         // ==========================================
-        // LÓGICA DE SUBMISSÃO
+        // LÓGICA DE SUBMISSÃO E VALIDAÇÃO
         // ==========================================
+        
+        // Dicionário de palavras-chave para validação
+        const PALAVRAS_CHAVE = {
+            "Paolla & Diogo": ["paolla", "paola", "diogo", "oliveira", "nogueira"],
+            "Bruna & Shawn Mendes": ["bruna", "marquezine", "shawn", "mendes"]
+        };
+
         document.getElementById('form-materia').addEventListener('submit', async (e) => {
             e.preventDefault();
             
-            const urlInput = document.getElementById('url-input').value;
+            const urlInput = document.getElementById('url-input').value.trim();
             const casalInput = document.getElementById('casal-input').value;
             const btnSubmit = document.getElementById('btn-submit');
             const statusMsg = document.getElementById('status-msg');
 
+            // --- VALIDAÇÃO 1: É uma homepage? ---
+            try {
+                const urlObj = new URL(urlInput);
+                // Se o caminho for vazio ou só '/', provavelmente é a home do site
+                if (urlObj.pathname === '/' || urlObj.pathname.length < 5) {
+                    throw new Error("Parece que colou a página inicial de um site, e não uma matéria específica.");
+                }
+            } catch (err) {
+                exibirErro(statusMsg, "🚨 Link inválido: " + (err.message || "Verifique a URL."));
+                return;
+            }
+
+            // Início da extração
             btnSubmit.disabled = true;
             btnSubmit.innerHTML = '<span class="animate-pulse">Analisando...</span>';
             statusMsg.classList.remove('hidden');
+            statusMsg.className = 'mt-4 text-sm font-medium text-center text-zinc-400';
             statusMsg.innerText = "Lendo a matéria para você focar no seu dia...";
 
             const { titulo, veiculo } = await extrairMetadados(urlInput);
 
-            statusMsg.innerText = "Preparando para eternizar no banco de dados...";
+            // --- VALIDAÇÃO 2: A matéria realmente fala sobre eles? ---
+            // Junta o título e a URL para procurar as palavras-chave, tudo em minúsculo
+            const textoAnalise = `${titulo} ${urlInput}`.toLowerCase();
+            const termosPermitidos = PALAVRAS_CHAVE[casalInput];
+            
+            // Verifica se pelo menos um dos termos do casal existe no título ou na URL
+            const passouNoTeste = termosPermitidos.some(termo => textoAnalise.includes(termo));
+
+            if (!passouNoTeste) {
+                exibirErro(statusMsg, `🕵️ Mentira detetada! Não encontrámos menção a ${casalInput} nesta matéria.`);
+                btnSubmit.disabled = false;
+                btnSubmit.innerText = 'Eternizar';
+                return; // Interrompe o processo e não salva no banco
+            }
+
+            statusMsg.innerText = "A preparar para eternizar no banco de dados...";
             const { data, error } = await supabaseClient
                 .from('materias_inuteis')
                 .insert([
@@ -219,11 +255,10 @@
                 ]);
 
             if (error) {
-                statusMsg.innerText = error.code === '23505' ? "Calma lá! Essa pérola já está no nosso acervo." : `Erro: ${error.message}`;
-                statusMsg.classList.replace('text-zinc-400', 'text-red-400');
+                exibirErro(statusMsg, error.code === '23505' ? "Calma lá! Essa pérola já está no nosso acervo." : `Erro: ${error.message}`);
             } else {
                 statusMsg.innerText = "Obra de arte jornalística catalogada com sucesso!";
-                statusMsg.classList.replace('text-zinc-400', 'text-emerald-400');
+                statusMsg.className = 'mt-4 text-sm font-medium text-center text-emerald-400';
                 document.getElementById('url-input').value = '';
                 carregarDashboard();
             }
@@ -231,12 +266,16 @@
             btnSubmit.disabled = false;
             btnSubmit.innerText = 'Eternizar';
             
-            setTimeout(() => {
-                statusMsg.classList.add('hidden');
-                statusMsg.classList.replace('text-red-400', 'text-zinc-400');
-                statusMsg.classList.replace('text-emerald-400', 'text-zinc-400');
-            }, 5000);
+            setTimeout(() => statusMsg.classList.add('hidden'), 6000);
         });
+
+        // Função auxiliar para padronizar exibição de erros
+        function exibirErro(elemento, mensagem) {
+            elemento.innerText = mensagem;
+            elemento.className = 'mt-4 text-sm font-medium text-center text-red-400';
+            elemento.classList.remove('hidden');
+            setTimeout(() => elemento.classList.add('hidden'), 6000);
+        }
 
         // ==========================================
         // ATUALIZAÇÃO DO DASHBOARD
@@ -377,7 +416,7 @@
             listaEl.innerHTML = '';
 
             if (data.length === 0) {
-                listaEl.innerHTML = '<li class="text-zinc-600 text-sm italic py-4">Nenhuma notícia vital registrada ainda.</li>';
+                listaEl.innerHTML = '<li class="text-zinc-600 text-sm italic py-4">Nenhuma notícia vital registada ainda.</li>';
                 return;
             }
 
