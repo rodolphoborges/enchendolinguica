@@ -1,0 +1,29 @@
+name: Robô da Fofoca Automático
+
+on:
+  schedule:
+    # Corre a cada 4 horas
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Permite correr o script manualmente
+
+jobs:
+  garimpar_noticias:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Baixar o código do repositório
+      uses: actions/checkout@v4
+
+    - name: Configurar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Instalar dependências
+      run: npm install
+
+    - name: Executar o Scraper
+      env:
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      run: node scraper.js
