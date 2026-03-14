@@ -74,6 +74,9 @@ async function iniciarGarimpo() {
     }
     
     console.log(`🏁 Garimpo finalizado! ${inseridas} novas pérolas eternizadas.`);
+    
+    // Força o encerramento imediato do robô, cortando a ligação com o banco de dados
+    process.exit(0); 
 }
 
 iniciarGarimpo();
