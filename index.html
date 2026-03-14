@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termômetro da Encheção de Linguiça</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f172a',
+                        darkcard: '#1e293b'
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body class="bg-darkbg text-gray-200 font-sans min-h-screen p-6">
+
+    <div class="max-w-5xl mx-auto space-y-8">
+        
+        <header class="text-center space-y-2">
+            <h1 class="text-4xl font-bold text-red-500 tracking-tight">Termômetro da Encheção de Linguiça</h1>
+            <p class="text-gray-400 italic">Monitorando o Índice de Depravação Jornalística e a falta de pauta da imprensa brasileira.</p>
+        </header>
+
+        <section class="bg-darkcard p-6 rounded-xl shadow-lg border border-gray-800">
+            <h2 class="text-xl font-semibold mb-4 text-gray-100">Registrar Nova Futilidade</h2>
+            <form id="form-materia" class="flex flex-col md:flex-row gap-4">
+                <input type="url" id="url-input" required placeholder="Cole a URL da matéria aqui..." 
+                    class="flex-1 bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 focus:outline-none focus:border-red-500 text-gray-200 placeholder-gray-500">
+                
+                <select id="casal-input" class="bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 focus:outline-none focus:border-red-500 text-gray-200">
+                    <option value="Paolla & Diogo">Paolla & Diogo</option>
+                    <option value="Bruna & Shawn Mendes">Bruna & Shawn Mendes</option>
+                </select>
+
+                <button type="submit" id="btn-submit" 
+                    class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition-colors flex items-center justify-center min-w-[120px]">
+                    Catalogar
+                </button>
+            </form>
+            <p id="status-msg" class="mt-3 text-sm text-gray-400 hidden"></p>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="bg-darkcard p-6 rounded-xl shadow-lg border border-gray-800 flex flex-col items-center justify-center text-center">
+                <h3 class="text-gray-400 uppercase text-xs font-bold tracking-wider mb-2">Total de Matérias Inúteis</h3>
+                <span id="contador-total" class="text-6xl font-black text-red-500">0</span>
+            </div>
+
+            <div class="bg-darkcard p-6 rounded-xl shadow-lg border border-gray-800 md:col-span-2">
+                <h3 class="text-gray-400 uppercase text-xs font-bold tracking-wider mb-4">Análise de Desespero por Cliques (Evolução Temporal)</h3>
+                <canvas id="grafico-ocio"></canvas>
+            </div>
+        </div>
+
+        <section class="bg-darkcard p-6 rounded-xl shadow-lg border border-gray-800">
+            <h3 class="text-gray-400 uppercase text-xs font-bold tracking-wider mb-4 flex items-center gap-2">
+                🏆 Ranking da Vergonha (Top 5 Veículos)
+            </h3>
+            <ul id="ranking-lista" class="space-y-3">
+                </ul>
+        </section>
+
+    </div>
+
+    <script>
+        // ==========================================
+        // CONFIGURAÇÕES SUPABASE
+        // ==========================================
+        const SUPABASE_URL = 'https://tfzutfllymhvbzcwuraj.supabase.co';
+        const SUPABASE_ANON_KEY = 'sb_publishable_TGVGTt1VJqd0AlRURyzW8w_K6uPTQ7x';
+        const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+        // ==========================================
+        // VARIÁVEIS GLOBAIS
+        // ==========================================
+        let graficoInstancia = null;
+
+        // ==========================================
+        // EXTRAÇÃO DE METADADOS (Via Proxy CORS)
+        // ==========================================
+        async function extrairMetadados(url) {
+            try {
+                // Usando allorigins como proxy para evitar bloqueio de CORS
+                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+                const response = await fetch(proxyUrl);
+                const data = await response.json();
+                
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(data.contents, "text/html");
+                
+                const titulo = doc.querySelector('meta[property="og:title"]')?.content || doc.title || 'Título não encontrado';
+                const veiculo = doc.querySelector('meta[property="og:site_name"]')?.content || extrairDominio(url);
+
+                return { titulo, veiculo };
+            } catch (error) {
+                console.error("Erro ao extrair metadados:", error);
+                return { titulo: 'Falha ao ler título', veiculo: extrairDominio(url) };
+            }
+        }
+
+        function extrairDominio(url) {
+            try {
+                return new URL(url).hostname.replace('www.', '');
+            } catch (e) {
+                return 'Desconhecido';
+            }
+        }
+
+        // ==========================================
+        // LÓGICA DE SUBMISSÃO
+        // ==========================================
+        document.getElementById('form-materia').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const urlInput = document.getElementById('url-input').value;
+            const casalInput = document.getElementById('casal-input').value;
+            const btnSubmit = document.getElementById('btn-submit');
+            const statusMsg = document.getElementById('status-msg');
+
+            btnSubmit.disabled = true;
+            btnSubmit.innerText = 'Extraindo...';
+            statusMsg.classList.remove('hidden');
+            statusMsg.innerText = "Lendo a fofoca para você não precisar...";
+
+            // 1. Extrair Metadados
+            const { titulo, veiculo } = await extrairMetadados(urlInput);
+
+            // 2. Salvar no Supabase
+            statusMsg.innerText = "Salvando no banco de dados...";
+            const { data, error } = await supabase
+                .from('materias_inuteis')
+                .insert([
+                    { url: urlInput, casal_referenciado: casalInput, titulo: titulo, veiculo: veiculo }
+                ]);
+
+            if (error) {
+                statusMsg.innerText = error.code === '23505' ? "Erro: Esta URL já foi catalogada!" : `Erro: ${error.message}`;
+                statusMsg.classList.add('text-red-400');
+            } else {
+                statusMsg.innerText = "Matéria catalogada com sucesso!";
+                statusMsg.classList.remove('text-red-400');
+                statusMsg.classList.add('text-green-400');
+                document.getElementById('url-input').value = '';
+                carregarDashboard(); // Atualiza a tela
+            }
+
+            btnSubmit.disabled = false;
+            btnSubmit.innerText = 'Catalogar';
+            
+            setTimeout(() => statusMsg.classList.add('hidden'), 5000);
+        });
+
+        // ==========================================
+        // ATUALIZAÇÃO DO DASHBOARD
+        // ==========================================
+        async function carregarDashboard() {
+            const { data, error } = await supabase
+                .from('materias_inuteis')
+                .select('*')
+                .order('data_registro', { ascending: true });
+
+            if (error || !data) {
+                console.error("Erro ao buscar dados:", error);
+                return;
+            }
+
+            atualizarContador(data);
+            atualizarGrafico(data);
+            atualizarRanking(data);
+        }
+
+        function atualizarContador(data) {
+            const animar = (obj, inicio, fim, duracao) => {
+                let tempoInicio = null;
+                const passo = (timestamp) => {
+                    if (!tempoInicio) tempoInicio = timestamp;
+                    const progresso = Math.min((timestamp - tempoInicio) / duracao, 1);
+                    obj.innerHTML = Math.floor(progresso * (fim - inicio) + inicio);
+                    if (progresso < 1) {
+                        window.requestAnimationFrame(passo);
+                    }
+                };
+                window.requestAnimationFrame(passo);
+            }
+            
+            const contadorEl = document.getElementById('contador-total');
+            animar(contadorEl, 0, data.length, 1000);
+        }
+
+        function atualizarGrafico(data) {
+            // Agrupar por data (YYYY-MM-DD)
+            const contagemPorData = data.reduce((acc, item) => {
+                const dataFormatada = new Date(item.data_registro).toISOString().split('T')[0];
+                acc[dataFormatada] = (acc[dataFormatada] || 0) + 1;
+                return acc;
+            }, {});
+
+            const labels = Object.keys(contagemPorData);
+            const valores = Object.values(contagemPorData);
+
+            const ctx = document.getElementById('grafico-ocio').getContext('2d');
+            
+            if (graficoInstancia) {
+                graficoInstancia.destroy();
+            }
+
+            graficoInstancia = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Matérias publicadas',
+                        data: valores,
+                        borderColor: '#ef4444', // red-500
+                        backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.3,
+                        pointBackgroundColor: '#ef4444'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: { 
+                            beginAtZero: true, 
+                            ticks: { color: '#9ca3af', stepSize: 1 },
+                            grid: { color: '#374151' }
+                        },
+                        x: { 
+                            ticks: { color: '#9ca3af' },
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+        }
+
+        function atualizarRanking(data) {
+            // Agrupar por veículo
+            const contagemVeiculo = data.reduce((acc, item) => {
+                acc[item.veiculo] = (acc[item.veiculo] || 0) + 1;
+                return acc;
+            }, {});
+
+            // Ordenar e pegar o Top 5
+            const top5 = Object.entries(contagemVeiculo)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5);
+
+            const listaEl = document.getElementById('ranking-lista');
+            listaEl.innerHTML = '';
+
+            if (top5.length === 0) {
+                listaEl.innerHTML = '<li class="text-gray-500 italic">Nenhum dado registrado ainda.</li>';
+                return;
+            }
+
+            top5.forEach(([veiculo, qtd], index) => {
+                const medalhas = ['🥇', '🥈', '🥉', '4º', '5º'];
+                const li = document.createElement('li');
+                li.className = "flex justify-between items-center bg-gray-900 p-3 rounded-lg border border-gray-700";
+                li.innerHTML = `
+                    <div class="flex items-center gap-3">
+                        <span class="text-xl font-bold ${index < 3 ? 'text-yellow-500' : 'text-gray-500'}">${medalhas[index]}</span>
+                        <span class="font-medium text-gray-200">${veiculo}</span>
+                    </div>
+                    <span class="bg-red-900 text-red-200 text-xs font-bold px-2 py-1 rounded-full">${qtd} matérias</span>
+                `;
+                listaEl.appendChild(li);
+            });
+        }
+
+        // Inicializar
+        carregarDashboard();
+    </script>
+</body>
+</html>
