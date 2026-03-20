@@ -247,7 +247,7 @@
             statusMsg.innerText = "A preparar para eternizar no acervo JSON...";
             
             try {
-                const res = await fetch('/api/add', {
+                const res = await fetch('api/add', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ 
@@ -292,7 +292,7 @@
         // ==========================================
         async function carregarDashboard() {
             try {
-                const response = await fetch('/data.json');
+                const response = await fetch('data.json');
                 const data = await response.json();
 
                 atualizarContador(data);
