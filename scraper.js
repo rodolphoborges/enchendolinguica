@@ -1,11 +1,26 @@
 const Parser = require('rss-parser');
-const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
 
-// Configuração do Supabase via Variáveis de Ambiente
-const supabase = createClient(
-    process.env.SUPABASE_URL,
-    process.env.SUPABASE_SERVICE_KEY
-);
+const DATA_FILE = path.join(__dirname, 'data.json');
+
+// Inicializa o arquivo se não existir
+if (!fs.existsSync(DATA_FILE)) {
+    fs.writeFileSync(DATA_FILE, JSON.stringify([], null, 2));
+}
+
+function carregarDados() {
+    try {
+        const conteudo = fs.readFileSync(DATA_FILE, 'utf-8');
+        return JSON.parse(conteudo);
+    } catch (e) {
+        return [];
+    }
+}
+
+function salvarDados(dados) {
+    fs.writeFileSync(DATA_FILE, JSON.stringify(dados, null, 2));
+}
 
 // Truque para furar os firewalls
 const parser = new Parser({
@@ -39,6 +54,7 @@ const REGRAS_CASAIS = {
 async function iniciarGarimpo() {
     console.log("🤖 A iniciar o garimpo cirúrgico de futilidades...");
     let inseridas = 0;
+    const acervo = carregarDados();
 
     for (const feedConfig of FEEDS) {
         try {
@@ -55,27 +71,25 @@ async function iniciarGarimpo() {
                     const temPessoaB = regras.pessoaB.some(termo => textoAnalise.includes(termo));
 
                     if (temPessoaA && temPessoaB) {
+                        // Verifica se já existe para evitar duplicados
+                        if (acervo.some(m => m.url === link)) {
+                            continue;
+                        }
+
                         console.log(`🚨 Fofoca Confirmada! [${casal}] -> ${titulo}`);
                         
-                        // Captura a data real da matéria no RSS (ou usa a atual se falhar)
                         const dataPublicacaoReal = item.isoDate || new Date().toISOString();
                         
-                        const { error } = await supabase.from('materias_inuteis').insert([
-                            { 
-                                url: link, 
-                                casal_referenciado: casal, 
-                                titulo: titulo, 
-                                veiculo: feedConfig.veiculo,
-                                data_publicacao: dataPublicacaoReal
-                            }
-                        ]);
-
-                        if (error && error.code !== '23505') {
-                            console.error("❌ Erro ao guardar:", error.message);
-                        } else if (!error) {
-                            inseridas++;
-                            console.log("✅ Guardado com sucesso no Acervo.");
-                        }
+                        acervo.push({ 
+                            url: link, 
+                            casal_referenciado: casal, 
+                            titulo: titulo, 
+                            veiculo: feedConfig.veiculo,
+                            data_publicacao: dataPublicacaoReal,
+                            data_registro: new Date().toISOString()
+                        });
+                        inseridas++;
+                        console.log("✅ Guardado com sucesso no Acervo.");
                     }
                 }
             }
@@ -84,9 +98,11 @@ async function iniciarGarimpo() {
         }
     }
     
+    if (inseridas > 0) {
+        salvarDados(acervo.sort((a, b) => new Date(a.data_registro) - new Date(b.data_registro)));
+    }
+
     console.log(`🏁 Garimpo finalizado! ${inseridas} novas pérolas eternizadas.`);
-    
-    // Força o encerramento imediato do robô, cortando a ligação com o banco de dados
     process.exit(0); 
 }
 
