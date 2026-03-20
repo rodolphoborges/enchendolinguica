@@ -135,7 +135,7 @@
         // ==========================================
         // EXTRAÇÃO DE METADADOS
         // ==========================================
-        async function extrairMetadados(url) {
+        async function extrairMetadados(url, casalRegras) {
             let titulo = '';
             let veiculo = extrairDominio(url);
 
@@ -162,9 +162,28 @@
                 console.warn("Proxy bloqueado pelo servidor de origem.", error);
             }
 
-            // PLANO B com texto mais sagaz
+            // Se o proxy funcionou, já podemos validar antes de qualquer prompt
+            if (titulo) {
+                const texto = `${titulo} ${url}`.toLowerCase();
+                const temA = casalRegras.pessoaA.some(t => texto.includes(t));
+                const temB = casalRegras.pessoaB.some(t => texto.includes(t));
+                if (!temA || !temB) {
+                    return { titulo, veiculo, invalido: true };
+                }
+            }
+
+            // PLANO B: Só pede prompt se não conseguimos o título e a URL sozinha não valida
             if (!titulo || titulo.trim() === '') {
-                titulo = prompt("🕵️ O portal protegeu essa exclusividade do nosso robô!\nPor favor, cole o título da matéria manualmente abaixo:") || 'Título oculto pelas forças maiores da internet';
+                const textoUrl = url.toLowerCase();
+                const urlValida = casalRegras.pessoaA.some(t => textoUrl.includes(t)) && 
+                                 casalRegras.pessoaB.some(t => textoUrl.includes(t));
+                
+                if (!urlValida) {
+                    // Se nem a URL valida, e o proxy falhou, pedimos o título como última chance
+                    titulo = prompt("🕵️ O portal protegeu essa exclusividade!\nQual o título da matéria?") || '';
+                } else {
+                    titulo = 'Título oculto pelas forças maiores';
+                }
             }
 
             return { titulo, veiculo };
@@ -222,22 +241,22 @@
                 return;
             }
 
+            const regras = REGRAS_CASAIS[casalInput];
             btnSubmit.disabled = true;
             btnSubmit.innerHTML = '<span class="animate-pulse">Analisando...</span>';
             statusMsg.classList.remove('hidden');
             statusMsg.className = 'mt-4 text-sm font-medium text-center text-zinc-400';
             statusMsg.innerText = "Lendo a matéria para você focar no seu dia...";
 
-            const { titulo, veiculo } = await extrairMetadados(urlInput);
+            const { titulo, veiculo, invalido } = await extrairMetadados(urlInput, regras);
 
             // --- VALIDAÇÃO 2: A matéria tem as DUAS pessoas? ---
             const textoAnalise = `${titulo} ${urlInput}`.toLowerCase();
-            const regras = REGRAS_CASAIS[casalInput];
             
             const temPessoaA = regras.pessoaA.some(termo => textoAnalise.includes(termo));
             const temPessoaB = regras.pessoaB.some(termo => textoAnalise.includes(termo));
 
-            if (!(temPessoaA && temPessoaB)) {
+            if (invalido || !(temPessoaA && temPessoaB)) {
                 exibirErro(statusMsg, `🕵️ Mentira detetada! A matéria não fala do casal ${casalInput} (os dois precisam ser mencionados).`);
                 btnSubmit.disabled = false;
                 btnSubmit.innerText = 'Eternizar';
