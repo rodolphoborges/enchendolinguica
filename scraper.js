@@ -85,8 +85,12 @@ const parser = new Parser({
 // Pelotão de Elite da Fofoca (Feeds estáveis e com XML validado)
 const FEEDS = [
     { veiculo: 'G1 Pop & Arte', url: 'https://g1.globo.com/dynamo/pop-arte/rss2.xml' },
+    { veiculo: 'Folha de S.Paulo', url: 'https://feeds.folha.uol.com.br/rss091.xml' },
+    { veiculo: 'Metrópoles Leo Dias', url: 'https://www.metropoles.com/colunas/leo-dias/feed' },
     { veiculo: 'Metrópoles Celebridades', url: 'https://www.metropoles.com/celebridades/feed' },
-    { veiculo: 'Contigo! (UOL)', url: 'https://contigo.uol.com.br/feed/' },
+    { veiculo: 'UOL Splash', url: 'https://rss.uol.com.br/feed/noticias.xml' },
+    { veiculo: 'Extra Famosos', url: 'https://extra.globo.com/famosos/rss.xml' },
+    { veiculo: 'Contigo! (UOL)', url: 'https://contigo.uol.com.br/rss' },
     { veiculo: 'Hugo Gloss (UOL)', url: 'https://hugogloss.uol.com.br/feed/' },
     { veiculo: 'Portal Leo Dias', url: 'https://portalleodias.com/feed/' },
     { veiculo: 'Revista Caras', url: 'https://caras.uol.com.br/feed/' }
@@ -111,7 +115,14 @@ function limparXML(xml) {
     limpo = limpo.trim();
     // Garante que começa com < (evita erros de "Non-whitespace before first tag")
     const match = limpo.match(/<[\s\S]*/);
-    return match ? match[0] : limpo;
+    let finalXml = match ? match[0] : limpo;
+    
+    // Suporte para feeds mal-formados como o do UOL que vêm sem versão
+    if (finalXml.startsWith('<rss') && !finalXml.includes('version=')) {
+        finalXml = finalXml.replace('<rss', '<rss version="2.0"');
+    }
+    
+    return finalXml;
 }
 
 async function iniciarGarimpo() {
