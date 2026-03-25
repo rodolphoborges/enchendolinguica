@@ -29,7 +29,27 @@ const FRASES_IRONICAS = [
     "Registro histórico: mais um dia de relacionamento estável.",
     "Furo de reportagem: casal não terminou (ainda).",
     "Bomba: fontes revelam que continuam juntos.",
-    "Impactante: evidências de que o amor permanece."
+    "Impactante: evidências de que o amor permanece.",
+    "Urgente: casal continua respirando o mesmo oxigênio.",
+    "Revelação bombástica: eles ainda se seguem no Instagram.",
+    "Ciência explica: a gravidade ainda mantém o casal unido.",
+    "Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+    "Marco histórico: mais de 24 horas sem boatos de separação.",
+    "Análise técnica: o nível de 'ship' permanece estável na bolsa.",
+    "Furo: paparazzi confirmam que eles comem comida, como humanos.",
+    "Plantão fofoca: a paz mundial depende deste relacionamento.",
+    "Relatório especial: o amor não é apenas uma construção social.",
+    "Bomba: eles foram vistos em um lugar, fazendo coisas.",
+    "Incrível: o carinho mútuo ainda é legalizado por lei.",
+    "Notícia de última hora: o amor é lindo, e o clique é lucro.",
+    "Investigação: a química do casal desafia las leis da termodinâmica.",
+    "Alerta de fofura: o nível de glicose na internet subiu 20%.",
+    "Documentário: a vida segue, e o casal também, aparentemente.",
+    "Extra: fontes revelam que eles conversam um com o outro.",
+    "Urgente: nada de novo no front, mas o feed precisa rodar.",
+    "Sensacional: demonstração de afeto em 4K disponível.",
+    "Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+    "Basta: o mundo para para ver o casal passear com o cachorro."
 ];
 
 function gerarFraseIronica() {

@@ -60,70 +60,77 @@
 </head>
 <body class="font-sans min-h-screen p-4 md:p-8 antialiased selection:bg-red-500/30 selection:text-red-200">
 
-    <div class="max-w-5xl mx-auto space-y-10">
+    <div class="max-w-4xl mx-auto space-y-16 py-12">
         
-        <header class="text-center space-y-3 pt-8 pb-4">
-            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tighter text-zinc-100">
-                Termômetro da <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-400">Encheção de Linguiça</span>
+        <header class="text-center space-y-4">
+            <h1 class="text-5xl md:text-6xl font-black tracking-tight text-white flex flex-col items-center">
+                <span class="text-zinc-500 text-sm font-bold uppercase tracking-[0.3em] mb-4">The Gossip Audit</span>
+                <span>Encheção de <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-rose-400">Linguiça</span></span>
             </h1>
-            <p class="text-zinc-500 text-sm md:text-base font-medium tracking-wide">
-                Monitorando o esforço diário da internet em nos manter (des)informados sobre o que realmente importa.
+            <p class="text-zinc-500 text-sm font-medium max-w-lg mx-auto leading-relaxed">
+                Um monitoramento analítico, minimalista e levemente cínico sobre o esforço da imprensa em nos manter alienados.
             </p>
         </header>
 
-        <section class="bg-zinccard/50 border border-white/5 backdrop-blur-md p-6 rounded-2xl shadow-2xl">
-            <form id="form-materia" class="flex flex-col md:flex-row gap-3">
-                <input type="url" id="url-input" required placeholder="Cole o link daquela matéria que vai mudar o mundo..." 
-                    class="flex-1 bg-zincbg border border-zinc-800 rounded-xl px-5 py-3 focus:outline-none focus:ring-2 focus:ring-red-500/50 focus:border-red-500 transition-all text-zinc-200 placeholder-zinc-600 text-sm">
+        <section class="bg-zinc-900/30 border border-white/5 p-2 rounded-2xl shadow-2xl max-w-2xl mx-auto">
+            <form id="form-materia" class="flex flex-col md:flex-row gap-2">
+                <input type="url" id="url-input" required placeholder="Cole o link da futilidade do dia..." 
+                    class="flex-1 bg-transparent border-none rounded-xl px-5 py-4 focus:outline-none focus:ring-0 text-zinc-100 placeholder-zinc-700 text-sm font-medium">
                 
                 <button type="submit" id="btn-submit" 
-                    class="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-8 rounded-xl transition-all active:scale-95 shadow-lg shadow-red-500/20 flex items-center justify-center min-w-[140px] text-sm">
+                    class="bg-white hover:bg-zinc-200 text-black font-bold py-4 px-10 rounded-xl transition-all active:scale-95 shadow-lg shadow-white/5 text-xs uppercase tracking-widest">
                     Eternizar
                 </button>
             </form>
-            <p id="status-msg" class="mt-4 text-sm text-zinc-400 hidden font-medium text-center"></p>
         </section>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="bg-zinccard/50 border border-white/5 p-8 rounded-2xl shadow-xl flex flex-col items-center justify-center text-center">
-                <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-4">Total de Notícias "Vitais"</h3>
-                <span id="contador-total" class="text-7xl font-light tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-zinc-100 to-zinc-500">0</span>
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12 border-y border-white/5 py-12">
+            <div class="flex flex-col items-center justify-center text-center space-y-2">
+                <h3 class="text-zinc-600 uppercase text-[10px] font-black tracking-[0.4em]">Notícias no Acervo</h3>
+                <span id="contador-total" class="text-9xl font-black tracking-tighter text-white">0</span>
             </div>
 
-            <div class="bg-zinccard/50 border border-white/5 p-8 rounded-2xl shadow-xl flex flex-col items-center justify-center text-center">
-                <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-4">Tempo Sem Notícias dos Casais</h3>
-                <span id="contador-tempo" class="text-3xl font-light tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-orange-500">--</span>
-                <span class="text-zinc-600 text-xs mt-2">desde a última encheção de linguiça</span>
-            </div>
-
-            <div class="bg-zinccard/50 border border-white/5 p-6 rounded-2xl shadow-xl md:col-span-2 flex flex-col">
-                <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-4">Flutuação da Criatividade Editorial (Evolução Temporal)</h3>
-                <div class="flex-1 relative w-full">
-                    <canvas id="grafico-ocio"></canvas>
+            <div class="flex flex-col items-center justify-center text-center space-y-4">
+                <h3 class="text-zinc-600 uppercase text-[10px] font-black tracking-[0.4em]">Silêncio Editorial</h3>
+                <div class="space-y-1">
+                    <span id="contador-tempo" class="text-5xl font-black tracking-tight text-rose-500">--</span>
+                    <p class="text-zinc-600 text-[10px] font-bold uppercase tracking-widest">desde a última pauta vital</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pb-12">
+        <section class="space-y-8">
+            <div class="flex items-center justify-between">
+                <h3 class="text-zinc-500 uppercase text-[10px] font-black tracking-[0.5em]">Arquivo de Pautas</h3>
+                <span class="h-px bg-white/5 flex-1 mx-6"></span>
+            </div>
             
-            <section class="bg-zinccard/50 border border-white/5 p-6 rounded-2xl shadow-xl">
-                <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-5 flex items-center gap-2">
-                    <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                    Hall da Fama do Conteúdo Aleatório
-                </h3>
-                <ul id="ranking-lista" class="space-y-1">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+                <div class="md:col-span-8">
+                    <ul id="lista-materias" class="space-y-6 max-h-[600px] overflow-y-auto pr-6 custom-scrollbar">
+                        <!-- Itens virão dinamicamente -->
                     </ul>
-            </section>
+                </div>
+                
+                <div class="md:col-span-4 space-y-12">
+                    <div class="space-y-6">
+                        <h4 class="text-zinc-600 uppercase text-[9px] font-black tracking-widest">Culpados Favoritos</h4>
+                        <ul id="ranking-lista" class="space-y-4">
+                            <!-- Ranking virá dinamicamente -->
+                        </ul>
+                    </div>
 
-            <section class="bg-zinccard/50 border border-white/5 p-6 rounded-2xl shadow-xl md:col-span-2">
-                <h3 class="text-zinc-500 uppercase text-[10px] font-bold tracking-widest mb-5 flex items-center gap-2">
-                    <svg class="w-4 h-4 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H14"></path></svg>
-                    Arquivo de Pautas "Essenciais"
-                </h3>
-                <ul id="lista-materias" class="space-y-1 max-h-[320px] overflow-y-auto pr-2 custom-scrollbar">
-                    </ul>
-            </section>
-        </div>
+                    <div class="space-y-6">
+                        <h4 class="text-zinc-600 uppercase text-[9px] font-black tracking-widest">Atividade Recente</h4>
+                        <div class="h-40 w-full">
+                            <canvas id="grafico-ocio"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
 
     </div>
 
@@ -154,7 +161,27 @@
             "Exclusivo: flagrante de afeto comprova teoria do amor.",
             "Alerta vermelho: demonstração pública de carinho detectada.",
             "Impacto global: gesto romântico abala estruturas da internet.",
-            "Histórico: momento fofo entra para os anais do jornalismo."
+            "Histórico: momento fofo entra para os anais do jornalismo.",
+            "Urgente: casal continua respirando o mesmo oxigênio.",
+            "Revelação bombástica: eles ainda se seguem no Instagram.",
+            "Ciência explica: a gravidade ainda mantém o casal unido.",
+            "Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+            "Marco histórico: mais de 24 horas sem boatos de separação.",
+            "Análise técnica: o nível de 'ship' permanece estável na bolsa.",
+            "Furo: paparazzi confirmam que eles comem comida, como humanos.",
+            "Plantão fofoca: a paz mundial depende deste relacionamento.",
+            "Relatório especial: o amor não é apenas uma construção social.",
+            "Bomba: eles foram vistos em um lugar, fazendo coisas.",
+            "Incrível: o carinho mútuo ainda é legalizado por lei.",
+            "Notícia de última hora: o amor é lindo, e o clique é lucro.",
+            "Investigação: a química do casal desafia as leis da termodinâmica.",
+            "Alerta de fofura: o nível de glicose na internet subiu 20%.",
+            "Documentário: a vida segue, e o casal também, aparentemente.",
+            "Extra: fontes revelam que eles conversam um com o outro.",
+            "Urgente: nada de novo no front, mas o feed precisa rodar.",
+            "Sensacional: demonstração de afeto em 4K disponível.",
+            "Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+            "Basta: o mundo para para ver o casal passear com o cachorro."
         ];
 
         // Sinônimos e variações para cada pessoa do casal
@@ -414,25 +441,6 @@
                         pointRadius: 4,
                         pointHoverRadius: 6
                     }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { display: false }, tooltip: { mode: 'index', intersect: false } },
-                    scales: {
-                        y: { 
-                            beginAtZero: true, 
-                            ticks: { color: '#52525b', stepSize: 1, font: { family: 'Inter' } },
-                            grid: { color: '#27272a', borderDash: [5, 5] },
-                            border: { display: false }
-                        },
-                        x: { 
-                            ticks: { color: '#52525b', font: { family: 'Inter' } },
-                            grid: { display: false },
-                            border: { display: false }
-                        }
-                    },
-                    interaction: { mode: 'nearest', axis: 'x', intersect: false }
                 }
             });
         }
@@ -451,31 +459,16 @@
             listaEl.innerHTML = '';
 
             if (top5.length === 0) {
-                listaEl.innerHTML = '<li class="text-zinc-600 text-sm italic py-4">A internet está surpreendentemente silenciosa hoje.</li>';
+                listaEl.innerHTML = '<li class="text-zinc-600 text-[10px] font-bold uppercase tracking-widest py-4">Silêncio Absoluto</li>';
                 return;
             }
 
-            let rankPosicao = 0;
-            let qtdAnterior = null;
-
-            top5.forEach(([veiculo, qtd], index) => {
-                if (qtd !== qtdAnterior) {
-                    rankPosicao = index;
-                    qtdAnterior = qtd;
-                }
-
-                const coresPodio = ['text-amber-400', 'text-zinc-300', 'text-orange-400'];
-                const corPosicao = rankPosicao < 3 ? coresPodio[rankPosicao] : 'text-zinc-600';
-                const numDisplay = (rankPosicao + 1).toString().padStart(2, '0');
-
+            top5.forEach(([veiculo, qtd]) => {
                 const li = document.createElement('li');
-                li.className = "flex justify-between items-center py-3 border-b border-white/5 last:border-0 hover:bg-white/[0.02] px-2 rounded-lg transition-colors";
+                li.className = "flex justify-between items-center py-2 group border-b border-white/5 last:border-0";
                 li.innerHTML = `
-                    <div class="flex items-center gap-4">
-                        <span class="text-sm font-bold ${corPosicao} font-mono">${numDisplay}</span>
-                        <span class="font-medium text-zinc-200 text-sm">${veiculo}</span>
-                    </div>
-                    <span class="text-zinc-500 text-xs font-semibold">${qtd}</span>
+                    <span class="text-[11px] font-bold text-zinc-400 group-hover:text-white transition-colors uppercase tracking-wider">${veiculo}</span>
+                    <span class="text-[11px] font-black text-rose-500">${qtd}</span>
                 `;
                 listaEl.appendChild(li);
             });
@@ -486,7 +479,7 @@
             listaEl.innerHTML = '';
 
             if (data.length === 0) {
-                listaEl.innerHTML = '<li class="text-zinc-600 text-sm italic py-4">Nenhuma notícia vital registada ainda.</li>';
+                listaEl.innerHTML = '<li class="text-zinc-600 text-xs italic py-4 text-center">Ainda aguardando o próximo furo irrelevante.</li>';
                 return;
             }
 
@@ -494,24 +487,24 @@
 
             recentes.forEach((item) => {
                 const li = document.createElement('li');
-                li.className = "group flex flex-col p-3 rounded-xl hover:bg-white/[0.03] border border-transparent hover:border-white/5 transition-all gap-2";
+                li.className = "group border-l border-white/5 pl-6 py-2 transition-all hover:border-rose-500 mb-6 last:mb-0";
                 
                 const dataFormatada = new Date(item.data_registro).toLocaleDateString('pt-BR', {
                     day: '2-digit', month: '2-digit'
                 });
 
                 li.innerHTML = `
-                    <a href="${item.url}" target="_blank" rel="noopener noreferrer" 
-                       class="text-zinc-300 text-sm font-medium group-hover:text-red-400 transition-colors truncate block w-full" 
-                       title="${item.titulo}">
-                        ${item.titulo}
-                    </a>
-                    <div class="flex justify-between items-center text-[11px] text-zinc-500 font-medium">
-                        <span class="truncate max-w-[120px]">${item.veiculo}</span>
-                        <div class="flex gap-2 items-center">
-                            <span class="bg-zinc-800/50 px-2 py-0.5 rounded-full text-zinc-400">${item.casal_referenciado}</span>
-                            <span>${dataFormatada}</span>
+                    <div class="flex flex-col gap-1">
+                        <div class="flex items-center gap-3">
+                            <span class="text-[9px] font-black text-zinc-600 uppercase tracking-widest">${item.veiculo}</span>
+                            <span class="h-px bg-white/5 w-4"></span>
+                            <span class="text-[9px] font-black text-rose-500 uppercase tracking-widest">${item.casal_referenciado}</span>
+                            <span class="ml-auto text-[9px] font-bold text-zinc-700 font-mono">${dataFormatada}</span>
                         </div>
+                        <a href="${item.url}" target="_blank" rel="noopener noreferrer" 
+                           class="text-zinc-400 text-sm font-semibold group-hover:text-white transition-colors leading-snug">
+                            ${item.titulo}
+                        </a>
                     </div>
                 `;
                 listaEl.appendChild(li);

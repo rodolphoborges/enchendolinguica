@@ -43,7 +43,27 @@ const FRASES_IRONICAS = [
     "Registro histórico: mais um dia de relacionamento estável.",
     "Furo de reportagem: casal não terminou (ainda).",
     "Bomba: fontes revelam que continuam juntos.",
-    "Impactante: evidências de que o amor permanece."
+    "Impactante: evidências de que o amor permanece.",
+    "Urgente: casal continua respirando o mesmo oxigênio.",
+    "Revelação bombástica: eles ainda se seguem no Instagram.",
+    "Ciência explica: a gravidade ainda mantém o casal unido.",
+    "Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+    "Marco histórico: mais de 24 horas sem boatos de separação.",
+    "Análise técnica: o nível de 'ship' permanece estável na bolsa.",
+    "Furo: paparazzi confirmam que eles comem comida, como humanos.",
+    "Plantão fofoca: a paz mundial depende deste relacionamento.",
+    "Relatório especial: o amor não é apenas uma construção social.",
+    "Bomba: eles foram vistos em um lugar, fazendo coisas.",
+    "Incrível: o carinho mútuo ainda é legalizado por lei.",
+    "Notícia de última hora: o amor é lindo, e o clique é lucro.",
+    "Investigação: a química do casal desafia as leis da termodinâmica.",
+    "Alerta de fofura: o nível de glicose na internet subiu 20%.",
+    "Documentário: a vida segue, e o casal também, aparentemente.",
+    "Extra: fontes revelam que eles conversam um com o outro.",
+    "Urgente: nada de novo no front, mas o feed precisa rodar.",
+    "Sensacional: demonstração de afeto em 4K disponível.",
+    "Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+    "Basta: o mundo para para ver o casal passear com o cachorro."
 ];
 
 function gerarFraseIronica() {
@@ -83,6 +103,17 @@ const REGRAS_CASAIS = {
     }
 };
 
+function limparXML(xml) {
+    if (!xml) return '';
+    // Remove BOM (Byte Order Mark) se presente
+    let limpo = xml.replace(/^\ufeff/g, '');
+    // Remove espaços em branco no início e fim
+    limpo = limpo.trim();
+    // Garante que começa com < (evita erros de "Non-whitespace before first tag")
+    const match = limpo.match(/<[\s\S]*/);
+    return match ? match[0] : limpo;
+}
+
 async function iniciarGarimpo() {
     console.log("🤖 A iniciar o garimpo cirúrgico de futilidades...");
     let inseridas = 0;
@@ -91,7 +122,27 @@ async function iniciarGarimpo() {
     for (const feedConfig of FEEDS) {
         try {
             console.log(`📡 A ler o feed de: ${feedConfig.veiculo}...`);
-            const feed = await parser.parseURL(feedConfig.url);
+            
+            // Fetch manual para ter controle sobre o corpo da resposta
+            const response = await fetch(feedConfig.url, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+                    'Accept': 'application/rss+xml, application/xml, text/xml; q=0.9'
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status} - ${response.statusText}`);
+            }
+
+            const xmlBruto = await response.text();
+            const xmlLimpo = limparXML(xmlBruto);
+
+            if (!xmlLimpo.startsWith('<')) {
+                throw new Error(`Resposta não parece ser XML válido. Início: ${xmlLimpo.slice(0, 50)}`);
+            }
+
+            const feed = await parser.parseString(xmlLimpo);
 
             for (const item of feed.items) {
                 const titulo = item.title || '';
@@ -127,7 +178,7 @@ async function iniciarGarimpo() {
                 }
             }
         } catch (err) {
-            console.error(`❌ Erro ao ler ${feedConfig.veiculo}:`, err.message);
+            console.error(`❌ Erro ao ler ${feedConfig.veiculo}: ${err.message}`);
         }
     }
     
