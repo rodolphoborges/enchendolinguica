@@ -2,7 +2,7 @@
   {
     "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
     "casal_referenciado": "Paolla & Diogo",
-    "titulo": "'Perdi 10 trabalhos por inventarem que traía a Paolla', diz Diogo Nogueira",
+    "titulo": "[Paolla & Diogo] Enquanto isso, a economia vai bem, obrigado por perguntar.",
     "veiculo": "UOL",
     "data_publicacao": "2026-03-14",
     "data_registro": "2026-03-14T02:43:28.008Z"
@@ -10,7 +10,7 @@
   {
     "url": "https://gshow.globo.com/cultura-pop/famosos/noticia/diogo-nogueira-fala-sobre-relacionamento-com-paolla-oliveira.ghtml",
     "casal_referenciado": "Paolla & Diogo",
-    "titulo": "Diogo Nogueira esclarece término com Paolla Oliveira: 'Não estava legal, nem pra mim, nem pra ela' | Gshow",
+    "titulo": "[Paolla & Diogo] O Nobel da Paz que espere, porque aqui tem amor no ar.",
     "veiculo": "Globo.com",
     "data_publicacao": "2026-03-14",
     "data_registro": "2026-03-14T02:46:56.252Z"
@@ -18,7 +18,7 @@
   {
     "url": "https://caras.com.br/atualidades/bruna-marquezine-da-resposta-sincera-ao-ser-questionada-sobre-shawn-mendes.phtml",
     "casal_referenciado": "Bruna & Shawn Mendes",
-    "titulo": "Bruna Marquezine dá resposta sincera ao ser questionada sobre Shawn Mendes",
+    "titulo": "[Bruna & Shawn Mendes] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
     "veiculo": "Revista Caras",
     "data_publicacao": "2026-03-18",
     "data_registro": "2026-03-18T17:10:06.881Z"
@@ -26,7 +26,7 @@
   {
     "url": "https://hugogloss.uol.com.br/famosos/bruna-marquezine-e-questionada-sobre-shawn-mendes-e-reacao-viraliza-assista/",
     "casal_referenciado": "Bruna & Shawn Mendes",
-    "titulo": "Bruna Marquezine é questionada sobre Shawn Mendes, e reação viraliza; assista Bruna Marquezine reage da melhor forma à pergunta sobre relacionamento com Shawn Mendes; assista (Foto: Victor Chapetta e Lucas Ramos/Brazil News; Getty)",
+    "titulo": "[Bruna & Shawn Mendes] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
     "veiculo": "Hugo Gloss (UOL)",
     "data_publicacao": "2026-03-18",
     "data_registro": "2026-03-18T17:10:04.702Z"
@@ -34,9 +34,17 @@
   {
     "url": "https://hugogloss.uol.com.br/famosos/paolla-oliveira-reage-a-desabafo-de-diogo-nogueira-sobre-boatos-de-traicao-assista/",
     "casal_referenciado": "Paolla & Diogo",
-    "titulo": "Paolla Oliveira reage a desabafo de Diogo Nogueira sobre boatos de traição; assista Paolla Oliveira reage a desabafo de Diogo Nogueira sobre boatos de traição; assista",
+    "titulo": "[Paolla & Diogo] Reportagem investigativa de alto nível: eles se olharam!",
     "veiculo": "Hugo Gloss (UOL)",
     "data_publicacao": "2026-03-18",
     "data_registro": "2026-03-19T02:47:50.565Z"
+  },
+  {
+    "url": "https://www.uol.com.br/flash/?c=19cdd61cdc615ec6d132b9a66a50f420260324",
+    "casal_referenciado": "Bruna & Shawn Mendes",
+    "titulo": "[Bruna & Shawn Mendes] Breaking news: romance persiste apesar dos pesares.",
+    "veiculo": "UOL",
+    "data_publicacao": "2026-03-24",
+    "data_registro": "2026-03-24T12:00:00.000Z"
   }
 ]

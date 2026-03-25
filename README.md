@@ -6,10 +6,15 @@ Este projeto foi refatorado para ser **local-first**, utilizando um arquivo JSON
 
 ## 🚀 Como Funciona
 
-1.  **Garimpo (Automatico)**: Um script Node.js (`scraper.js`) lê diversos feeds RSS de portais de entretenimento.
-2.  **Filtro Cirúrgico**: O robô identifica matérias que mencionam ambos os integrantes de casais pré-definidos (ex: Paolla & Diogo, Bruna & Shawn Mendes).
-3.  **Acervo Local**: As notícias confirmadas são salvas em `data.json`.
-4.  **Dashboard**: Uma interface web (`index.html`) exibe o total de fofocas, um gráfico de evolução temporal e o ranking dos portais mais "produtivos".
+1.  **Garimpo (Automático)**: Um script Node.js (`scraper.js`) lê diversos feeds RSS de portais de entretenimento.
+2.  **Filtro Cirúrgico Inteligente**: O sistema detecta automaticamente qual casal está sendo mencionado na URL/título usando sinônimos expandidos (ex: "paolla", "oliveira", "diogo", "nogueira" para Paolla & Diogo).
+3.  **Geração Automática de Frases Irônicas**: Ao invés de usar o título original, o sistema gera automaticamente uma frase irônica aleatória dentre 20 opções, mantendo a proposta satírica do projeto.
+4.  **Acervo Local**: As notícias confirmadas são salvas em `data.json` com comentários sarcásticos.
+5.  **Dashboard**: Uma interface web (`index.html`) exibe:
+    - Total de fofocas catalogadas
+    - **Contador de tempo sem notícias** (zera automaticamente quando nova notícia é adicionada)
+    - Gráfico de evolução temporal
+    - Ranking dos portais mais "produtivos"
 
 ## 🛠️ Tecnologias
 
@@ -47,6 +52,18 @@ Para ver o gráfico e as estatísticas no seu navegador:
 node server.js
 ```
 Acesse: [http://localhost:3000](http://localhost:3000)
+
+### Adicionar Notícias Manualmente (via Dashboard)
+1. Cole a URL da notícia no campo indicado
+2. Clique em "Eternizar"
+3. O sistema automaticamente:
+   - Detecta qual casal está sendo mencionado (sem necessidade de seleção manual)
+   - Gera uma frase irônica aleatória para substituir o título original
+   - Salva no acervo JSON
+
+**Casais Monitorados:**
+- **Paolla & Diogo**: Detecta variações como "paolla", "paola", "oliveira", "diogo", "nogueira"
+- **Bruna & Shawn Mendes**: Detecta variações como "bruna", "marquezine", "shawn", "mendes"
 
 ## 🤖 Automação (GitHub Actions)
 
