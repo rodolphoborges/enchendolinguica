@@ -245,7 +245,7 @@
             const btnSubmit = document.getElementById('btn-submit');
             const statusMsg = document.getElementById('status-msg');
 
-            // --- VALIDAÇÃO 1: É uma homepage? ---
+            // Validação básica de URL
             try {
                 const urlObj = new URL(urlInput);
                 if (urlObj.pathname === '/' || urlObj.pathname.length < 5) {
@@ -260,41 +260,16 @@
             btnSubmit.innerHTML = '<span class="animate-pulse">Analisando...</span>';
             statusMsg.classList.remove('hidden');
             statusMsg.className = 'mt-4 text-sm font-medium text-center text-zinc-400';
-            statusMsg.innerText = "Lendo a matéria para você focar no seu dia...";
-
-            // Extrai metadados sem validação prévia
-            const { titulo: tituloExtraido, veiculo } = await extrairMetadados(urlInput);
-            
-            // Usa título extraído ou fallback para URL
-            const tituloFinal = tituloExtraido || 'Título indisponível - veja a matéria original';
-            
-            // Detecta automaticamente o casal baseado na URL + título
-            const textoAnalise = `${tituloFinal} ${urlInput}`.toLowerCase();
-            const casalDetectado = detectarCasalAutomatico(textoAnalise);
-
-            if (!casalDetectado) {
-                exibirErro(statusMsg, `🕵️ Esta matéria não parece ser sobre nenhum dos casais monitorados.`);
-                btnSubmit.disabled = false;
-                btnSubmit.innerText = 'Eternizar';
-                return; 
-            }
-
-            // Gera frase irônica aleatória automaticamente
-            const fraseIronica = FRASES_IRONICAS[Math.floor(Math.random() * FRASES_IRONICAS.length)];
-            const tituloComentario = `[${casalDetectado}] ${fraseIronica}`;
+            statusMsg.innerText = "Enviando para análise automática...";
 
             statusMsg.innerText = "A preparar para eternizar no acervo JSON...";
             
             try {
+                // Envia apenas a URL - o backend faz toda a detecção e geração de frase
                 const res = await fetch('api/add', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ 
-                        url: urlInput, 
-                        casal_referenciado: casalDetectado, 
-                        titulo: tituloComentario, 
-                        veiculo: veiculo 
-                    })
+                    body: JSON.stringify({ url: urlInput })
                 });
 
                 if (res.status === 404) {

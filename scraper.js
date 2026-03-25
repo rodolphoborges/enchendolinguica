@@ -22,11 +22,43 @@ function salvarDados(dados) {
     fs.writeFileSync(DATA_FILE, JSON.stringify(dados, null, 2));
 }
 
+// Frases irônicas aleatórias
+const FRASES_IRONICAS = [
+    "Breaking news: romance persiste apesar dos pesares.",
+    "Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
+    "A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+    "Mais uma prova de que o amor vence na vida real e nas telas.",
+    "Especialistas confirmam: casal continua existindo.",
+    "Flagrante histórico pode mudar rumo da civilização.",
+    "Fontes seguras indicam: sentimentos ainda são relevantes.",
+    "Novo capítulo da saga romântica que todos acompanhávamos.",
+    "Surpresa: celebridades demonstram afeto publicamente.",
+    "Análise profunda revela: casal troca olhares e gestos.",
+    "Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
+    "Repórteres de elite cobram detalhes do relacionamento alheio.",
+    "Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
+    "Investigação minuciosa aponta: romance segue firme e forte.",
+    "Documentado: prova concreta de que se gostam.",
+    "Alerta máximo: demonstração de carinho em via pública.",
+    "Registro histórico: mais um dia de relacionamento estável.",
+    "Furo de reportagem: casal não terminou (ainda).",
+    "Bomba: fontes revelam que continuam juntos.",
+    "Impactante: evidências de que o amor permanece."
+];
+
+function gerarFraseIronica() {
+    const indice = Math.floor(Math.random() * FRASES_IRONICAS.length);
+    return FRASES_IRONICAS[indice];
+}
+
 // Truque para furar os firewalls
 const parser = new Parser({
     headers: {
         'Accept': 'application/rss+xml, application/xml, text/xml; q=0.1',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+    },
+    customFields: {
+        item: ['content', 'description']
     }
 });
 
@@ -79,11 +111,12 @@ async function iniciarGarimpo() {
                         console.log(`🚨 Fofoca Confirmada! [${casal}] -> ${titulo}`);
                         
                         const dataPublicacaoReal = item.isoDate || new Date().toISOString();
+                        const fraseIronica = gerarFraseIronica();
                         
                         acervo.push({ 
                             url: link, 
                             casal_referenciado: casal, 
-                            titulo: titulo, 
+                            titulo: `[${casal}] ${fraseIronica}`,
                             veiculo: feedConfig.veiculo,
                             data_publicacao: dataPublicacaoReal,
                             data_registro: new Date().toISOString()
