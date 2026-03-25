@@ -13,6 +13,7 @@ O sistema é composto por três pilares principais:
 Um script Node.js que atua como um coletor automatizado:
 - **Fontes**: Consome feeds RSS de portais como G1 Pop & Arte, Folha de S.Paulo, Metrópoles (Leo Dias e Celebridades), UOL (Splash, Hugo Gloss, Contigo!, Caras), Extra e Portal Leo Dias.
 - **Filtros**: Utiliza o objeto `REGRAS_CASAIS` para identificar se uma matéria menciona simultaneamente as duas pessoas de um casal (ex: Paolla Oliveira & Diogo Nogueira).
+- **Robustez**: Implementa limpeza de XML (`limparXML`) para lidar com BOM (Byte Order Mark), espaços em branco e feeds mal-formados (ex: adicionando automaticamente `version="2.0"` quando ausente).
 - **Armazenamento**: Salva as ocorrências confirmadas no arquivo `data.json`.
 
 ### 2. O Servidor (`server.js`)

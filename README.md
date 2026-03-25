@@ -8,7 +8,7 @@ Este projeto foi refatorado para ser **local-first**, utilizando um arquivo JSON
 
 1.  **Garimpo (Automático)**: Um script Node.js (`scraper.js`) lê diversos feeds RSS de portais de entretenimento.
 2.  **Filtro Cirúrgico Inteligente**: O sistema detecta automaticamente qual casal está sendo mencionado na URL/título usando sinônimos expandidos (ex: "paolla", "oliveira", "diogo", "nogueira" para Paolla & Diogo).
-3.  **Geração Automática de Frases Irônicas**: Ao invés de usar o título original, o sistema gera automaticamente uma frase irônica aleatória dentre 20 opções, mantendo a proposta satírica do projeto.
+3.  **Geração Automática de Frases Irônicas**: Ao invés de usar o título original, o sistema gera automaticamente uma frase irônica aleatória dentre mais de 50 opções, mantendo a proposta satírica do projeto.
 4.  **Acervo Local**: As notícias confirmadas são salvas em `data.json` com comentários sarcásticos.
 5.  **Dashboard**: Uma interface web (`index.html`) exibe:
     - Total de fofocas catalogadas
@@ -19,8 +19,8 @@ Este projeto foi refatorado para ser **local-first**, utilizando um arquivo JSON
 ## 🛠️ Tecnologias
 
 - **Node.js**: Motor do robô e servidor.
-- **Express**: Servidor local para o dashboard e API de gravação.
-- **RSS-Parser**: Para leitura dos feeds dos portais.
+- **Express**: Servidor local para o dashboard.
+- **RSS-Parser**: Para leitura de mais de 10 feeds de portais de elite.
 - **Chart.js**: Para visualização dos dados.
 - **Tailwind CSS**: Estilização do dashboard.
 - **GitHub Actions**: Automação do garimpo a cada 4 horas.
@@ -53,13 +53,7 @@ node server.js
 ```
 Acesse: [http://localhost:3000](http://localhost:3000)
 
-### Adicionar Notícias Manualmente (via Dashboard)
-1. Cole a URL da notícia no campo indicado
-2. Clique em "Eternizar"
-3. O sistema automaticamente:
-   - Detecta qual casal está sendo mencionado (sem necessidade de seleção manual)
-   - Gera uma frase irônica aleatória para substituir o título original
-   - Salva no acervo JSON
+
 
 **Casais Monitorados:**
 - **Paolla & Diogo**: Detecta variações como "paolla", "paola", "oliveira", "diogo", "nogueira"
