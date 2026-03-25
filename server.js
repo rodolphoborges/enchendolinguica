@@ -133,55 +133,69 @@ app.get('/data.json', (req, res) => {
 
 // Endpoint para adicionar manualmente via dashboard (agora automático)
 app.post('/api/add', async (req, res) => {
-    const { url } = req.body;
-    
-    if (!url) {
-        return res.status(400).json({ error: 'URL é obrigatória.' });
+    try {
+        const { url } = req.body;
+        
+        if (!url) {
+            return res.status(400).json({ error: 'URL é obrigatória.' });
+        }
+        
+        let acervo = [];
+        if (fs.existsSync(DATA_FILE)) {
+            acervo = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
+        }
+
+        if (acervo.some(m => m.url === url)) {
+            return res.status(400).json({ error: 'Esta matéria já está no acervo.' });
+        }
+
+        // Validação básica de URL antes de prosseguir
+        let urlValidada;
+        try {
+            urlValidada = new URL(url);
+        } catch (e) {
+            return res.status(400).json({ error: 'URL inválida. Certifique-se de incluir o protocolo (http:// ou https://).' });
+        }
+
+        // Extrair metadados da URL
+        console.log(`🔍 Analisando URL: ${url}`);
+        const metadados = await extrairMetadados(url);
+        
+        // Detectar casal baseado na URL e título extraído
+        const casal = detectarCasal(url, metadados.titulo);
+        
+        if (!casal) {
+            return res.status(400).json({ 
+                error: 'Não foi possível identificar o casal nesta notícia. Verifique se a matéria menciona ambos os nomes do casal monitorado.',
+                debug: { url, tituloExtraido: metadados.titulo }
+            });
+        }
+
+        // Gerar frase irônica automaticamente
+        const fraseIronica = gerarFraseIronica();
+        const veiculo = urlValidada.hostname.replace('www.', '');
+
+        const novaMateria = {
+            url,
+            casal_referenciado: casal,
+            titulo: `[${casal}] ${fraseIronica}`,
+            veiculo,
+            data_publicacao: new Date().toISOString(),
+            data_registro: new Date().toISOString()
+        };
+
+        acervo.push(novaMateria);
+        acervo.sort((a, b) => new Date(a.data_registro) - new Date(b.data_registro));
+        
+        fs.writeFileSync(DATA_FILE, JSON.stringify(acervo, null, 2));
+        
+        console.log(`✅ Notícia adicionada: ${novaMateria.titulo}`);
+        res.json({ success: true, materia: novaMateria });
+
+    } catch (err) {
+        console.error('Erro interno no /api/add:', err);
+        res.status(500).json({ error: 'Erro interno ao processar a notícia.', details: err.message });
     }
-    
-    let acervo = [];
-    if (fs.existsSync(DATA_FILE)) {
-        acervo = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
-    }
-
-    if (acervo.some(m => m.url === url)) {
-        return res.status(400).json({ error: 'Esta matéria já está no acervo.' });
-    }
-
-    // Extrair metadados da URL
-    console.log(`🔍 Analisando URL: ${url}`);
-    const metadados = await extrairMetadados(url);
-    
-    // Detectar casal baseado na URL e título extraído
-    const casal = detectarCasal(url, metadados.titulo);
-    
-    if (!casal) {
-        return res.status(400).json({ 
-            error: 'Não foi possível identificar o casal nesta notícia. Verifique se a matéria menciona ambos os nomes do casal monitorado.',
-            debug: { url, tituloExtraido: metadados.titulo }
-        });
-    }
-
-    // Gerar frase irônica automaticamente
-    const fraseIronica = gerarFraseIronica();
-    const veiculo = new URL(url).hostname.replace('www.', '');
-
-    const novaMateria = {
-        url,
-        casal_referenciado: casal,
-        titulo: `[${casal}] ${fraseIronica}`,
-        veiculo,
-        data_publicacao: new Date().toISOString(),
-        data_registro: new Date().toISOString()
-    };
-
-    acervo.push(novaMateria);
-    acervo.sort((a, b) => new Date(a.data_registro) - new Date(b.data_registro));
-    
-    fs.writeFileSync(DATA_FILE, JSON.stringify(acervo, null, 2));
-    
-    console.log(`✅ Notícia adicionada: ${novaMateria.titulo}`);
-    res.json({ success: true, materia: novaMateria });
 });
 
 app.listen(PORT, () => {
