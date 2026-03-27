@@ -93,7 +93,8 @@ const FEEDS = [
     { veiculo: 'Contigo! (UOL)', url: 'https://contigo.uol.com.br/rss' },
     { veiculo: 'Hugo Gloss (UOL)', url: 'https://hugogloss.uol.com.br/feed/' },
     { veiculo: 'Portal Leo Dias', url: 'https://portalleodias.com/feed/' },
-    { veiculo: 'Revista Caras', url: 'https://caras.uol.com.br/feed/' }
+    { veiculo: 'Revista Caras', url: 'https://caras.uol.com.br/feed/' },
+    { veiculo: 'Revista Quem', url: 'https://revistaquem.globo.com/rss/quem' }
 ];
 
 const REGRAS_CASAIS = {
@@ -158,6 +159,7 @@ async function iniciarGarimpo() {
             for (const item of feed.items) {
                 const titulo = item.title || '';
                 const link = item.link || '';
+                const dataPublicacaoReal = item.isoDate || item.pubDate || new Date().toISOString();
                 const textoAnalise = `${titulo} ${link}`.toLowerCase();
 
                 for (const [casal, regras] of Object.entries(REGRAS_CASAIS)) {
@@ -172,7 +174,6 @@ async function iniciarGarimpo() {
 
                         console.log(`🚨 Fofoca Confirmada! [${casal}] -> ${titulo}`);
                         
-                        const dataPublicacaoReal = item.isoDate || new Date().toISOString();
                         const fraseIronica = gerarFraseIronica();
                         
                         acervo.push({ 
