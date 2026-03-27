@@ -112,6 +112,13 @@
                     </div>
 
                     <div class="space-y-6">
+                        <h4 class="text-zinc-600 uppercase text-[9px] font-black tracking-widest">Alvos Principais</h4>
+                        <ul id="ranking-casais-lista" class="space-y-4">
+                            <!-- Ranking de casais virá dinamicamente -->
+                        </ul>
+                    </div>
+
+                    <div class="space-y-6">
                         <h4 class="text-zinc-600 uppercase text-[9px] font-black tracking-widest">Atividade Recente</h4>
                         <div class="h-40 w-full">
                             <canvas id="grafico-ocio"></canvas>
@@ -151,6 +158,7 @@
                 atualizarContadorTempo(data);
                 atualizarGrafico(data);
                 atualizarRanking(data);
+                atualizarRankingCasais(data);
                 atualizarListaAcervo(data);
             } catch (error) {
                 console.error("Erro ao buscar dados:", error);
@@ -165,11 +173,11 @@
                 return;
             }
 
-            // Pega a data da notícia mais recente
+            // Pega a data da notícia mais recente (pela publicação)
             const datasOrdenadas = [...data].sort((a, b) => 
-                new Date(b.data_registro) - new Date(a.data_registro)
+                new Date(b.data_publicacao) - new Date(a.data_publicacao)
             );
-            const ultimaNoticia = new Date(datasOrdenadas[0].data_registro);
+            const ultimaNoticia = new Date(datasOrdenadas[0].data_publicacao);
             const agora = new Date();
             const diferencaMs = agora - ultimaNoticia;
 
@@ -210,8 +218,10 @@
 
         function atualizarGrafico(data) {
             const contagemPorData = data.reduce((acc, item) => {
-                // CORREÇÃO: Pega a data local garantindo o formato YYYY-MM-DD correto
-                const d = new Date(item.data_registro);
+                // CORREÇÃO: Agora usando data_publicacao como base
+                const d = new Date(item.data_publicacao);
+                if (isNaN(d.getTime())) return acc;
+
                 const dataFormatada = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
                 
                 acc[dataFormatada] = (acc[dataFormatada] || 0) + 1;
@@ -276,6 +286,34 @@
             });
         }
 
+        function atualizarRankingCasais(data) {
+            const contagemCasais = data.reduce((acc, item) => {
+                acc[item.casal_referenciado] = (acc[item.casal_referenciado] || 0) + 1;
+                return acc;
+            }, {});
+
+            const ranking = Object.entries(contagemCasais)
+                .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+
+            const listaEl = document.getElementById('ranking-casais-lista');
+            listaEl.innerHTML = '';
+
+            if (ranking.length === 0) {
+                listaEl.innerHTML = '<li class="text-zinc-600 text-[10px] font-bold uppercase tracking-widest py-4">Paz Mundial</li>';
+                return;
+            }
+
+            ranking.forEach(([casal, qtd]) => {
+                const li = document.createElement('li');
+                li.className = "flex justify-between items-center py-2 group border-b border-white/5 last:border-0";
+                li.innerHTML = `
+                    <span class="text-[11px] font-bold text-zinc-400 group-hover:text-white transition-colors uppercase tracking-wider">${casal}</span>
+                    <span class="text-[11px] font-black text-rose-500">${qtd}</span>
+                `;
+                listaEl.appendChild(li);
+            });
+        }
+
         function atualizarListaAcervo(data) {
             const listaEl = document.getElementById('lista-materias');
             listaEl.innerHTML = '';
@@ -285,13 +323,16 @@
                 return;
             }
 
-            const recentes = [...data].reverse();
+            const recentes = [...data].sort((a, b) => 
+                new Date(b.data_publicacao) - new Date(a.data_publicacao)
+            );
 
             recentes.forEach((item) => {
                 const li = document.createElement('li');
                 li.className = "group border-l border-white/5 pl-6 py-2 transition-all hover:border-rose-500 mb-6 last:mb-0";
                 
-                const dataFormatada = new Date(item.data_registro).toLocaleDateString('pt-BR', {
+                const d = new Date(item.data_publicacao);
+                const dataFormatada = isNaN(d.getTime()) ? '??/??' : d.toLocaleDateString('pt-BR', {
                     day: '2-digit', month: '2-digit'
                 });
 
