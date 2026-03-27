@@ -105,6 +105,10 @@ const REGRAS_CASAIS = {
     "Bruna & Shawn Mendes": {
         pessoaA: ["bruna", "marquezine"],
         pessoaB: ["shawn", "mendes"]
+    },
+    "Vini Jr & Virgínia": {
+        pessoaA: ["vinicius jr", "vinícius jr", "vini jr", "vini junior", "vinicius junior", "vinícius junior"],
+        pessoaB: ["virginia", "virgínia"]
     }
 };
 
