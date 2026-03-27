@@ -12,15 +12,15 @@ Este projeto foi refatorado para ser **local-first**, utilizando um arquivo JSON
 4.  **Acervo Local**: As notícias confirmadas são salvas em `data.json` com comentários sarcásticos.
 5.  **Dashboard**: Uma interface web (`index.html`) exibe:
     - Total de fofocas catalogadas
-    - **Contador de tempo sem notícias** (zera automaticamente quando nova notícia é adicionada)
-    - Gráfico de evolução temporal
-    - Ranking dos portais mais "produtivos"
+    - **Contador de tempo sem notícias** (baseado na publicação real)
+    - Gráfico de evolução temporal (Chart.js)
+    - Ranking dos portais e **dos casais** mais "produtivos"
 
 ## 🛠️ Tecnologias
 
 - **Node.js**: Motor do robô e servidor.
 - **Express**: Servidor local para o dashboard.
-- **RSS-Parser**: Para leitura de mais de 10 feeds de portais de elite.
+- **RSS-Parser**: Para leitura de mais de 11 feeds de portais de elite (G1, Folha, UOL, Revista Quem, etc).
 - **Chart.js**: Para visualização dos dados.
 - **Tailwind CSS**: Estilização do dashboard.
 - **GitHub Actions**: Automação do garimpo a cada 4 horas.
@@ -58,6 +58,7 @@ Acesse: [http://localhost:3000](http://localhost:3000)
 **Casais Monitorados:**
 - **Paolla & Diogo**: Detecta variações como "paolla", "paola", "oliveira", "diogo", "nogueira"
 - **Bruna & Shawn Mendes**: Detecta variações como "bruna", "marquezine", "shawn", "mendes"
+- **Vini Jr & Virgínia**: Detecta variações como "vini jr", "vini junior", "vinicius junior", "virginia", etc.
 
 ## 🤖 Automação (GitHub Actions)
 
