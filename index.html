@@ -246,10 +246,17 @@
 
         async function carregarDashboard() {
             try {
+                // Carrega config primeiro para saber quais casais estão ativos
+                await carregarConfig();
+
                 const response = await fetch('data.json');
                 const rawData = await response.json();
-                const news = Array.isArray(rawData) ? rawData : rawData.news;
+                const allNews = Array.isArray(rawData) ? rawData : rawData.news;
                 const lastUpdated = Array.isArray(rawData) ? null : rawData.last_updated;
+
+                // Filtra: só mostra matérias de casais que existem na config atual
+                const casaisAtivos = Object.keys(configAtual.regras_casais || {});
+                const news = allNews.filter(item => casaisAtivos.includes(item.casal_referenciado));
 
                 if (lastUpdated) {
                     const d = new Date(lastUpdated);
@@ -262,7 +269,6 @@
                 atualizarRanking(news);
                 atualizarRankingCasais(news);
                 atualizarListaAcervo(news);
-                carregarConfig();
             } catch (error) { console.error("Erro dashboard:", error); }
         }
 
