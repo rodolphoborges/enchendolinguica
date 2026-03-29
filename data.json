@@ -1,147 +1,41 @@
 {
-<<<<<<< HEAD
-  "last_updated": "2026-03-29T05:29:31.407Z",
-=======
-  "last_updated": "2026-03-29T05:45:43.044Z",
->>>>>>> 73543418dfd8023b3afbaebfc88df49ec9e21fe3
+  "last_updated": "2026-03-29T06:29:04.450Z",
   "news": [
-    {
-      "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
-      "casal_referenciado": "Paolla & Diogo",
-      "titulo": "[Paolla & Diogo] Enquanto isso, a economia vai bem, obrigado por perguntar.",
-      "veiculo": "UOL",
-      "data_publicacao": "2026-03-14",
-      "data_registro": "2026-03-14T02:43:28.008Z"
-    },
-    {
-      "url": "https://gshow.globo.com/cultura-pop/famosos/noticia/diogo-nogueira-fala-sobre-relacionamento-com-paolla-oliveira.ghtml",
-      "casal_referenciado": "Paolla & Diogo",
-      "titulo": "[Paolla & Diogo] O Nobel da Paz que espere, porque aqui tem amor no ar.",
-      "veiculo": "Globo.com",
-      "data_publicacao": "2026-03-14",
-      "data_registro": "2026-03-14T02:46:56.252Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/bruna-marquezine-e-questionada-sobre-shawn-mendes-e-reacao-viraliza-assista/",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "data_publicacao": "2026-03-18",
-      "data_registro": "2026-03-18T17:10:04.702Z"
-    },
-    {
-      "url": "https://caras.com.br/atualidades/bruna-marquezine-da-resposta-sincera-ao-ser-questionada-sobre-shawn-mendes.phtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
-      "veiculo": "Revista Caras",
-      "data_publicacao": "2026-03-18",
-      "data_registro": "2026-03-18T17:10:06.881Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/paolla-oliveira-reage-a-desabafo-de-diogo-nogueira-sobre-boatos-de-traicao-assista/",
-      "casal_referenciado": "Paolla & Diogo",
-      "titulo": "[Paolla & Diogo] Reportagem investigativa de alto nível: eles se olharam!",
-      "veiculo": "Hugo Gloss (UOL)",
-      "data_publicacao": "2026-03-18",
-      "data_registro": "2026-03-19T02:47:50.565Z"
-    },
-    {
-      "url": "https://www.uol.com.br/flash/?c=19cdd61cdc615ec6d132b9a66a50f420260324",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Breaking news: romance persiste apesar dos pesares.",
-      "veiculo": "UOL",
-      "data_publicacao": "2026-03-24",
-      "data_registro": "2026-03-24T12:00:00.000Z"
-    },
-    {
-      "url": "https://contigo.com.br/noticias/famosos/marquezine-e-shawn-mendes-as-consequencias-para-quem-nao-remover-as-fotos-privadas-do-casal.phtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Contigo! (UOL)",
-      "data_publicacao": "2026-03-27T20:59:02.000Z",
-      "data_registro": "2026-03-27T22:33:58.536Z"
-    },
-    {
-      "url": "https://portalleodias.com/famosos/marquezine-e-shawn-saiba-quais-sao-as-punicoes-para-paginas-que-nao-apagarem-fotos",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Notícia de última hora: o amor é lindo, e o clique é lucro.",
-      "veiculo": "Portal Leo Dias",
-      "data_publicacao": "2026-03-27T20:22:26.000Z",
-      "data_registro": "2026-03-27T22:33:59.619Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/03/sem-bruna-marquezine-shawn-mendes-caminha-em-praia-no-rio-de-janeiro.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Basta: o mundo para para ver o casal passear com o cachorro.",
-      "veiculo": "Revista Quem",
-      "data_publicacao": "2026-03-27T16:13:22.000Z",
-      "data_registro": "2026-03-27T22:34:00.324Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/famosos-na-praia/noticia/2026/03/casal-de-novela-bruna-marquezine-e-shawn-mendes-dao-mergulho-no-rio-entre-brincadeiras-e-beijos.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Mais uma prova de que o amor vence na vida real e nas telas.",
-      "veiculo": "Revista Quem",
-      "data_publicacao": "2026-03-26T22:32:19.000Z",
-      "data_registro": "2026-03-27T22:34:00.324Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/esportes/noticia/2026/03/virginia-fonseca-se-declara-para-vini-jr-apos-derrota-da-selecao-em-amistoso.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Revista Quem",
-      "data_publicacao": "2026-03-26T22:17:36.000Z",
-      "data_registro": "2026-03-27T22:43:52.574Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/03/irma-de-ze-felipe-assiste-jogo-de-vini-jr-ao-lado-de-virginia-nos-eua.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Revista Quem",
-      "data_publicacao": "2026-03-26T20:49:24.000Z",
-      "data_registro": "2026-03-27T22:43:52.574Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/bruna-marquezine-toma-medida-apos-flagra-intimo-com-shawn-mendes",
       "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "titulo": "[Bruna & Shawn Mendes] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
       "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
       "data_publicacao": "2026-03-28T00:56:53.000Z",
-      "data_registro": "2026-03-29T03:51:40.397Z"
+      "data_registro": "2026-03-29T06:28:55.754Z"
     },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/03/shawn-mendes-e-bruna-marquezine-viram-assunto-na-imprensa-internacional-apos-cliques-de-beijo.ghtml",
       "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Urgente: nada de novo no front, mas o feed precisa rodar.",
+      "titulo": "[Bruna & Shawn Mendes] Surpresa: celebridades demonstram afeto publicamente.",
       "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
       "data_publicacao": "2026-03-28T18:19:21.000Z",
-      "data_registro": "2026-03-29T03:51:52.179Z"
+      "data_registro": "2026-03-29T06:29:04.450Z"
     },
     {
       "url": "https://revistaquem.globo.com/viagem/noticia/2026/03/virginia-fonseca-e-vini-jr-passeiam-de-maos-dadas-por-parque-da-disney.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
+      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
       "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
       "data_publicacao": "2026-03-28T10:46:29.000Z",
-      "data_registro": "2026-03-29T03:51:52.179Z"
+      "data_registro": "2026-03-29T06:29:04.450Z"
     },
     {
-      "url": "https://caras.com.br/festas/saiba-qual-sera-o-tema-da-festa-de-1-ano-da-filha-de-neymar-jr-e-bruna-biancardi.phtml",
-      "casal_referenciado": "Neymar & Bruna Biancardi",
-      "titulo": "[Neymar & Bruna Biancardi] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "Revista Caras",
-      "categoria": "Real",
-      "data_publicacao": "2026-03-28T21:04:09.000Z",
-      "data_registro": "2026-03-29T04:01:07.099Z"
-    },
-    {
-      "url": "https://caras.com.br/kids/ze-felipe-revela-se-apoia-a-fama-dos-filhos-com-virginia-nao-quero-que.phtml",
-      "casal_referenciado": "Virginia & Zé Felipe",
-      "titulo": "[Virginia & Zé Felipe] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Revista Caras",
-      "categoria": "Real",
-      "data_publicacao": "2026-03-28T19:46:11.000Z",
-      "data_registro": "2026-03-29T04:01:07.100Z"
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/03/sem-bruna-marquezine-shawn-mendes-caminha-em-praia-no-rio-de-janeiro.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-03-27T16:13:22.000Z",
+      "data_registro": "2026-03-29T06:29:04.450Z"
     }
   ]
 }
