@@ -1,28 +1,24 @@
 # 🌭 Termômetro da Encheção de Linguiça
 
-O **Termômetro da Encheção de Linguiça** é um robô (scraper) e um dashboard para monitorar o esforço da internet em produzir notícias irrelevantes sobre casais de celebridades específicos. 
+O **Termômetro da Encheção de Linguiça** é um robô (scraper) e dashboard para monitorar o esforço da internet em produzir notícias irrelevantes sobre casais de celebridades específicos.
 
-Este projeto foi refatorado para ser **local-first**, utilizando um arquivo JSON para armazenamento, tornando-o independente de serviços de banco de dados externos como o Supabase.
+Projeto **local-first**, utilizando arquivos JSON para armazenamento e configuração — zero dependência de banco de dados externo.
 
 ## 🚀 Como Funciona
 
-1.  **Garimpo (Automático)**: Um script Node.js (`scraper.js`) lê diversos feeds RSS de portais de entretenimento.
-2.  **Filtro Cirúrgico Inteligente**: O sistema detecta automaticamente qual casal está sendo mencionado na URL/título usando sinônimos expandidos (ex: "paolla", "oliveira", "diogo", "nogueira" para Paolla & Diogo).
-3.  **Geração Automática de Frases Irônicas**: Ao invés de usar o título original, o sistema gera automaticamente uma frase irônica aleatória dentre mais de 50 opções, mantendo a proposta satírica do projeto.
-4.  **Acervo Local**: As notícias confirmadas são salvas em `data.json` com comentários sarcásticos.
-5.  **Dashboard**: Uma interface web (`index.html`) exibe:
-    - Total de fofocas catalogadas
-    - **Contador de tempo sem notícias** (baseado na publicação real)
-    - Gráfico de evolução temporal (Chart.js)
-    - Ranking dos portais e **dos casais** mais "produtivos"
+1.  **Garimpo Automático**: O script `scraper.js` lê 11+ feeds RSS de portais de entretenimento a cada 4 horas via GitHub Actions.
+2.  **Filtro Cirúrgico**: Detecta automaticamente qual casal está sendo mencionado usando termos configuráveis (ex: "paolla", "oliveira", "diogo", "nogueira").
+3.  **Frases Irônicas**: Substitui o título original por uma frase sarcástica gerada aleatoriamente (40+ opções).
+4.  **Categorização**: Cada casal possui uma categoria (Real, Fake Ship, Internacional) exibida como tag colorida no dashboard.
+5.  **Acervo Local**: Notícias confirmadas são salvas em `data.json` com metadados e timestamp de última atualização.
+6.  **Dashboard Premium**: Interface glassmorphism com contadores animados, gráficos, rankings e status do robô em tempo real.
 
 ## 🛠️ Tecnologias
 
-- **Node.js**: Motor do robô e servidor.
-- **Express**: Servidor local para o dashboard.
-- **RSS-Parser**: Para leitura de mais de 11 feeds de portais de elite (G1, Folha, UOL, Revista Quem, etc).
-- **Chart.js**: Para visualização dos dados.
-- **Tailwind CSS**: Estilização do dashboard.
+- **Node.js** + **Express**: Motor do robô e servidor local.
+- **RSS-Parser**: Leitura de 11+ feeds de portais (G1, Folha, UOL, Metrópoles, Revista Quem, etc).
+- **Chart.js**: Visualização de dados com gráficos estilizados.
+- **Tailwind CSS**: Estilização com tema dark e glassmorphism.
 - **GitHub Actions**: Automação do garimpo a cada 4 horas.
 
 ## 📦 Instalação
@@ -40,44 +36,80 @@ npm install
 
 ## 🖥️ Uso
 
+### Iniciar o Dashboard
+```bash
+npm start
+```
+Acesse: [http://localhost:3000](http://localhost:3000)
+
+> **Importante**: O dashboard deve ser acessado via `localhost:3000` para que todas as funcionalidades (salvar configurações, disparar varreduras) funcionem corretamente.
+
 ### Executar o Garimpo Manualmente
-Para rodar o robô agora mesmo e procurar novas fofocas:
 ```bash
 node scraper.js
 ```
 
-### Iniciar o Dashboard
-Para ver o gráfico e as estatísticas no seu navegador:
+### Rodar Testes de Validação
 ```bash
-node server.js
+npm test
 ```
-Acesse: [http://localhost:3000](http://localhost:3000)
 
+## ⚙️ Gestão Dinâmica de Casais
 
+O sistema permite adicionar e remover casais monitorados **diretamente pelo dashboard**, sem editar código:
 
-**Casais Monitorados:**
-- **Paolla & Diogo**: Detecta variações como "paolla", "paola", "oliveira", "diogo", "nogueira"
-- **Bruna & Shawn Mendes**: Detecta variações como "bruna", "marquezine", "shawn", "mendes"
-- **Vini Jr & Virgínia**: Detecta variações como "vini jr", "vini junior", "vinicius junior", "virginia", etc.
+1.  Acesse `http://localhost:3000`.
+2.  Clique no ícone de **Engrenagem** (⚙️) no canto inferior direito.
+3.  Na **Central de Inteligência**:
+    - **Adicionar**: Clique em "+ Adicionar Novo", preencha nome, termos de busca e categoria.
+    - **Remover**: Clique no ícone de lixeira (🗑️) ao lado do casal.
+4.  Clique em **"Sincronizar Arquivo"** para salvar no `config.json`.
+5.  Clique em **"Iniciar Varredura"** para buscar fofocas imediatamente.
+
+> **Nota**: Remover um casal oculta suas matérias do dashboard, mas preserva o histórico no `data.json`. Ao reativar o casal, as matérias reaparecem automaticamente.
+
+Alternativamente, você pode editar o arquivo `config.json` diretamente.
+
+## 📂 Estrutura do Projeto
+
+| Arquivo | Descrição |
+|---|---|
+| `index.html` | Dashboard com UI glassmorphism e painel de configurações |
+| `server.js` | Servidor Express com API de configuração (`GET/POST /config`, `POST /scrape`) |
+| `scraper.js` | Robô de garimpo modular (lê `config.json`) |
+| `config.json` | Configuração de feeds RSS, regras de casais e categorias |
+| `data.json` | Acervo de notícias com metadados (`last_updated`, `news[]`) |
+| `tests/validate-data.js` | Validação de integridade do acervo |
+| `.github/workflows/fofoca-bot.yml` | CI/CD — garimpo automático a cada 4h |
+
+## 📊 Formato dos Dados (`data.json`)
+
+```json
+{
+  "last_updated": "2026-03-29T05:29:31.407Z",
+  "news": [
+    {
+      "url": "https://...",
+      "casal_referenciado": "Paolla & Diogo",
+      "titulo": "[Paolla & Diogo] Frase irônica gerada.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Real",
+      "data_publicacao": "2026-03-14T...",
+      "data_registro": "2026-03-14T..."
+    }
+  ]
+}
+```
 
 ## 🤖 Automação (GitHub Actions)
 
-O projeto está configurado para rodar o `scraper.js` automaticamente via GitHub Actions. Toda vez que novas fofocas são encontradas, o robô faz um commit automático do `data.json` de volta para o repositório, garantindo que o dashboard esteja sempre atualizado.
+O workflow `fofoca-bot.yml` executa automaticamente a cada 4 horas:
+1.  Instala dependências.
+2.  Roda `npm test` (validação de integridade).
+3.  Executa `node scraper.js`.
+4.  Faz commit/push automático do `data.json` atualizado.
 
-## 📂 Formato dos Dados (`data.json`)
-
-```json
-[
-  {
-    "url": "https://...",
-    "casal_referenciado": "Nome do Casal",
-    "titulo": "Título da Notícia",
-    "veiculo": "Portal X",
-    "data_publicacao": "2026-03-14",
-    "data_registro": "2026-03-14T..."
-  }
-]
-```
+O workflow possui `permissions: contents: write` para permitir push automático.
 
 ---
 *Desenvolvido para monitorar a (falta de) utilidade pública das pautas jornalísticas modernas.*
