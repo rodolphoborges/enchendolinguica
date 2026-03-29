@@ -145,6 +145,7 @@ async function iniciarGarimpo() {
                             casal_referenciado: casal, 
                             titulo: `[${casal}] ${gerarFraseIronica()}`,
                             veiculo: feedConfig.veiculo,
+                            categoria: regras.categoria || 'Geral',
                             data_publicacao: dataPublicacaoReal,
                             data_registro: new Date().toISOString()
                         });

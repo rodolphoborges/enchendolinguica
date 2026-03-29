@@ -15,15 +15,33 @@
   "regras_casais": {
     "Paolla & Diogo": {
       "pessoaA": ["paolla", "paola", "oliveira"],
-      "pessoaB": ["diogo", "nogueira"]
+      "pessoaB": ["diogo", "nogueira"],
+      "categoria": "Real"
     },
     "Bruna & Shawn Mendes": {
       "pessoaA": ["bruna", "marquezine"],
-      "pessoaB": ["shawn", "mendes"]
+      "pessoaB": ["shawn", "mendes"],
+      "categoria": "Fake Ship"
     },
     "Vini Jr & Virgínia": {
-      "pessoaA": ["vinicius jr", "vinícius jr", "vini jr", "vini junior", "vinicius junior", "vinícius junior"],
-      "pessoaB": ["virginia", "virgínia"]
+      "pessoaA": ["vinicius jr", "vini jr", "vini junior", "vinicius junior", "vinícius junior"],
+      "pessoaB": ["virginia", "virgínia"],
+      "categoria": "Fake Ship"
+    },
+    "Neymar & Bruna Biancardi": {
+      "pessoaA": ["neymar"],
+      "pessoaB": ["bruna biancardi", "biancardi"],
+      "categoria": "Real"
+    },
+    "Virginia & Zé Felipe": {
+      "pessoaA": ["virginia", "virgínia"],
+      "pessoaB": ["ze felipe", "zé felipe"],
+      "categoria": "Real"
+    },
+    "Taylor & Travis": {
+      "pessoaA": ["taylor swift", "taylor"],
+      "pessoaB": ["travis kelce", "kelce"],
+      "categoria": "Internacional"
     }
   },
   "settings": {

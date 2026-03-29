@@ -3,7 +3,7 @@ const path = require('path');
 
 const DATA_FILE = path.join(__dirname, '..', 'data.json');
 
-console.log('🔍 Iniciando validação do acervo (data.json)...');
+console.log('🔍 Iniciando validação final do acervo (data.json) - Fase 3...');
 
 try {
     if (!fs.existsSync(DATA_FILE)) {
@@ -14,21 +14,25 @@ try {
     const conteudo = fs.readFileSync(DATA_FILE, 'utf-8');
     const root = JSON.parse(conteudo);
 
-    // Novo formato: { last_updated, news: [...] }
     if (!root.news || !Array.isArray(root.news)) {
-        console.error('❌ Erro: Estrutura inválida. Esperado { last_updated, news: [] }');
+        console.error('❌ Erro: Estrutura root inválida.');
         process.exit(1);
     }
 
     const dados = root.news;
-    const camposObrigatorios = ['url', 'casal_referenciado', 'titulo', 'veiculo', 'data_publicacao', 'data_registro'];
+    const camposObrigatorios = ['url', 'casal_referenciado', 'titulo', 'veiculo', 'data_publicacao', 'data_registro', 'categoria'];
     let erros = 0;
 
     dados.forEach((registro, index) => {
         camposObrigatorios.forEach(campo => {
             if (!registro[campo]) {
-                console.error(`❌ Registro [${index}]: Campo '${campo}' está ausente ou vazio.`);
-                erros++;
+                // Para registros legados, a categoria pode faltar, mas avisamos
+                if (campo === 'categoria') {
+                    console.warn(`⚠️ Registro [${index}]: Campo 'categoria' ausente (Legado).`);
+                } else {
+                    console.error(`❌ Registro [${index}]: Campo '${campo}' está ausente ou vazio.`);
+                    erros++;
+                }
             }
         });
 
@@ -39,12 +43,12 @@ try {
     });
 
     if (erros > 0) {
-        console.error(`\n❌ Falha na validação: ${erros} erros encontrados.`);
+        console.error(`\n❌ Falha na validação: ${erros} erros detectados.`);
         process.exit(1);
     }
 
     console.log(`✅ Sucesso! Acervo de ${dados.length} notícias validado com sucesso.`);
-    console.log(`🕒 Última atualização registrada: ${root.last_updated}`);
+    console.log(`🕒 Última sincronização: ${root.last_updated}`);
     process.exit(0);
 
 } catch (e) {

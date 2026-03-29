@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T03:59:09.393Z",
+  "last_updated": "2026-03-29T04:01:07.220Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -120,6 +120,24 @@
       "veiculo": "Revista Quem",
       "data_publicacao": "2026-03-28T10:46:29.000Z",
       "data_registro": "2026-03-29T03:51:52.179Z"
+    },
+    {
+      "url": "https://caras.com.br/festas/saiba-qual-sera-o-tema-da-festa-de-1-ano-da-filha-de-neymar-jr-e-bruna-biancardi.phtml",
+      "casal_referenciado": "Neymar & Bruna Biancardi",
+      "titulo": "[Neymar & Bruna Biancardi] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Caras",
+      "categoria": "Real",
+      "data_publicacao": "2026-03-28T21:04:09.000Z",
+      "data_registro": "2026-03-29T04:01:07.099Z"
+    },
+    {
+      "url": "https://caras.com.br/kids/ze-felipe-revela-se-apoia-a-fama-dos-filhos-com-virginia-nao-quero-que.phtml",
+      "casal_referenciado": "Virginia & Zé Felipe",
+      "titulo": "[Virginia & Zé Felipe] Urgente: casal continua respirando o mesmo oxigênio.",
+      "veiculo": "Revista Caras",
+      "categoria": "Real",
+      "data_publicacao": "2026-03-28T19:46:11.000Z",
+      "data_registro": "2026-03-29T04:01:07.100Z"
     }
   ]
 }
