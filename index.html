@@ -268,17 +268,33 @@
 
         async function carregarConfig() {
             try {
-                const res = await fetch('/config');
+                const res = await fetch('config.json');
+                if (!res.ok) throw new Error("Não foi possível carregar config.json");
                 configAtual = await res.json();
                 renderizarConfig();
-            } catch (e) { console.error("Erro config:", e); }
+            } catch (e) { 
+                console.error("Erro config:", e);
+                document.getElementById('lista-config-casais').innerHTML = `
+                    <div class="col-span-2 p-6 border border-white/5 rounded-xl text-center">
+                        <p class="text-[10px] font-bold text-zinc-600 uppercase tracking-widest">Erro ao carregar configurações.</p>
+                        <p class="text-[8px] text-zinc-700 pt-1">Certifique-se de estar rodando o servidor com "npm start".</p>
+                    </div>
+                `;
+            }
         }
 
         function renderizarConfig() {
             const container = document.getElementById('lista-config-casais');
             container.innerHTML = '';
             
-            Object.entries(configAtual.regras_casais).forEach(([nome, regras]) => {
+            const casais = Object.entries(configAtual.regras_casais || {});
+            
+            if (casais.length === 0) {
+                container.innerHTML = '<div class="col-span-2 p-4 text-center text-zinc-600 text-[10px] uppercase font-bold tracking-widest">Nenhum alvo configurado.</div>';
+                return;
+            }
+
+            casais.forEach(([nome, regras]) => {
                 const li = document.createElement('li');
                 li.className = "flex items-center justify-between p-4 glass-card rounded-xl border border-white/5";
                 li.innerHTML = `
