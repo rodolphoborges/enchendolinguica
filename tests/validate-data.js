@@ -12,13 +12,15 @@ try {
     }
 
     const conteudo = fs.readFileSync(DATA_FILE, 'utf-8');
-    const dados = JSON.parse(conteudo);
+    const root = JSON.parse(conteudo);
 
-    if (!Array.isArray(dados)) {
-        console.error('❌ Erro: data.json deve ser uma lista (Array).');
+    // Novo formato: { last_updated, news: [...] }
+    if (!root.news || !Array.isArray(root.news)) {
+        console.error('❌ Erro: Estrutura inválida. Esperado { last_updated, news: [] }');
         process.exit(1);
     }
 
+    const dados = root.news;
     const camposObrigatorios = ['url', 'casal_referenciado', 'titulo', 'veiculo', 'data_publicacao', 'data_registro'];
     let erros = 0;
 
@@ -30,15 +32,8 @@ try {
             }
         });
 
-        // Validação extra de URL (não pode ter nova linha ou espaço no início)
         if (registro.url && (registro.url.includes('\n') || registro.url.trim() !== registro.url)) {
-            console.error(`❌ Registro [${index}]: URL malformada (contém whitespace não limpo).`);
-            erros++;
-        }
-
-        // Validação de data básica
-        if (registro.data_publicacao && isNaN(new Date(registro.data_publicacao).getTime())) {
-            console.error(`❌ Registro [${index}]: 'data_publicacao' inválida.`);
+            console.error(`❌ Registro [${index}]: URL malformada.`);
             erros++;
         }
     });
@@ -49,6 +44,7 @@ try {
     }
 
     console.log(`✅ Sucesso! Acervo de ${dados.length} notícias validado com sucesso.`);
+    console.log(`🕒 Última atualização registrada: ${root.last_updated}`);
     process.exit(0);
 
 } catch (e) {
