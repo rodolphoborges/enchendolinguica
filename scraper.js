@@ -162,7 +162,7 @@ async function iniciarGarimpo() {
 
             for (const item of feed.items) {
                 const titulo = item.title || '';
-                const link = item.link || '';
+                const link = (item.link || '').trim();
                 const dataPublicacaoReal = item.isoDate || item.pubDate || new Date().toISOString();
                 const textoAnalise = `${titulo} ${link}`.toLowerCase();
 
