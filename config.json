@@ -1,47 +1,87 @@
 {
   "feeds": [
-    { "veiculo": "G1 Pop & Arte", "url": "https://g1.globo.com/dynamo/pop-arte/rss2.xml" },
-    { "veiculo": "Folha de S.Paulo", "url": "https://feeds.folha.uol.com.br/rss091.xml" },
-    { "veiculo": "Metrópoles Leo Dias", "url": "https://www.metropoles.com/colunas/leo-dias/feed" },
-    { "veiculo": "Metrópoles Celebridades", "url": "https://www.metropoles.com/celebridades/feed" },
-    { "veiculo": "UOL Splash", "url": "https://rss.uol.com.br/feed/noticias.xml" },
-    { "veiculo": "Extra Famosos", "url": "https://extra.globo.com/famosos/rss.xml" },
-    { "veiculo": "Contigo! (UOL)", "url": "https://contigo.uol.com.br/rss" },
-    { "veiculo": "Hugo Gloss (UOL)", "url": "https://hugogloss.uol.com.br/feed/" },
-    { "veiculo": "Portal Leo Dias", "url": "https://portalleodias.com/feed/" },
-    { "veiculo": "Revista Caras", "url": "https://caras.uol.com.br/feed/" },
-    { "veiculo": "Revista Quem", "url": "https://revistaquem.globo.com/rss/quem" }
+    {
+      "veiculo": "G1 Pop & Arte",
+      "url": "https://g1.globo.com/dynamo/pop-arte/rss2.xml"
+    },
+    {
+      "veiculo": "Folha de S.Paulo",
+      "url": "https://feeds.folha.uol.com.br/rss091.xml"
+    },
+    {
+      "veiculo": "Metrópoles Leo Dias",
+      "url": "https://www.metropoles.com/colunas/leo-dias/feed"
+    },
+    {
+      "veiculo": "Metrópoles Celebridades",
+      "url": "https://www.metropoles.com/celebridades/feed"
+    },
+    {
+      "veiculo": "UOL Splash",
+      "url": "https://rss.uol.com.br/feed/noticias.xml"
+    },
+    {
+      "veiculo": "Extra Famosos",
+      "url": "https://extra.globo.com/famosos/rss.xml"
+    },
+    {
+      "veiculo": "Contigo! (UOL)",
+      "url": "https://contigo.uol.com.br/rss"
+    },
+    {
+      "veiculo": "Hugo Gloss (UOL)",
+      "url": "https://hugogloss.uol.com.br/feed/"
+    },
+    {
+      "veiculo": "Portal Leo Dias",
+      "url": "https://portalleodias.com/feed/"
+    },
+    {
+      "veiculo": "Revista Caras",
+      "url": "https://caras.uol.com.br/feed/"
+    },
+    {
+      "veiculo": "Revista Quem",
+      "url": "https://revistaquem.globo.com/rss/quem"
+    }
   ],
   "regras_casais": {
     "Paolla & Diogo": {
-      "pessoaA": ["paolla", "paola", "oliveira"],
-      "pessoaB": ["diogo", "nogueira"],
+      "pessoaA": [
+        "paolla",
+        "paola",
+        "oliveira"
+      ],
+      "pessoaB": [
+        "diogo",
+        "nogueira"
+      ],
       "categoria": "Real"
     },
     "Bruna & Shawn Mendes": {
-      "pessoaA": ["bruna", "marquezine"],
-      "pessoaB": ["shawn", "mendes"],
+      "pessoaA": [
+        "bruna",
+        "marquezine"
+      ],
+      "pessoaB": [
+        "shawn",
+        "mendes"
+      ],
       "categoria": "Fake Ship"
     },
     "Vini Jr & Virgínia": {
-      "pessoaA": ["vinicius jr", "vini jr", "vini junior", "vinicius junior", "vinícius junior"],
-      "pessoaB": ["virginia", "virgínia"],
+      "pessoaA": [
+        "vinicius jr",
+        "vini jr",
+        "vini junior",
+        "vinicius junior",
+        "vinícius junior"
+      ],
+      "pessoaB": [
+        "virginia",
+        "virgínia"
+      ],
       "categoria": "Fake Ship"
-    },
-    "Neymar & Bruna Biancardi": {
-      "pessoaA": ["neymar"],
-      "pessoaB": ["bruna biancardi", "biancardi"],
-      "categoria": "Real"
-    },
-    "Virginia & Zé Felipe": {
-      "pessoaA": ["virginia", "virgínia"],
-      "pessoaB": ["ze felipe", "zé felipe"],
-      "categoria": "Real"
-    },
-    "Taylor & Travis": {
-      "pessoaA": ["taylor swift", "taylor"],
-      "pessoaB": ["travis kelce", "kelce"],
-      "categoria": "Internacional"
     }
   },
   "settings": {
