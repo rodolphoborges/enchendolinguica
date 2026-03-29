@@ -28,6 +28,9 @@ jobs:
     - name: Executar o Scraper
       run: node scraper.js
 
+    - name: Validar integridade dos dados (data.json)
+      run: npm test
+
     - name: Configurar o Usuário do Git
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
