@@ -6,6 +6,9 @@ on:
     - cron: '0 */4 * * *'
   workflow_dispatch: # Permite correr o script manualmente
 
+permissions:
+  contents: write
+
 jobs:
   garimpar_noticias:
     runs-on: ubuntu-latest
