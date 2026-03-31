@@ -69,6 +69,8 @@ function carregarDados() {
     try {
         if (!fs.existsSync(DATA_FILE)) return { last_updated: null, news: [] };
         const conteudo = fs.readFileSync(DATA_FILE, 'utf-8');
+        if (!conteudo.trim()) return { last_updated: null, news: [] };
+        
         const parsed = JSON.parse(conteudo);
         // Migração suave se for o formato antigo (array)
         if (Array.isArray(parsed)) {
@@ -76,7 +78,10 @@ function carregarDados() {
         }
         return parsed;
     } catch (e) {
-        return { last_updated: null, news: [] };
+        console.error(`❌ ERRO FATAL: Falha ao ler ou processar o arquivo de dados (${DATA_FILE}).`);
+        console.error(`Detalhes: ${e.message}`);
+        console.error("O processo foi interrompido para evitar a perda permanente de registros.");
+        process.exit(1);
     }
 }
 
@@ -86,7 +91,16 @@ function salvarDados(dados) {
         dados.news = dados.news.slice(-CONFIG.settings.max_noticias);
     }
     dados.last_updated = new Date().toISOString();
-    fs.writeFileSync(DATA_FILE, JSON.stringify(dados, null, 2));
+    
+    // Backup antes de salvar
+    try {
+        if (fs.existsSync(DATA_FILE)) {
+            fs.copyFileSync(DATA_FILE, `${DATA_FILE}.bak`);
+        }
+        fs.writeFileSync(DATA_FILE, JSON.stringify(dados, null, 2));
+    } catch (err) {
+        console.error(`❌ Erro ao salvar dados no arquivo: ${err.message}`);
+    }
 }
 
 function limparXML(xml) {
@@ -137,7 +151,9 @@ async function iniciarGarimpo() {
                     const temPessoaB = regras.pessoaB.some(termo => textoAnalise.includes(termo));
 
                     if (temPessoaA && temPessoaB) {
-                        if (acervo.news.some(m => m.url === link)) continue;
+                        // Sanitização básica de URL para evitar duplicatas por parâmetros de tracking
+                        const linkBase = link.split('?')[0].toLowerCase().trim();
+                        if (acervo.news.some(m => m.url.split('?')[0].toLowerCase().trim() === linkBase)) continue;
 
                         console.log(`🚨 Fofoca Confirmada! [${casal}] -> ${titulo}`);
                         acervo.news.push({ 
