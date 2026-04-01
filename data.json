@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T20:51:10.383Z",
+  "last_updated": "2026-04-01T03:24:33.542Z",
   "news": [
     {
       "url": "https://www.metropoles.com/celebridades/bruna-marquezine-toma-medida-apos-flagra-intimo-com-shawn-mendes",
@@ -54,6 +54,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-03-31T10:25:48.000Z",
       "data_registro": "2026-03-31T13:41:24.537Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-leva-filhos-para-assistir-a-vini-jr-em-jogo-do-brasil-veja-fotos",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-03-31T23:24:18.000Z",
+      "data_registro": "2026-04-01T03:24:27.279Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/em-orlando-virginia-usa-camisa-10-de-vini-jr-e-rouba-a-cena-ao-lado-dos-filhos-antes-de-amistoso",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Incrível: o carinho mútuo ainda é legalizado por lei.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-03-31T23:19:25.000Z",
+      "data_registro": "2026-04-01T03:24:31.866Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/03/virginia-usa-camisa-10-de-vini-jr-para-jogo-da-selecao-nos-eua.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-03-31T21:04:50.000Z",
+      "data_registro": "2026-04-01T03:24:33.542Z"
     }
   ]
 }
