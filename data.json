@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T16:51:06.114Z",
+  "last_updated": "2026-04-03T20:44:25.270Z",
   "news": [
     {
       "url": "https://www.metropoles.com/celebridades/bruna-marquezine-toma-medida-apos-flagra-intimo-com-shawn-mendes",
@@ -117,6 +117,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-03T06:00:09.000Z",
       "data_registro": "2026-04-03T09:03:07.316Z"
+    },
+    {
+      "url": "https://caras.com.br/atualidades/bruna-marquezine-e-shawn-mendes-esbanjam-romantismo-em-flagra-no-aeroporto.phtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+      "veiculo": "Revista Caras",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-03T18:48:25.000Z",
+      "data_registro": "2026-04-03T20:44:24.118Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/bruna-marquezine-e-shawn-mendes-desembarcam-no-aeroporto-do-galeao.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Bomba: eles foram vistos em um lugar, fazendo coisas.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-03T17:19:37.000Z",
+      "data_registro": "2026-04-03T20:44:25.269Z"
     }
   ]
 }
