@@ -432,6 +432,13 @@
 
         function atualizarRankingCasais(data) {
             const counts = data.reduce((acc, item) => { acc[item.casal_referenciado] = (acc[item.casal_referenciado] || 0) + 1; return acc; }, {});
+            
+            // Garantir que todos os casais da config apareçam no ranking, mesmo com 0
+            const todosOsCasais = Object.keys(configAtual.regras_casais || {});
+            todosOsCasais.forEach(nome => {
+                if (!counts[nome]) counts[nome] = 0;
+            });
+
             const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
             const container = document.getElementById('ranking-casais-lista');
             container.innerHTML = sorted.map(([v, c]) => `<li class="flex justify-between items-center p-3 glass-card rounded-xl"><span class="text-[10px] font-black uppercase tracking-widest text-zinc-400">${v}</span><span class="text-xs font-black text-rose-500">${c}</span></li>`).join('');
