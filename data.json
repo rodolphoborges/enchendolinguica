@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T08:51:11.030Z",
+  "last_updated": "2026-04-04T13:09:27.362Z",
   "news": [
     {
       "url": "https://www.metropoles.com/celebridades/bruna-marquezine-toma-medida-apos-flagra-intimo-com-shawn-mendes",
@@ -171,6 +171,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-03T23:03:04.000Z",
       "data_registro": "2026-04-04T02:43:06.362Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/mae-de-virginia-se-pronuncia-apos-curtir-post-sobre-traicao-de-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-04T11:23:56.000Z",
+      "data_registro": "2026-04-04T13:09:21.127Z"
+    },
+    {
+      "url": "https://caras.com.br/atualidades/mae-de-virginia-justifica-curtida-em-post-sobre-namoro-da-filha-com-vini-jr.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo: paparazzi confirmam que eles comem comida, como humanos.",
+      "veiculo": "Revista Caras",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-04T12:12:36.000Z",
+      "data_registro": "2026-04-04T13:09:26.403Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/mae-de-virginia-diz-que-curtida-foi-sem-querer.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-04T10:24:13.000Z",
+      "data_registro": "2026-04-04T13:09:27.361Z"
     }
   ]
 }
