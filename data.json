@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T13:09:27.362Z",
+  "last_updated": "2026-04-04T16:43:52.990Z",
   "news": [
     {
       "url": "https://www.metropoles.com/celebridades/bruna-marquezine-toma-medida-apos-flagra-intimo-com-shawn-mendes",
@@ -198,6 +198,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-04T10:24:13.000Z",
       "data_registro": "2026-04-04T13:09:27.361Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/apaixonados-bruna-marquezine-e-shawn-mendes-sao-flagrados-em-aeroporto-no-rio.phtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-04T15:12:43.000Z",
+      "data_registro": "2026-04-04T16:43:46.078Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/mae-de-virginia-curte-post-sobre-traicao-de-vini-jr-e-se-explica.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-04T14:24:59.000Z",
+      "data_registro": "2026-04-04T16:43:46.079Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/margareth-serrao-diz-que-curtida-sobre-suposta-crise-de-virginia-e-vini-jr-foi-acidental",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Mais uma prova de que o amor vence na vida real e nas telas.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-04T14:40:04.000Z",
+      "data_registro": "2026-04-04T16:43:50.459Z"
     }
   ]
 }
