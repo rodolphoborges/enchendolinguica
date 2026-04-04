@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T20:44:25.270Z",
+  "last_updated": "2026-04-04T02:43:06.363Z",
   "news": [
     {
       "url": "https://www.metropoles.com/celebridades/bruna-marquezine-toma-medida-apos-flagra-intimo-com-shawn-mendes",
@@ -135,6 +135,42 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-03T17:19:37.000Z",
       "data_registro": "2026-04-03T20:44:25.269Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/margareth-serrao-reage-a-suposta-crise-entre-virginia-e-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta máximo: demonstração de carinho em via pública.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-03T23:11:21.000Z",
+      "data_registro": "2026-04-04T02:43:00.862Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/vini-jr-reage-a-post-de-virginia-e-se-declara-apaixonado-por-voce",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo: paparazzi confirmam que eles comem comida, como humanos.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-04T02:34:28.000Z",
+      "data_registro": "2026-04-04T02:43:04.811Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/clima-de-romance-bruna-marquezine-e-shawn-mendes-sao-flagrados-em-aeroporto-do-rio",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-03T21:09:34.000Z",
+      "data_registro": "2026-04-04T02:43:04.811Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/vini-jr-se-declara-para-virginia-fonseca.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-03T23:03:04.000Z",
+      "data_registro": "2026-04-04T02:43:06.362Z"
     }
   ]
 }
