@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T08:53:36.041Z",
+  "last_updated": "2026-04-05T13:11:23.111Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -279,6 +279,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-04T22:57:03.000Z",
       "data_registro": "2026-04-05T03:19:29.603Z"
+    },
+    {
+      "url": "https://caras.com.br/festas/filhos-de-virginia-fonseca-roubam-a-cena-em-caca-aos-ovos-de-pascoa-na-mansao-de-vini-jr.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
+      "veiculo": "Revista Caras",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-05T12:24:31.000Z",
+      "data_registro": "2026-04-05T13:11:22.344Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/04/virginia-fonseca-comemora-pascoa.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-05T11:07:04.000Z",
+      "data_registro": "2026-04-05T13:11:23.110Z"
     }
   ]
 }
