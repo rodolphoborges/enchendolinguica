@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T20:40:04.481Z",
+  "last_updated": "2026-04-05T03:19:29.604Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -20,13 +20,13 @@
       "data_registro": "2026-03-14T02:46:56.000Z"
     },
     {
-      "url": "https://hugogloss.uol.com.br/famosos/paolla-oliveira-reage-a-desabafo-de-diogo-nogueira-sobre-boatos-de-traicao-assista/",
-      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
-      "titulo": "[Paolla Oliveira & Diogo Nogueira] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
+      "url": "https://hugogloss.uol.com.br/famosos/bruna-marquezine-e-questionada-sobre-shawn-mendes-e-reacao-viraliza-assista/",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Investigação minuciosa aponta: romance segue firme e forte.",
       "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Real",
-      "data_publicacao": "2026-03-18T00:00:00.000Z",
-      "data_registro": "2026-03-19T02:47:50.000Z"
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-03-18T17:10:04.000Z",
+      "data_registro": "2026-03-18T17:10:04.000Z"
     },
     {
       "url": "https://caras.com.br/atualidades/bruna-marquezine-da-resposta-sincera-ao-ser-questionada-sobre-shawn-mendes.phtml",
@@ -38,13 +38,13 @@
       "data_registro": "2026-03-18T17:10:06.000Z"
     },
     {
-      "url": "https://hugogloss.uol.com.br/famosos/bruna-marquezine-e-questionada-sobre-shawn-mendes-e-reacao-viraliza-assista/",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Investigação minuciosa aponta: romance segue firme e forte.",
+      "url": "https://hugogloss.uol.com.br/famosos/paolla-oliveira-reage-a-desabafo-de-diogo-nogueira-sobre-boatos-de-traicao-assista/",
+      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
+      "titulo": "[Paolla Oliveira & Diogo Nogueira] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
       "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-03-18T17:10:04.000Z",
-      "data_registro": "2026-03-18T17:10:04.000Z"
+      "categoria": "Real",
+      "data_publicacao": "2026-03-18T00:00:00.000Z",
+      "data_registro": "2026-03-19T02:47:50.000Z"
     },
     {
       "url": "https://www.metropoles.com/celebridades/bruna-marquezine-toma-medida-apos-flagra-intimo-com-shawn-mendes",
@@ -270,6 +270,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-04T14:40:04.000Z",
       "data_registro": "2026-04-04T16:43:50.459Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/hora-de-dar-tchau-shawn-mendes-embarca-em-aeroporto-do-rio-sem-bruna-marquezine.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Furo de reportagem: casal não terminou (ainda).",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-04T22:57:03.000Z",
+      "data_registro": "2026-04-05T03:19:29.603Z"
     }
   ]
 }
