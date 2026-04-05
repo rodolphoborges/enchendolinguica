@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T13:11:23.111Z",
+  "last_updated": "2026-04-05T16:43:51.262Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -297,6 +297,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-05T11:07:04.000Z",
       "data_registro": "2026-04-05T13:11:23.110Z"
+    },
+    {
+      "url": "https://caras.com.br/atualidades/virginia-fonseca-ganha-chocolate-brancos-com-valor-chocante-de-vini-jr-na-pascoa.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Impactante: evidências de que o amor permanece.",
+      "veiculo": "Revista Caras",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-05T14:03:21.000Z",
+      "data_registro": "2026-04-05T16:43:50.259Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/virginia-fonseca-ganha-ovos-de-pascoa.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-05T13:03:54.000Z",
+      "data_registro": "2026-04-05T16:43:51.261Z"
     }
   ]
 }
