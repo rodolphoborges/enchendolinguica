@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-06T16:57:16.616Z",
+  "last_updated": "2026-04-06T20:43:47.451Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -387,6 +387,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-06T13:59:43.000Z",
       "data_registro": "2026-04-06T16:57:16.615Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/amigos-dizem-que-virginia-fonseca-tem-pressa-para-dormir-com-vini-em-madri-veja-reacao-dela.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-06T19:17:38.000Z",
+      "data_registro": "2026-04-06T20:43:47.450Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/virginia-reage-a-mensagem-de-parabens-de-vini-jr-no-aniversario.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-06T17:45:26.000Z",
+      "data_registro": "2026-04-06T20:43:47.450Z"
     }
   ]
 }
