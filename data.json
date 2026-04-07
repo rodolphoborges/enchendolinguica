@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T17:08:54.581Z",
+  "last_updated": "2026-04-07T20:55:56.658Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -423,6 +423,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-07T09:55:06.000Z",
       "data_registro": "2026-04-07T13:44:14.235Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/virginia-usa-saia-diferentona-em-jogo-de-vini-jr-e-vira-piada-misericordia.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta máximo: demonstração de carinho em via pública.",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-07T20:43:06.000Z",
+      "data_registro": "2026-04-07T20:55:52.237Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/virginia-fonseca-posa-com-a-mae-que-diz-dia-de-torcer-muito.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-07T18:33:01.000Z",
+      "data_registro": "2026-04-07T20:55:56.657Z"
     }
   ]
 }
