@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-08T13:47:29.536Z",
+  "last_updated": "2026-04-08T17:12:15.380Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -441,6 +441,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-07T18:33:01.000Z",
       "data_registro": "2026-04-07T20:55:56.657Z"
+    },
+    {
+      "url": "https://caras.com.br/atualidades/aos-27-anos-virginia-elege-bolsa-de-grife-para-prestigiar-vini-jr-em-estadio-saiba-o-valor.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Caras",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-08T16:20:58.000Z",
+      "data_registro": "2026-04-08T17:12:14.609Z"
     }
   ]
 }
