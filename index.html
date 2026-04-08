@@ -18,14 +18,19 @@
                 extend: {
                     fontFamily: {
                         sans: ['Outfit', 'sans-serif'],
+                        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
                     },
                     colors: {
-                        zincbg: '#020202',
-                        zinccard: '#0a0a0b',
+                        obsidian: '#020202',
+                        zincbg: '#0a0a0b',
                         accent: {
-                            DEFAULT: '#f43f5e', // rose-500
-                            muted: '#e11d48'   // rose-600
+                            DEFAULT: '#f43f5e', // Rose-500
+                            muted: '#e11d48',   // Rose-600
                         }
+                    },
+                    boxShadow: {
+                        'premium': '0 0 0 1px rgba(255, 255, 255, 0.05), 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 40px -15px rgba(244, 63, 94, 0.1)',
+                        'premium-hover': '0 0 0 1px rgba(244, 63, 94, 0.2), 0 20px 40px -15px rgba(0, 0, 0, 0.6), 0 0 50px -10px rgba(244, 63, 94, 0.15)',
                     },
                     animation: {
                         'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
@@ -42,48 +47,74 @@
         }
     </script>
     <style>
+        :root {
+            --obsidian: #020202;
+            --rose: #f43f5e;
+            --zinc-400: #a1a1aa;
+            --zinc-600: #52525b;
+            --glass-panel: rgba(10, 10, 11, 0.7);
+            --glass-card: rgba(18, 18, 20, 0.4);
+        }
+
         body {
-            background-color: #020202;
+            background-color: var(--obsidian);
             color: #fafafa;
             background-image: 
-                radial-gradient(circle at 0% 0%, rgba(244, 63, 94, 0.05) 0%, transparent 50%),
-                radial-gradient(circle at 100% 100%, rgba(244, 63, 94, 0.05) 0%, transparent 50%);
+                radial-gradient(circle at 10% 10%, rgba(244, 63, 94, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(244, 63, 94, 0.05) 0%, transparent 40%);
+            background-attachment: fixed;
         }
         
-        /* Glassmorphism Classes */
         .glass-panel {
-            background: rgba(10, 10, 11, 0.7);
+            background: var(--glass-panel);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
         }
 
         .glass-card {
-            background: rgba(18, 18, 20, 0.4);
+            background: var(--glass-card);
             backdrop-filter: blur(8px);
             border: 1px solid rgba(255, 255, 255, 0.03);
+            box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.3);
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .glass-card:hover {
-            background: rgba(244, 63, 94, 0.03);
+            background: rgba(244, 63, 94, 0.04);
             border-color: rgba(244, 63, 94, 0.2);
+            box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px -5px rgba(244, 63, 94, 0.1);
             transform: translateY(-2px);
         }
 
-        /* Scrollbar Personalizada Premium */
+        /* Typography Hierarchy Enhancements */
+        .text-header-xs {
+            font-size: 0.625rem;
+            font-weight: 900;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+        }
+
+        .text-meta {
+            font-size: 0.5625rem;
+            font-weight: 900;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+
+        /* Custom Scrollbar */
         .custom-scrollbar::-webkit-scrollbar {
-            width: 3px;
+            width: 4px;
         }
         .custom-scrollbar::-webkit-scrollbar-track {
             background: transparent; 
         }
         .custom-scrollbar::-webkit-scrollbar-thumb {
-            background: rgba(244, 63, 94, 0.2);
+            background: rgba(255, 255, 255, 0.05);
             border-radius: 10px;
         }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-            background: rgba(244, 63, 94, 0.5);
+        .custom-scrollbar:hover::-webkit-scrollbar-thumb {
+            background: rgba(244, 63, 94, 0.2);
         }
 
         #modal-config {
@@ -102,8 +133,8 @@
         <div class="glass-panel w-full max-w-2xl max-h-[90vh] rounded-3xl overflow-hidden flex flex-col">
             <header class="p-6 border-b border-white/5 flex items-center justify-between">
                 <div>
-                    <h2 class="text-xl font-black tracking-tight text-white">Central de Inteligência</h2>
-                    <p class="text-xs text-zinc-500 font-bold uppercase tracking-widest pt-1">Gerencie alvos e feeds</p>
+                    <h2 class="text-xl font-black tracking-tight text-white italic">Central de Inteligência</h2>
+                    <p class="text-meta text-accent pt-1">Gerencie alvos e feeds</p>
                 </div>
                 <button onclick="toggleModal()" class="p-2 hover:bg-white/5 rounded-full transition-colors text-zinc-400">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
@@ -114,8 +145,8 @@
                 <!-- Seção de Casais -->
                 <section class="space-y-6">
                     <div class="flex items-center justify-between">
-                        <h3 class="text-zinc-400 font-black uppercase text-[10px] tracking-[0.3em]">Casais Monitorados</h3>
-                        <button onclick="document.getElementById('form-novo-casal').classList.toggle('hidden')" class="text-[10px] font-black text-rose-500 uppercase tracking-widest hover:text-rose-400 transition-colors">+ Adicionar Novo</button>
+                        <h3 class="text-header-xs text-zinc-500">Casais Monitorados</h3>
+                        <button onclick="document.getElementById('form-novo-casal').classList.toggle('hidden')" class="text-meta text-accent hover:text-accent-muted transition-colors">+ Adicionar Novo</button>
                     </div>
                     
                     <div id="form-novo-casal" class="hidden glass-card p-6 rounded-2xl space-y-4 border-rose-500/20 border">
@@ -140,9 +171,9 @@
                 </section>
 
                 <!-- Seção de Feeds -->
-                <section class="space-y-6 opacity-50 cursor-not-allowed">
-                    <h3 class="text-zinc-400 font-black uppercase text-[10px] tracking-[0.3em]">Fontes RSS (Em breve)</h3>
-                    <div class="p-4 bg-white/5 rounded-xl text-[10px] text-zinc-500 uppercase tracking-widest font-bold text-center">Edição de feeds desativada nesta versão da interface</div>
+                <section class="space-y-6 opacity-30 cursor-not-allowed grayscale">
+                    <h3 class="text-header-xs text-zinc-500">Fontes RSS (Em breve)</h3>
+                    <div class="p-4 bg-white/5 rounded-xl text-meta text-zinc-600 text-center">Edição de feeds desativada nesta versão da interface</div>
                 </section>
 
                 <!-- Ações Globais -->
@@ -171,15 +202,15 @@
 
         <header class="text-center space-y-6 relative">
             <div class="inline-flex items-center gap-2 px-3 py-1 bg-white/5 border border-white/10 rounded-full mb-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-pulse"></span>
-                <span id="ultima-atualizacao" class="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-400">Aguardando dados...</span>
+                <span class="w-1.5 h-1.5 rounded-full bg-accent animate-pulse shadow-[0_0_8px_rgba(244,63,94,0.8)]"></span>
+                <span id="ultima-atualizacao" class="text-meta text-zinc-400">Aguardando dados...</span>
             </div>
             
             <h1 class="text-6xl md:text-8xl font-black tracking-tighter text-white flex flex-col leading-[0.9]">
-                <span class="text-rose-500 text-xs font-black uppercase tracking-[0.5em] mb-4">The Absolute Audit</span>
+                <span class="text-header-xs text-accent mb-4">The Absolute Audit</span>
                 <span class="relative">
                     Encheção de <br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-rose-400 to-rose-300">Linguiça</span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent via-accent/80 to-accent/60">Linguiça</span>
                 </span>
             </h1>
             
@@ -190,15 +221,15 @@
 
         <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="glass-panel p-10 rounded-3xl flex flex-col items-center justify-center text-center space-y-2 group">
-                <h3 class="text-zinc-600 uppercase text-[10px] font-black tracking-[0.4em] group-hover:text-rose-500 transition-colors">Notícias no Acervo</h3>
+                <h3 class="text-header-xs text-zinc-500 group-hover:text-accent transition-colors">Notícias no Acervo</h3>
                 <span id="contador-total" class="text-9xl font-black tracking-tighter text-white">0</span>
             </div>
 
             <div class="glass-panel p-10 rounded-3xl flex flex-col items-center justify-center text-center space-y-4">
-                <h3 class="text-zinc-600 uppercase text-[10px] font-black tracking-[0.4em]">Silêncio Editorial</h3>
+                <h3 class="text-header-xs text-zinc-500">Silêncio Editorial</h3>
                 <div class="space-y-1">
-                    <span id="contador-tempo" class="text-5xl font-black tracking-tight text-rose-500">--</span>
-                    <p class="text-zinc-600 text-[10px] font-bold uppercase tracking-widest pt-2">desde a última pauta vital</p>
+                    <span id="contador-tempo" class="text-5xl font-black tracking-tight text-accent">--</span>
+                    <p class="text-meta text-zinc-600 pt-2">desde a última pauta vital</p>
                 </div>
             </div>
         </section>
@@ -207,7 +238,7 @@
             <!-- Principal: Feed -->
             <main class="lg:col-span-12 xl:col-span-8 space-y-6">
                 <div class="flex items-center gap-4 mb-4">
-                    <h3 class="text-zinc-400 font-black uppercase text-[10px] tracking-[0.5em] whitespace-nowrap">Acervo de Futilidades</h3>
+                    <h3 class="text-header-xs text-zinc-500 whitespace-nowrap">Acervo de Futilidades</h3>
                     <div class="h-px bg-white/5 flex-1"></div>
                 </div>
                 <ul id="lista-materias" class="space-y-4 max-h-[800px] overflow-y-auto pr-4 custom-scrollbar scroll-smooth"></ul>
@@ -216,16 +247,16 @@
             <!-- Sidebar: Analytics -->
             <aside class="lg:col-span-12 xl:col-span-4 space-y-8">
                 <div class="glass-panel p-6 rounded-3xl space-y-6">
-                    <h4 class="text-zinc-500 uppercase text-[9px] font-black tracking-widest border-b border-white/5 pb-4">Atividade de Escrita</h4>
+                    <h4 class="text-meta text-zinc-500 border-b border-white/5 pb-4">Atividade de Escrita</h4>
                     <div class="h-48 w-full"><canvas id="grafico-ocio"></canvas></div>
                 </div>
                 <div class="grid grid-cols-1 gap-8">
                     <div class="space-y-4">
-                        <h4 class="text-zinc-600 uppercase text-[9px] font-black tracking-widest border-l-2 border-rose-500 pl-4 ml-1">Ranking de Veículos</h4>
+                        <h4 class="text-meta text-zinc-600 border-l-2 border-accent pl-4 ml-1">Ranking de Veículos</h4>
                         <ul id="ranking-lista" class="space-y-2"></ul>
                     </div>
                     <div class="space-y-4">
-                        <h4 class="text-zinc-600 uppercase text-[9px] font-black tracking-widest border-l-2 border-rose-500 pl-4 ml-1">Alvos de Ship</h4>
+                        <h4 class="text-meta text-zinc-600 border-l-2 border-accent pl-4 ml-1">Alvos de Ship</h4>
                         <ul id="ranking-casais-lista" class="space-y-2"></ul>
                     </div>
                 </div>
@@ -233,8 +264,8 @@
         </div>
 
         <footer class="text-center pt-24 pb-12 border-t border-white/5">
-            <p class="text-[10px] font-bold text-zinc-600 uppercase tracking-[0.5em]">
-                Financiado pela sua <span class="text-rose-500">indiferença</span> &copy; 2026
+            <p class="text-header-xs text-zinc-600">
+                Financiado pela sua <span class="text-accent animate-pulse">indiferença</span> &copy; 2026
             </p>
         </footer>
 
@@ -427,7 +458,7 @@
             const counts = data.reduce((acc, item) => { acc[item.veiculo] = (acc[item.veiculo] || 0) + 1; return acc; }, {});
             const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]).slice(0, 5);
             const container = document.getElementById('ranking-lista');
-            container.innerHTML = sorted.map(([v, c]) => `<li class="flex justify-between items-center p-3 glass-card rounded-xl"><span class="text-[10px] font-black uppercase tracking-widest text-zinc-400">${v}</span><span class="text-xs font-black text-rose-500">${c}</span></li>`).join('');
+            container.innerHTML = sorted.map(([v, c]) => `<li class="flex justify-between items-center p-3 glass-card rounded-xl"><span class="text-meta text-zinc-400">${v}</span><span class="text-xs font-black text-accent">${c}</span></li>`).join('');
         }
 
         function atualizarRankingCasais(data) {
@@ -441,7 +472,7 @@
 
             const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
             const container = document.getElementById('ranking-casais-lista');
-            container.innerHTML = sorted.map(([v, c]) => `<li class="flex justify-between items-center p-3 glass-card rounded-xl"><span class="text-[10px] font-black uppercase tracking-widest text-zinc-400">${v}</span><span class="text-xs font-black text-rose-500">${c}</span></li>`).join('');
+            container.innerHTML = sorted.map(([v, c]) => `<li class="flex justify-between items-center p-3 glass-card rounded-xl"><span class="text-meta text-zinc-400">${v}</span><span class="text-xs font-black text-accent">${c}</span></li>`).join('');
         }
 
         function atualizarListaAcervo(data) {
@@ -451,7 +482,24 @@
                 const d = new Date(item.data_publicacao);
                 const tagColor = item.categoria === 'Real' ? 'bg-blue-500/10 text-blue-400 border-blue-500/20' : 
                                  item.categoria === 'Internacional' ? 'bg-purple-500/10 text-purple-400 border-purple-500/20' : 'bg-amber-500/10 text-amber-400 border-amber-500/20';
-                return `<li class="glass-card p-6 rounded-2xl space-y-3 relative overflow-hidden group"><div class="flex items-center justify-between gap-4"><div class="flex items-center gap-2"><span class="px-2 py-0.5 rounded text-[8px] font-black uppercase tracking-widest border ${tagColor}">${item.categoria || 'Geral'}</span><span class="text-[9px] font-black text-zinc-600 uppercase tracking-widest">${item.veiculo}</span></div><span class="text-[9px] font-bold text-zinc-700 font-mono">${d.toLocaleDateString('pt-BR', {day:'2-digit', month:'2-digit'})}</span></div><div><a href="${item.url}" target="_blank" class="text-zinc-200 text-lg font-bold leading-tight group-hover:text-rose-400 transition-colors">${item.titulo}</a><p class="text-[10px] font-bold text-zinc-500 uppercase tracking-widest pt-2">Alvo: <span class="text-zinc-400">${item.casal_referenciado}</span></p></div></li>`
+                return `
+                <li class="glass-card p-6 rounded-2xl group relative overflow-hidden">
+                    <div class="flex items-center justify-between gap-4 mb-3">
+                        <div class="flex items-center gap-2">
+                            <span class="px-2 py-0.5 rounded text-meta border ${tagColor}">${item.categoria || 'Geral'}</span>
+                            <span class="text-meta text-zinc-500">${item.veiculo}</span>
+                        </div>
+                        <span class="text-meta text-zinc-600 font-mono">${d.toLocaleDateString('pt-BR', {day:'2-digit', month:'2-digit'})}</span>
+                    </div>
+                    <div>
+                        <a href="${item.url}" target="_blank" class="text-zinc-200 text-lg font-bold leading-tight group-hover:text-accent transition-colors duration-300">
+                            ${item.titulo}
+                        </a>
+                        <p class="text-meta text-zinc-500 pt-3">
+                            Alvo: <span class="text-zinc-300 font-bold">${item.casal_referenciado}</span>
+                        </p>
+                    </div>
+                </li>`;
             }).join('');
         }
 
