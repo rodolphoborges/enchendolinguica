@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T13:57:39.231Z",
+  "last_updated": "2026-04-09T17:15:04.404Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -450,6 +450,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-08T16:20:58.000Z",
       "data_registro": "2026-04-08T17:12:14.609Z"
+    },
+    {
+      "url": "https://caras.com.br/atualidades/virginia-revela-momentos-e-presentes-de-aniversario-que-ganhou-de-vini-jr.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
+      "veiculo": "Revista Caras",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-09T15:32:08.000Z",
+      "data_registro": "2026-04-09T17:15:03.244Z"
     }
   ]
 }
