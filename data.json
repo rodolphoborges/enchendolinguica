@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T17:15:04.404Z",
+  "last_updated": "2026-04-09T20:58:33.206Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -459,6 +459,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-09T15:32:08.000Z",
       "data_registro": "2026-04-09T17:15:03.244Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/virginia-fonseca-exibe-presentes-de-luxo-de-vini-jr-e-relogio-chama-atencao-pelo-valor-de-6-digitos.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Flagrante histórico pode mudar rumo da civilização.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-09T18:09:51.000Z",
+      "data_registro": "2026-04-09T20:58:33.204Z"
     }
   ]
 }
