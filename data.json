@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T20:58:33.206Z",
+  "last_updated": "2026-04-10T03:22:32.014Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -468,6 +468,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-09T18:09:51.000Z",
       "data_registro": "2026-04-09T20:58:33.204Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/vidente-choca-com-nova-previsao-para-virginia-e-vini-jr-nao-vai.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-09T23:50:31.000Z",
+      "data_registro": "2026-04-10T03:22:28.335Z"
     }
   ]
 }
