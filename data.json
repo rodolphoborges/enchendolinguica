@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T13:12:19.936Z",
+  "last_updated": "2026-04-11T16:44:54.418Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -477,6 +477,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-09T23:50:31.000Z",
       "data_registro": "2026-04-10T03:22:28.335Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/venceu-na-vida-virginia-exibe-presentes-enviados-por-kim-kardashian-para-ela-e-vini-jr.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-11T15:58:05.000Z",
+      "data_registro": "2026-04-11T16:44:51.734Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/vini-jr-grava-video-de-virginia-fonseca-pedalando-e-leitura-labial-indica-o-que-ela-falou-para-o-jogador.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-11T16:08:07.000Z",
+      "data_registro": "2026-04-11T16:44:54.417Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/virginia-comenta-amizade-de-vini-jr-com-kim-kardashian-e-mostra-presente-da-socialite.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-11T14:37:30.000Z",
+      "data_registro": "2026-04-11T16:44:54.417Z"
     }
   ]
 }
