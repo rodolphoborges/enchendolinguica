@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T16:49:24.903Z",
+  "last_updated": "2026-04-12T20:44:10.661Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -504,6 +504,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-11T14:37:30.000Z",
       "data_registro": "2026-04-11T16:44:54.417Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/virginia-e-vini-jr-trocam-beijos-durante-passeio-romantico-de-bicicleta-em-madri.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Urgente: nada de novo no front, mas o feed precisa rodar.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-12T16:56:10.000Z",
+      "data_registro": "2026-04-12T20:44:10.660Z"
     }
   ]
 }
