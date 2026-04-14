@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T13:59:51.282Z",
+  "last_updated": "2026-04-14T17:17:47.229Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -540,6 +540,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-14T07:01:16.000Z",
       "data_registro": "2026-04-14T09:25:53.146Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/diogo-nogueira-faz-post-para-paolla-oliveira.ghtml",
+      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
+      "titulo": "[Paolla Oliveira & Diogo Nogueira] Urgente: casal continua respirando o mesmo oxigênio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Real",
+      "data_publicacao": "2026-04-14T16:01:32.000Z",
+      "data_registro": "2026-04-14T17:17:47.228Z"
     }
   ]
 }
