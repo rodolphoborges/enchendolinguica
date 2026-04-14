@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T06:04:12.356Z",
+  "last_updated": "2026-04-14T09:25:53.147Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -531,6 +531,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-13T19:31:20.000Z",
       "data_registro": "2026-04-13T21:02:08.802Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/sensitiva-preve-crise-entre-virginia-e-vini-jr-apos-copa-traicao-e-separacao.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-14T07:01:16.000Z",
+      "data_registro": "2026-04-14T09:25:53.146Z"
     }
   ]
 }
