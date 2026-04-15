@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T21:01:37.706Z",
+  "last_updated": "2026-04-15T03:20:39.022Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -558,6 +558,24 @@
       "categoria": "Real",
       "data_publicacao": "2026-04-14T17:27:16.000Z",
       "data_registro": "2026-04-14T21:01:33.555Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/virginia-fonseca-faz-sauna-durante-a-madrugada-em-madri-na-casa-de-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-15T00:38:35.000Z",
+      "data_registro": "2026-04-15T03:20:39.021Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/virginia-fonseca-faz-carao-em-fotos-durante-viagem-a-madri-e-vini-jr-reage-veja-detalhes.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Plantão fofoca: a paz mundial depende deste relacionamento.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-14T23:02:50.000Z",
+      "data_registro": "2026-04-15T03:20:39.022Z"
     }
   ]
 }
