@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T17:21:29.808Z",
+  "last_updated": "2026-04-16T20:55:47.733Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -603,6 +603,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-15T17:15:37.000Z",
       "data_registro": "2026-04-15T20:58:50.117Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/apaixonada-virginia-fonseca-compartilha-registro-de-vini-jr-e-se-derrete.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-16T17:26:16.000Z",
+      "data_registro": "2026-04-16T20:55:47.732Z"
     }
   ]
 }
