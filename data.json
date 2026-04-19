@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T20:44:16.693Z",
+  "last_updated": "2026-04-19T03:31:23.855Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -630,6 +630,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-17T23:56:37.000Z",
       "data_registro": "2026-04-18T02:55:36.470Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/sumida-das-redes-virginia-fonseca-aproveita-casa-de-vini-jr-em-madri-antes-de-voltar-ao-brasil.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação: a química do casal desafia as leis da termodinâmica.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-18T20:33:29.000Z",
+      "data_registro": "2026-04-19T03:31:23.855Z"
     }
   ]
 }
