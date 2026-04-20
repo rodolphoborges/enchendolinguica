@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T17:12:30.267Z",
+  "last_updated": "2026-04-20T20:56:10.275Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -657,6 +657,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-20T05:02:01.000Z",
       "data_registro": "2026-04-20T06:21:54.405Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/bruna-marquezine-ganha-chamego-de-shawn-mendes-em-cafe-da-manha-nos-eua.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-20T18:32:46.000Z",
+      "data_registro": "2026-04-20T20:56:10.274Z"
     }
   ]
 }
