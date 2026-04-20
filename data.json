@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T03:33:27.104Z",
+  "last_updated": "2026-04-20T06:21:55.821Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -648,6 +648,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-19T21:43:31.000Z",
       "data_registro": "2026-04-20T03:33:27.102Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/discretos-bruna-marquezine-e-shawn-mendes-sao-vistos-juntos-em-malibu",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Documentário: a vida segue, e o casal também, aparentemente.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-20T05:02:01.000Z",
+      "data_registro": "2026-04-20T06:21:54.405Z"
     }
   ]
 }
