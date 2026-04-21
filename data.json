@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T09:45:34.996Z",
+  "last_updated": "2026-04-21T13:57:46.904Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -666,6 +666,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-20T18:32:46.000Z",
       "data_registro": "2026-04-20T20:56:10.274Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/bruna-marquezine-vai-a-igreja-com-shawn-mendes-nos-eua-e-look-chama-atencao.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-21T10:13:16.000Z",
+      "data_registro": "2026-04-21T13:57:46.904Z"
     }
   ]
 }
