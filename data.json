@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T09:49:45.193Z",
+  "last_updated": "2026-04-24T13:51:35.752Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -693,6 +693,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-23T00:31:51.000Z",
       "data_registro": "2026-04-23T03:27:25.347Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/mae-de-vini-jr-se-declara-aos-filhos-de-virginia-e-causa-polemica",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Urgente: casal continua respirando o mesmo oxigênio.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-24T11:01:09.000Z",
+      "data_registro": "2026-04-24T13:51:31.446Z"
     }
   ]
 }
