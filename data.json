@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T14:09:38.381Z",
+  "last_updated": "2026-04-27T17:27:09.026Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -711,6 +711,24 @@
       "categoria": "Real",
       "data_publicacao": "2026-04-26T23:09:33.000Z",
       "data_registro": "2026-04-27T03:40:23.499Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/ex-de-diogo-nogueira-paolla-oliveira-celebra-cantor-em-aniversario",
+      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
+      "titulo": "[Paolla Oliveira & Diogo Nogueira] Alerta máximo: demonstração de carinho em via pública.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Real",
+      "data_publicacao": "2026-04-27T15:44:40.000Z",
+      "data_registro": "2026-04-27T17:26:54.500Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/bruna-marquezine-e-tietada-por-fas-nos-eua-e-shawn-mendes-vira-fotografo-assista-video-viral.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Novo capítulo da saga romântica que todos acompanhávamos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-27T14:13:39.000Z",
+      "data_registro": "2026-04-27T17:27:09.025Z"
     }
   ]
 }
