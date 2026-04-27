@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T17:27:09.026Z",
+  "last_updated": "2026-04-27T21:09:19.696Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -729,6 +729,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-27T14:13:39.000Z",
       "data_registro": "2026-04-27T17:27:09.025Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/paolla-oliveira-escreve-para-diogo-nogueira-veja-a-mensagem.phtml",
+      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
+      "titulo": "[Paolla Oliveira & Diogo Nogueira] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Real",
+      "data_publicacao": "2026-04-27T19:49:37.000Z",
+      "data_registro": "2026-04-27T21:09:16.570Z"
     }
   ]
 }
