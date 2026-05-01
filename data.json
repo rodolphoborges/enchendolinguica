@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T21:06:42.903Z",
+  "last_updated": "2026-05-01T03:56:25.647Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -738,6 +738,15 @@
       "categoria": "Real",
       "data_publicacao": "2026-04-27T19:49:37.000Z",
       "data_registro": "2026-04-27T21:09:16.570Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/luciano-huck-se-encontra-com-vini-jr-em-madri-e-brinca-sobre-bronca-que-recebeu-de-virginia-ela-e-brava.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Plantão fofoca: a paz mundial depende deste relacionamento.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-04-30T22:35:51.000Z",
+      "data_registro": "2026-05-01T03:56:25.646Z"
     }
   ]
 }
