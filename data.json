@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T16:58:39.823Z",
+  "last_updated": "2026-05-03T20:53:39.232Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -747,6 +747,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-04-30T22:35:51.000Z",
       "data_registro": "2026-05-01T03:56:25.646Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-e-vista-assistindo-a-jogo-de-vini-jr-em-meio-a-boatos-de-termino.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-03T19:59:46.000Z",
+      "data_registro": "2026-05-03T20:53:39.231Z"
     }
   ]
 }
