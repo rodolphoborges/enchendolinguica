@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T06:45:39.221Z",
+  "last_updated": "2026-05-04T10:19:31.016Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -765,6 +765,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-04T01:00:02.000Z",
       "data_registro": "2026-05-04T03:48:49.991Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/detalhe-em-foto-de-vini-jr-faz-web-especular-crise-com-virginia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-04T09:59:02.000Z",
+      "data_registro": "2026-05-04T10:19:24.945Z"
     }
   ]
 }
