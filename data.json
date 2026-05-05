@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T06:23:25.844Z",
+  "last_updated": "2026-05-05T10:07:52.935Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -873,6 +873,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-05T05:43:10.000Z",
       "data_registro": "2026-05-05T06:23:25.843Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/mae-de-vini-jr-faz-post-enigmatico-em-meio-a-suposta-crise-com-virginia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-05T09:38:39.000Z",
+      "data_registro": "2026-05-05T10:07:46.141Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/mae-de-vini-jr-posta-sobre-alegria-e-dor-em-meio-a-boatos-de-crise-no-namoro-dele-com-virginia-na-hora-certa.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-05T06:11:42.000Z",
+      "data_registro": "2026-05-05T10:07:52.934Z"
     }
   ]
 }
