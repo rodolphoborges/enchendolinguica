@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T17:46:40.850Z",
+  "last_updated": "2026-05-06T21:16:35.867Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1017,6 +1017,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-06T12:09:36.000Z",
       "data_registro": "2026-05-06T14:29:12.544Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/virginia-fonseca-nega-rompimento-com-vini-jr-continuamos-e-esta-tudo-certo",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-06T21:09:35.000Z",
+      "data_registro": "2026-05-06T21:16:34.681Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-desemente-boatos-de-crise-com-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-06T20:55:44.000Z",
+      "data_registro": "2026-05-06T21:16:35.866Z"
     }
   ]
 }
