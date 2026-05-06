@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T06:35:36.074Z",
+  "last_updated": "2026-05-06T10:23:32.486Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -972,6 +972,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-06T05:14:21.000Z",
       "data_registro": "2026-05-06T06:35:36.073Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-explica-sumico-em-meio-a-boatos-de-crise-com-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-06T09:56:18.000Z",
+      "data_registro": "2026-05-06T10:23:27.345Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-posta-que-o-senhor-guardara-tua-saida-em-meio-a-rumores-de-crise-com-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-06T09:14:19.000Z",
+      "data_registro": "2026-05-06T10:23:32.485Z"
     }
   ]
 }
