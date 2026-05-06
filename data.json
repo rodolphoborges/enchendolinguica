@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T21:08:22.288Z",
+  "last_updated": "2026-05-06T03:44:13.324Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -936,6 +936,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-05T17:43:58.000Z",
       "data_registro": "2026-05-05T21:08:22.287Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-faz-post-enigmatico-em-meio-a-rumores-de-crise-com-vini-jr-veja/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-05T21:13:18.000Z",
+      "data_registro": "2026-05-06T03:44:11.349Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fala-de-sumico-em-meio-a-boatos-de-crise-com-vini-jr-semana-dedicada-a-mim.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-06T02:11:56.000Z",
+      "data_registro": "2026-05-06T03:44:13.323Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/em-meio-a-rumores-de-crise-vini-jr-reage-a-video-de-virginia-com-o-filho.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-05T21:13:22.000Z",
+      "data_registro": "2026-05-06T03:44:13.323Z"
     }
   ]
 }
