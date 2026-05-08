@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T14:03:44.632Z",
+  "last_updated": "2026-05-08T17:25:14.996Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1071,6 +1071,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-07T20:00:21.000Z",
       "data_registro": "2026-05-07T21:09:17.647Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/virginia-vaza-informacao-privilegiada-de-vini-jr-e-expoe-neymar.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-08T17:18:17.000Z",
+      "data_registro": "2026-05-08T17:25:06.353Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/virginia-celebra-dia-das-maes-do-cacula-na-escola-e-vini-jr-reage.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-08T16:21:41.000Z",
+      "data_registro": "2026-05-08T17:25:06.353Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/05/virginia-fonseca-se-derrete-em-apresentacao-de-dia-das-mae-do-filho-cacula.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-08T14:54:59.000Z",
+      "data_registro": "2026-05-08T17:25:14.994Z"
     }
   ]
 }
