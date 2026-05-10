@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T09:42:41.128Z",
+  "last_updated": "2026-05-10T13:41:43.950Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1098,6 +1098,42 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-08T14:54:59.000Z",
       "data_registro": "2026-05-08T17:25:14.994Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/no-dia-das-maes-vini-jr-manda-recado-para-virginia-veja-o-que-ele-disse",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Novo capítulo da saga romântica que todos acompanhávamos.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-10T11:37:27.000Z",
+      "data_registro": "2026-05-10T13:41:38.561Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-inicia-o-dia-das-maes-fazendo-bike-no-sol-de-biquini.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-10T12:15:39.000Z",
+      "data_registro": "2026-05-10T13:41:43.949Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-responde-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-10T11:50:10.000Z",
+      "data_registro": "2026-05-10T13:41:43.949Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-da-feliz-dia-das-maes-a-virginia-em-meio-a-rumores-de-crise.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-10T10:12:41.000Z",
+      "data_registro": "2026-05-10T13:41:43.949Z"
     }
   ]
 }
