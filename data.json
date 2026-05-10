@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T17:02:03.354Z",
+  "last_updated": "2026-05-10T20:56:05.226Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1143,6 +1143,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-10T14:37:52.000Z",
       "data_registro": "2026-05-10T17:02:02.187Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/vini-jr-da-presentao-para-virginia-fonseca-de-dia-das-maes-e-web-detona-breguice.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-10T19:02:12.000Z",
+      "data_registro": "2026-05-10T20:56:01.316Z"
+    },
+    {
+      "url": "https://contigo.com.br/noticias/famosos/crise-vini-jr-faz-declaracao-para-virginia-apos-boatos-de-fim-de-relacionamento.phtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Contigo! (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-10T17:04:31.000Z",
+      "data_registro": "2026-05-10T20:56:01.316Z"
     }
   ]
 }
