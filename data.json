@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T11:30:37.308Z",
+  "last_updated": "2026-05-11T15:25:33.112Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1161,6 +1161,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-10T17:04:31.000Z",
       "data_registro": "2026-05-10T20:56:01.316Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-amanhece-em-madrid.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-11T13:38:37.000Z",
+      "data_registro": "2026-05-11T15:25:33.111Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/ze-felipe-ganha-mais-curtidas-em-foto-de-virginia-que-comentario-de-vini-jr-e-web-reage.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-11T12:43:11.000Z",
+      "data_registro": "2026-05-11T15:25:33.111Z"
     }
   ]
 }
