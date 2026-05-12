@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T10:38:06.388Z",
+  "last_updated": "2026-05-12T14:37:23.437Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1206,6 +1206,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-12T09:59:17.000Z",
       "data_registro": "2026-05-12T10:38:06.387Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/virginia-mostra-sapato-de-noivo-de-vini-jr-e-brinca-sobre-casamento-ta-empolgado",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T13:59:39.000Z",
+      "data_registro": "2026-05-12T14:37:21.949Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/eventos/casamentos/noticia/2026/05/apos-por-fim-aos-rumores-de-crise-com-vini-jr-virginia-fonseca-ja-fala-de-casamento-com-atleta.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T13:47:37.000Z",
+      "data_registro": "2026-05-12T14:37:23.434Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-posta-primeira-foto-com-vini-jr-desde-o-comeco-dos-rumores-de-treta.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Urgente: casal continua respirando o mesmo oxigênio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T11:25:29.000Z",
+      "data_registro": "2026-05-12T14:37:23.435Z"
     }
   ]
 }
