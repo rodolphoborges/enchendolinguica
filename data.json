@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T21:21:59.317Z",
+  "last_updated": "2026-05-12T03:47:48.251Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1179,6 +1179,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-11T12:43:11.000Z",
       "data_registro": "2026-05-11T15:25:33.111Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/bruna-marquezine-ganha-abracao-e-cheiro-no-cangote-de-shawn-mendes.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Furo: paparazzi confirmam que eles comem comida, como humanos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T03:09:44.000Z",
+      "data_registro": "2026-05-12T03:47:48.250Z"
     }
   ]
 }
