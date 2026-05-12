@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T14:37:23.437Z",
+  "last_updated": "2026-05-12T18:04:43.607Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1233,6 +1233,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-12T11:25:29.000Z",
       "data_registro": "2026-05-12T14:37:23.435Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-fala-em-casamento-com-vini-jr-apos-rumores-de-crise",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T16:49:08.000Z",
+      "data_registro": "2026-05-12T18:04:37.756Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-mostra-bolsa-que-comprou-para-usar-na-copa-do-mundo.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T12:40:46.000Z",
+      "data_registro": "2026-05-12T18:04:43.606Z"
     }
   ]
 }
