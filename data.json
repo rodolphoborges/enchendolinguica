@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T18:04:43.607Z",
+  "last_updated": "2026-05-12T21:23:41.366Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1251,6 +1251,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-12T12:40:46.000Z",
       "data_registro": "2026-05-12T18:04:43.606Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/apos-rumores-de-crise-virginia-faz-comentario-sobre-relacionamento-com-vini-jr-assista/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T19:22:04.000Z",
+      "data_registro": "2026-05-12T21:23:39.036Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-e-vini-jr-combinam-looks-e-posam-juntos-em-madri.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T18:09:15.000Z",
+      "data_registro": "2026-05-12T21:23:41.365Z"
     }
   ]
 }
