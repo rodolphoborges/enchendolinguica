@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T06:41:28.045Z",
+  "last_updated": "2026-05-12T10:38:06.388Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1188,6 +1188,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-12T03:09:44.000Z",
       "data_registro": "2026-05-12T03:47:48.250Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-se-irrita-apos-atitude-de-vini-jr-nao-da-para-confiar",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T10:35:19.000Z",
+      "data_registro": "2026-05-12T10:37:58.702Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-reclama-de-atitude-de-vini-jr-quando-chegar-vai-apanhar.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T09:59:17.000Z",
+      "data_registro": "2026-05-12T10:38:06.387Z"
     }
   ]
 }
