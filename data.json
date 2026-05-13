@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T21:23:41.366Z",
+  "last_updated": "2026-05-13T03:56:36.068Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1269,6 +1269,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-12T18:09:15.000Z",
       "data_registro": "2026-05-12T21:23:41.365Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/bruna-marquezine-e-shawn-mendes-fazem-compras-em-mercado-de-la.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Urgente: casal continua respirando o mesmo oxigênio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-12T23:46:11.000Z",
+      "data_registro": "2026-05-13T03:56:36.067Z"
     }
   ]
 }
