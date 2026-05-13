@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T03:56:36.068Z",
+  "last_updated": "2026-05-13T06:52:51.903Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1278,6 +1278,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-12T23:46:11.000Z",
       "data_registro": "2026-05-13T03:56:36.067Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/casa-dos-famosos/noticia/2026/05/de-moletom-e-sem-make-bruna-marquezine-recebe-delivery-na-mansao-de-shawn-mendes.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-13T05:27:51.000Z",
+      "data_registro": "2026-05-13T06:52:51.902Z"
     }
   ]
 }
