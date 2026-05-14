@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T10:25:44.135Z",
+  "last_updated": "2026-05-14T14:28:04.526Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1314,6 +1314,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-14T00:24:26.000Z",
       "data_registro": "2026-05-14T03:55:47.299Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/affair-de-bruna-marquezine-shawn-mendes-sofre-acidente-nos-eua",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Revelação bombástica: eles ainda se seguem no Instagram.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-14T12:30:04.000Z",
+      "data_registro": "2026-05-14T14:28:00.084Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-ganha-cafe-da-manha-na-cama.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Revelação bombástica: eles ainda se seguem no Instagram.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-14T10:28:42.000Z",
+      "data_registro": "2026-05-14T14:28:04.524Z"
     }
   ]
 }
