@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T14:28:04.526Z",
+  "last_updated": "2026-05-14T17:59:22.681Z",
   "news": [
     {
       "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
@@ -1332,6 +1332,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-14T10:28:42.000Z",
       "data_registro": "2026-05-14T14:28:04.524Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-reage-apos-virginia-fonseca-dar-repaginada-em-jatinho-e-manter-adesivo-de-ze-felipe.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-14T16:45:14.000Z",
+      "data_registro": "2026-05-14T17:59:22.680Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/bruna-marquezine-troca-beijos-e-cai-na-risada-com-shawn-mendes-durante-passeio-em-parque.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-14T14:53:48.000Z",
+      "data_registro": "2026-05-14T17:59:22.680Z"
     }
   ]
 }
