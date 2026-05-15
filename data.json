@@ -1,51 +1,6 @@
 {
-  "last_updated": "2026-05-15T17:46:48.587Z",
+  "last_updated": "2026-05-15T21:11:28.665Z",
   "news": [
-    {
-      "url": "https://www.uol.com.br/splash/noticias/2026/03/13/perdi-10-trabalhos-de-publicidade-por-inventarem-que-traia-a-paolla-diz-diogo-nogueira.htm",
-      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
-      "titulo": "[Paolla Oliveira & Diogo Nogueira] Furo de reportagem: casal não terminou (ainda).",
-      "veiculo": "UOL",
-      "categoria": "Real",
-      "data_publicacao": "2026-03-14T02:43:28.000Z",
-      "data_registro": "2026-03-14T02:43:28.000Z"
-    },
-    {
-      "url": "https://gshow.globo.com/cultura-pop/famosos/noticia/diogo-nogueira-fala-sobre-relacionamento-com-paolla-oliveira.ghtml",
-      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
-      "titulo": "[Paolla Oliveira & Diogo Nogueira] Análise profunda revela: casal troca olhares e gestos.",
-      "veiculo": "Globo.com",
-      "categoria": "Real",
-      "data_publicacao": "2026-03-14T02:46:56.000Z",
-      "data_registro": "2026-03-14T02:46:56.000Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/bruna-marquezine-e-questionada-sobre-shawn-mendes-e-reacao-viraliza-assista/",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-03-18T17:10:04.000Z",
-      "data_registro": "2026-03-18T17:10:04.000Z"
-    },
-    {
-      "url": "https://caras.com.br/atualidades/bruna-marquezine-da-resposta-sincera-ao-ser-questionada-sobre-shawn-mendes.phtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Documentado: prova concreta de que se gostam.",
-      "veiculo": "Revista Caras",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-03-18T17:10:06.000Z",
-      "data_registro": "2026-03-18T17:10:06.000Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/paolla-oliveira-reage-a-desabafo-de-diogo-nogueira-sobre-boatos-de-traicao-assista/",
-      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
-      "titulo": "[Paolla Oliveira & Diogo Nogueira] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Real",
-      "data_publicacao": "2026-03-18T00:00:00.000Z",
-      "data_registro": "2026-03-19T02:47:50.000Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/bruna-marquezine-toma-medida-apos-flagra-intimo-com-shawn-mendes",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1683,6 +1638,168 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-15T14:35:54.000Z",
       "data_registro": "2026-05-15T17:46:48.585Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/militao-reage-apos-ter-nome-ligado-a-termino-de-vini-jr-e-virginia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T20:45:16.000Z",
+      "data_registro": "2026-05-15T21:11:24.531Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/quem-sao-as-modelos-apontadas-como-visitas-de-vini-jr-a-madrid",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T19:09:57.000Z",
+      "data_registro": "2026-05-15T21:11:24.532Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-e-vini-jr-brigaram-em-restaurante-antes-de-termino",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Revelação bombástica: eles ainda se seguem no Instagram.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T18:50:36.000Z",
+      "data_registro": "2026-05-15T21:11:24.532Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/o-que-virginia-disse-sobre-visitas-de-modelos-a-vini-jr-em-madrid",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T18:13:26.000Z",
+      "data_registro": "2026-05-15T21:11:24.532Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-teria-descoberto-visitas-de-vini-jr-em-madri-diz-portal",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T17:58:09.000Z",
+      "data_registro": "2026-05-15T21:11:24.532Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/eder-militao-se-pronuncia-apos-ter-o-nome-envolvido-no-termino-de-virginia-fonseca-e-vini-jr-leia-a-integra/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T21:04:52.000Z",
+      "data_registro": "2026-05-15T21:11:26.968Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-e-vini-jr-assessor-do-jogador-se-pronuncia-apos-rumores-de-que-ele-teria-convidado-tres-mulheres-para-madri/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Urgente: casal continua respirando o mesmo oxigênio.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T20:51:54.000Z",
+      "data_registro": "2026-05-15T21:11:26.968Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/mulher-apontada-como-pivo-da-primeira-crise-entre-virginia-e-vini-jr-expoe-conversa-com-atleta-antes-do-anuncio-do-termino/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T19:59:50.000Z",
+      "data_registro": "2026-05-15T21:11:26.968Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/luciano-huck-revela-se-virginia-tera-quadro-da-copa-no-domingao-apos-termino-com-vini-jr-assista/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Análise profunda revela: casal troca olhares e gestos.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T19:59:13.000Z",
+      "data_registro": "2026-05-15T21:11:26.968Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-e-vini-jr-leo-dias-revela-troca-de-mensagens-com-influenciadora-sobre-termino-com-o-jogador/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T18:32:09.000Z",
+      "data_registro": "2026-05-15T21:11:26.968Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-e-vini-jr-leo-dias-revela-que-jogador-teria-chamado-3-mulheres-para-ir-a-madri-e-confusao-com-influenciadora-em-restaurante/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T18:10:48.000Z",
+      "data_registro": "2026-05-15T21:11:26.968Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/assessoria-de-vini-jr-se-pronuncia-sobre-termino-com-virginia-e-mulheres-em-madri",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T19:23:38.000Z",
+      "data_registro": "2026-05-15T21:11:27.735Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/termino-com-virginia-impulsiona-instagram-de-vini-jr-e-craque-ganha-100-mil-seguidores",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Análise profunda revela: casal troca olhares e gestos.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T19:19:49.000Z",
+      "data_registro": "2026-05-15T21:11:27.736Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/relembre-tudo-que-virginia-falou-ao-portal-leodias-sobre-vini-jr-durante-o-namoro",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T19:01:45.000Z",
+      "data_registro": "2026-05-15T21:11:27.736Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/influenciadoras-apontadas-como-pivo-de-termino-entre-virginia-e-vini-jr-negam-envolvimento-foi-coincidencia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T20:37:53.000Z",
+      "data_registro": "2026-05-15T21:11:28.661Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/eder-militao-se-pronuncia-apos-ser-citado-em-termino-de-virginia-e-vini-assustado.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T20:29:04.000Z",
+      "data_registro": "2026-05-15T21:11:28.661Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/quem-sao-as-influenciadoras-apontadas-como-pivo-do-termino-entre-virginia-e-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Flagrante histórico pode mudar rumo da civilização.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T18:14:18.000Z",
+      "data_registro": "2026-05-15T21:11:28.662Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/suposto-motivo-do-termino-entre-virginia-fonseca-e-vini-jr-vem-a-ton-saiba-qual.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-15T17:49:00.000Z",
+      "data_registro": "2026-05-15T21:11:28.662Z"
     }
   ]
 }
