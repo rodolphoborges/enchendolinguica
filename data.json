@@ -1,60 +1,6 @@
 {
-  "last_updated": "2026-05-16T17:04:55.432Z",
+  "last_updated": "2026-05-16T20:56:51.501Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/hora-de-dar-tchau-shawn-mendes-embarca-em-aeroporto-do-rio-sem-bruna-marquezine.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Furo de reportagem: casal não terminou (ainda).",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-04-04T22:57:03.000Z",
-      "data_registro": "2026-04-05T03:19:29.603Z"
-    },
-    {
-      "url": "https://caras.com.br/festas/filhos-de-virginia-fonseca-roubam-a-cena-em-caca-aos-ovos-de-pascoa-na-mansao-de-vini-jr.phtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
-      "veiculo": "Revista Caras",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-04-05T12:24:31.000Z",
-      "data_registro": "2026-04-05T13:11:22.344Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/04/virginia-fonseca-comemora-pascoa.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-04-05T11:07:04.000Z",
-      "data_registro": "2026-04-05T13:11:23.110Z"
-    },
-    {
-      "url": "https://caras.com.br/atualidades/virginia-fonseca-ganha-chocolate-brancos-com-valor-chocante-de-vini-jr-na-pascoa.phtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Impactante: evidências de que o amor permanece.",
-      "veiculo": "Revista Caras",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-04-05T14:03:21.000Z",
-      "data_registro": "2026-04-05T16:43:50.259Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/virginia-fonseca-ganha-ovos-de-pascoa.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-04-05T13:03:54.000Z",
-      "data_registro": "2026-04-05T16:43:51.261Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/vini-jr-se-declara-para-virginia-em-meio-a-rumores-de-crise-te-amo",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-04-06T12:14:00.000Z",
-      "data_registro": "2026-04-06T13:23:47.454Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-reage-apos-surgir-com-expressao-abatida-em-foto-com-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1746,60 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-16T14:46:19.000Z",
       "data_registro": "2026-05-16T17:04:55.430Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/angelica-manda-recado-para-virginia-apos-termino-polemico-com-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-16T17:23:43.000Z",
+      "data_registro": "2026-05-16T20:56:44.754Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/saiba-como-o-portal-leodias-conseguiu-ultimo-video-de-virginia-e-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-16T20:16:53.000Z",
+      "data_registro": "2026-05-16T20:56:50.097Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/veja-a-ultima-aparicao-de-virginia-e-vini-jr-como-casal",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-16T20:08:02.000Z",
+      "data_registro": "2026-05-16T20:56:50.097Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/virginia-celebra-apoio-de-angelica-e-huck-apos-termino-com-vini-jr-melhorou-meu-dia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Novo capítulo da saga romântica que todos acompanhávamos.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-16T19:04:32.000Z",
+      "data_registro": "2026-05-16T20:56:50.097Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/arrasado-amigos-de-vini-jr-contam-como-o-jogador-esta-apos-o-termino-com-virginia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-16T16:52:39.000Z",
+      "data_registro": "2026-05-16T20:56:50.098Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-estaria-arrasado-com-o-fim-do-termino-do-namoro-com-virginia-diz-jornalista.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-16T17:58:03.000Z",
+      "data_registro": "2026-05-16T20:56:51.498Z"
     }
   ]
 }
