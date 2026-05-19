@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-05-19T04:06:54.487Z",
+  "last_updated": "2026-05-19T11:26:23.203Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/bruna-marquezine-e-tietada-por-fas-nos-eua-e-shawn-mendes-vira-fotografo-assista-video-viral.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Novo capítulo da saga romântica que todos acompanhávamos.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-04-27T14:13:39.000Z",
-      "data_registro": "2026-04-27T17:27:09.025Z"
-    },
-    {
-      "url": "https://contigo.com.br/noticias/famosos/paolla-oliveira-escreve-para-diogo-nogueira-veja-a-mensagem.phtml",
-      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
-      "titulo": "[Paolla Oliveira & Diogo Nogueira] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
-      "veiculo": "Contigo! (UOL)",
-      "categoria": "Real",
-      "data_publicacao": "2026-04-27T19:49:37.000Z",
-      "data_registro": "2026-04-27T21:09:16.570Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/04/luciano-huck-se-encontra-com-vini-jr-em-madri-e-brinca-sobre-bronca-que-recebeu-de-virginia-ela-e-brava.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão fofoca: a paz mundial depende deste relacionamento.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-04-30T22:35:51.000Z",
-      "data_registro": "2026-05-01T03:56:25.646Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-e-vista-assistindo-a-jogo-de-vini-jr-em-meio-a-boatos-de-termino.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-03T19:59:46.000Z",
-      "data_registro": "2026-05-03T20:53:39.231Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/fas-notam-ausencia-de-interacao-de-virginia-fonseca-em-fotos-de-vini-jr-e-suspeitam-de-crise-ja-era.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1764,42 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-18T23:50:37.000Z",
       "data_registro": "2026-05-19T04:06:54.485Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-revela-destino-de-viagem-com-affair-apos-termino-com-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-19T10:02:21.000Z",
+      "data_registro": "2026-05-19T11:26:17.819Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/apontada-como-pivo-do-termino-de-vini-jr-e-virginia-explica-expressao-triste-ao-voltar-ao-brasil-sacanagem.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Impactante: evidências de que o amor permanece.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-19T10:47:09.000Z",
+      "data_registro": "2026-05-19T11:26:23.201Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/bruna-marquezine-e-shawn-mendes-curtem-nova-york-separados.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Breaking news: romance persiste apesar dos pesares.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-19T05:59:13.000Z",
+      "data_registro": "2026-05-19T11:26:23.201Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/supostos-pivos-de-fim-de-namoro-de-vini-jr-e-virginia-desembarcam-juntas-no-brasil.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-19T04:28:17.000Z",
+      "data_registro": "2026-05-19T11:26:23.201Z"
     }
   ]
 }
