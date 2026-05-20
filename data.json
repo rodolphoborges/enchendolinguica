@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-05-20T15:37:50.264Z",
+  "last_updated": "2026-05-20T18:23:55.813Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/virginia-faz-post-enigmatico-em-meio-a-rumores-de-crise-com-vini-jr-veja/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-05T21:13:18.000Z",
-      "data_registro": "2026-05-06T03:44:11.349Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fala-de-sumico-em-meio-a-boatos-de-crise-com-vini-jr-semana-dedicada-a-mim.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-06T02:11:56.000Z",
-      "data_registro": "2026-05-06T03:44:13.323Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/em-meio-a-rumores-de-crise-vini-jr-reage-a-video-de-virginia-com-o-filho.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-05T21:13:22.000Z",
-      "data_registro": "2026-05-06T03:44:13.323Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/mae-de-virginia-posta-em-meio-a-suposta-crise-no-namoro-da-filha-com-vini-jr-ela-vai-aguentar.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Mais uma prova de que o amor vence na vida real e nas telas.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-06T05:14:21.000Z",
-      "data_registro": "2026-05-06T06:35:36.073Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-explica-sumico-em-meio-a-boatos-de-crise-com-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1764,42 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-20T11:41:54.000Z",
       "data_registro": "2026-05-20T15:37:50.263Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/gesto-de-vini-jr-apos-polemicas-com-virginia-chama-atencao-saudade",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Análise profunda revela: casal troca olhares e gestos.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-20T17:48:21.000Z",
+      "data_registro": "2026-05-20T18:23:51.277Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/esta-de-olho-vini-jr-e-flagrado-assistindo-live-de-virginia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-20T17:22:33.000Z",
+      "data_registro": "2026-05-20T18:23:54.720Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/famosos-na-praia/noticia/2026/05/apos-polemica-virginia-fonseca-renova-bronzeado-de-biquini-em-praia-de-dubai.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-20T17:44:59.000Z",
+      "data_registro": "2026-05-20T18:23:55.810Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/amigo-de-vini-jr-afasta-rumores-de-termino-com-duda-freire-melhor-amiga-de-virginia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-20T17:39:34.000Z",
+      "data_registro": "2026-05-20T18:23:55.810Z"
     }
   ]
 }
