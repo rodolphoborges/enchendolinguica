@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-05-20T18:23:55.813Z",
+  "last_updated": "2026-05-20T22:00:59.554Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-explica-sumico-em-meio-a-boatos-de-crise-com-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-06T09:56:18.000Z",
-      "data_registro": "2026-05-06T10:23:27.345Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-posta-que-o-senhor-guardara-tua-saida-em-meio-a-rumores-de-crise-com-vini-jr.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-06T09:14:19.000Z",
-      "data_registro": "2026-05-06T10:23:32.485Z"
-    },
     {
       "url": "https://contigo.com.br/noticias/famosos/virginia-se-emociona-em-apresentacao-escolar-de-maria-alice-e-ganha-interacao-de-vini-jr.phtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-20T17:39:34.000Z",
       "data_registro": "2026-05-20T18:23:55.810Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/a-reacao-de-vini-jr-apos-virginia-se-pronunciar-sobre-caso-de-racismo",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-20T18:40:22.000Z",
+      "data_registro": "2026-05-20T22:00:55.546Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-chama-atencao-ao-reagir-a-video-de-influenciador-sobre-comentario-de-ze-felipe-assista/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-20T20:39:20.000Z",
+      "data_registro": "2026-05-20T22:00:57.598Z"
     }
   ]
 }
