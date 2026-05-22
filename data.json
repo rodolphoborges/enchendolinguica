@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-21T21:40:45.836Z",
+  "last_updated": "2026-05-22T04:11:56.720Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/apos-negar-crise-com-vini-jr-virginia-fonseca-posta-video-sobre-relacao-segura.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-07T17:13:53.000Z",
-      "data_registro": "2026-05-07T17:53:03.470Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/apos-negar-rompimento-com-vini-jr-virginia-compartilha-video-sobre-relacao-segura",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-21T17:35:39.000Z",
       "data_registro": "2026-05-21T18:04:21.352Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/bruna-marquezine-e-shawn-mendes-sao-vistos-juntos-em-restaurante-na-cidade-do-mexico-video.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Fontes seguras indicam: sentimentos ainda são relevantes.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-22T01:07:02.000Z",
+      "data_registro": "2026-05-22T04:11:56.719Z"
     }
   ]
 }
