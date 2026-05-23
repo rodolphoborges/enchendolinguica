@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-23T17:08:25.936Z",
+  "last_updated": "2026-05-23T21:00:08.415Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/apos-negar-rompimento-com-vini-jr-virginia-compartilha-video-sobre-relacao-segura",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-07T20:00:21.000Z",
-      "data_registro": "2026-05-07T21:09:17.647Z"
-    },
     {
       "url": "https://contigo.com.br/noticias/famosos/virginia-vaza-informacao-privilegiada-de-vini-jr-e-expoe-neymar.phtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-22T01:07:02.000Z",
       "data_registro": "2026-05-22T04:11:56.719Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/shawn-mendes-compartilha-fotos-de-viagem-ao-mexico-com-bruna-marquezine.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Flagrante histórico pode mudar rumo da civilização.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-23T18:50:13.000Z",
+      "data_registro": "2026-05-23T21:00:08.414Z"
     }
   ]
 }
