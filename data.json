@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-24T17:10:37.389Z",
+  "last_updated": "2026-05-24T21:02:48.673Z",
   "news": [
-    {
-      "url": "https://contigo.com.br/noticias/famosos/virginia-celebra-dia-das-maes-do-cacula-na-escola-e-vini-jr-reage.phtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
-      "veiculo": "Contigo! (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-08T16:21:41.000Z",
-      "data_registro": "2026-05-08T17:25:06.353Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/05/virginia-fonseca-se-derrete-em-apresentacao-de-dia-das-mae-do-filho-cacula.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-23T22:47:32.000Z",
       "data_registro": "2026-05-24T04:10:33.305Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/caetano-veloso-diz-nao-saber-quem-e-virginia-vini-jr-eu-sei-quem-e",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-24T18:35:55.000Z",
+      "data_registro": "2026-05-24T21:02:43.724Z"
     }
   ]
 }
