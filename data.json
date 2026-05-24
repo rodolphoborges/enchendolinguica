@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-23T21:00:08.415Z",
+  "last_updated": "2026-05-24T04:10:34.214Z",
   "news": [
-    {
-      "url": "https://contigo.com.br/noticias/famosos/virginia-vaza-informacao-privilegiada-de-vini-jr-e-expoe-neymar.phtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
-      "veiculo": "Contigo! (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-08T17:18:17.000Z",
-      "data_registro": "2026-05-08T17:25:06.353Z"
-    },
     {
       "url": "https://contigo.com.br/noticias/famosos/virginia-celebra-dia-das-maes-do-cacula-na-escola-e-vini-jr-reage.phtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-23T18:50:13.000Z",
       "data_registro": "2026-05-23T21:00:08.414Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/caetano-veloso-reage-ao-ouvir-o-nome-de-virginia-vini-jr-eu-sei-quem-e-ela-nao",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação: a química do casal desafia as leis da termodinâmica.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-23T22:47:32.000Z",
+      "data_registro": "2026-05-24T04:10:33.305Z"
     }
   ]
 }
