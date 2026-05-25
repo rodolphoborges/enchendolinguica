@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-25T17:48:32.901Z",
+  "last_updated": "2026-05-25T21:15:35.949Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/05/virginia-fonseca-se-derrete-em-apresentacao-de-dia-das-mae-do-filho-cacula.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-08T14:54:59.000Z",
-      "data_registro": "2026-05-08T17:25:14.994Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/no-dia-das-maes-vini-jr-manda-recado-para-virginia-veja-o-que-ele-disse",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-24T18:35:55.000Z",
       "data_registro": "2026-05-24T21:02:43.724Z"
+    },
+    {
+      "url": "https://tnonline.uol.com.br/noticias/revista-uau/virginia-fonseca-apaga-video-com-musica-sugestiva-e-fas-apontam-indireta-para-vini-jr-1092710",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "UOL Splash",
+      "categoria": "Fake Ship",
+      "data_publicacao": "Seg, 25 Mai 2026 17:58:48 -0300",
+      "data_registro": "2026-05-25T21:15:28.646Z"
     }
   ]
 }
