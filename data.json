@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-26T15:54:30.618Z",
+  "last_updated": "2026-05-26T18:32:00.446Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-responde-vini-jr.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-10T11:50:10.000Z",
-      "data_registro": "2026-05-10T13:41:43.949Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-da-feliz-dia-das-maes-a-virginia-em-meio-a-rumores-de-crise.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-26T05:11:41.000Z",
       "data_registro": "2026-05-26T15:54:30.617Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-abre-album-de-fotos-pos-termino-com-virginia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-26T15:54:17.000Z",
+      "data_registro": "2026-05-26T18:32:00.445Z"
     }
   ]
 }
