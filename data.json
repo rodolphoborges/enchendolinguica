@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-25T21:15:35.949Z",
+  "last_updated": "2026-05-26T04:07:16.800Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/no-dia-das-maes-vini-jr-manda-recado-para-virginia-veja-o-que-ele-disse",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Novo capítulo da saga romântica que todos acompanhávamos.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-10T11:37:27.000Z",
-      "data_registro": "2026-05-10T13:41:38.561Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-inicia-o-dia-das-maes-fazendo-bike-no-sol-de-biquini.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "Seg, 25 Mai 2026 17:58:48 -0300",
       "data_registro": "2026-05-25T21:15:28.646Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/eventos/noticia/2026/05/amiga-de-virginia-e-vini-jr-nao-vai-a-festa-de-maria-alice-familiares-do-jogador-tambem-ficaram-de-fora.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-26T01:40:16.000Z",
+      "data_registro": "2026-05-26T04:07:16.799Z"
     }
   ]
 }
