@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-26T04:07:16.800Z",
+  "last_updated": "2026-05-26T15:54:30.618Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-inicia-o-dia-das-maes-fazendo-bike-no-sol-de-biquini.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-10T12:15:39.000Z",
-      "data_registro": "2026-05-10T13:41:43.949Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-responde-vini-jr.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-26T01:40:16.000Z",
       "data_registro": "2026-05-26T04:07:16.799Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-posa-com-a-mae-em-noite-de-festa-de-filha-da-ex-virginia-com-ze-felipe.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-26T05:11:41.000Z",
+      "data_registro": "2026-05-26T15:54:30.617Z"
     }
   ]
 }
