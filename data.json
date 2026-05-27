@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-27T18:31:29.235Z",
+  "last_updated": "2026-05-27T22:00:39.346Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-da-feliz-dia-das-maes-a-virginia-em-meio-a-rumores-de-crise.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-10T10:12:41.000Z",
-      "data_registro": "2026-05-10T13:41:43.949Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/tudo-em-paz-vini-jr-celebra-virginia-no-dia-das-maes-te-amo",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-26T15:54:17.000Z",
       "data_registro": "2026-05-26T18:32:00.445Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-reencontra-amigo-apontado-como-peca-chave-na-separacao-de-virginia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-27T19:25:07.000Z",
+      "data_registro": "2026-05-27T22:00:39.344Z"
     }
   ]
 }
