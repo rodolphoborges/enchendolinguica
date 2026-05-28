@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-05-27T22:00:39.346Z",
+  "last_updated": "2026-05-28T04:11:05.467Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/tudo-em-paz-vini-jr-celebra-virginia-no-dia-das-maes-te-amo",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Impactante: evidências de que o amor permanece.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-10T14:37:52.000Z",
-      "data_registro": "2026-05-10T17:02:02.187Z"
-    },
     {
       "url": "https://contigo.com.br/noticias/famosos/vini-jr-da-presentao-para-virginia-fonseca-de-dia-das-maes-e-web-detona-breguice.phtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-05-27T19:25:07.000Z",
       "data_registro": "2026-05-27T22:00:39.344Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/05/recem-separado-de-virginia-vini-jr-fala-sobre-sonho-de-ter-filhos-assista.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-05-28T00:31:23.000Z",
+      "data_registro": "2026-05-28T04:11:05.466Z"
     }
   ]
 }
