@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-06-01T20:21:21.781Z",
+  "last_updated": "2026-06-02T04:41:30.685Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-e-vini-jr-combinam-looks-e-posam-juntos-em-madri.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-12T18:09:15.000Z",
-      "data_registro": "2026-05-12T21:23:41.365Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/bruna-marquezine-e-shawn-mendes-fazem-compras-em-mercado-de-la.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-12T23:46:11.000Z",
-      "data_registro": "2026-05-13T03:56:36.067Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/casa-dos-famosos/noticia/2026/05/de-moletom-e-sem-make-bruna-marquezine-recebe-delivery-na-mansao-de-shawn-mendes.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-13T05:27:51.000Z",
-      "data_registro": "2026-05-13T06:52:51.902Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/com-bruna-marquezine-shawn-mendes-mostra-evolucao-no-portugues-video",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-01T18:50:22.000Z",
       "data_registro": "2026-06-01T20:21:21.779Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/vini-jr-deixa-comentario-para-virginia-apos-desabafo-sobre-vaias-em-jogo-do-brasil/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-01T23:08:24.000Z",
+      "data_registro": "2026-06-02T04:41:28.434Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/apontada-como-pivo-de-vini-jr-e-virginia-cita-prejuizo-de-r-180-mil-condenada-por-algo-que-nunca-fiz.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-02T00:17:54.000Z",
+      "data_registro": "2026-06-02T04:41:30.683Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/noticia/2026/06/vini-jr-demonstra-apoio-a-virginia-fonseca-apos-desabafo-sobre-ataques-em-jogo-da-selecao.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-01T22:43:55.000Z",
+      "data_registro": "2026-06-02T04:41:30.683Z"
     }
   ]
 }
