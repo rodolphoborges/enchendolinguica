@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-03T04:50:29.275Z",
+  "last_updated": "2026-06-03T12:46:07.766Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/com-bruna-marquezine-shawn-mendes-mostra-evolucao-no-portugues-video",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Basta: o mundo para para ver o casal passear com o cachorro.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-13T13:13:24.000Z",
-      "data_registro": "2026-05-13T14:48:38.369Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/com-mao-ensanguentada-shawn-mendes-e-levado-por-marquezine-a-emergencia-veja-fotos",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-01T22:43:55.000Z",
       "data_registro": "2026-06-02T04:41:30.683Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-fonseca-apaga-publicacao-e-chama-atencao-dos-internautas.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Flagrante histórico pode mudar rumo da civilização.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-03T12:26:35.000Z",
+      "data_registro": "2026-06-03T12:46:07.764Z"
     }
   ]
 }
