@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-03T22:30:11.173Z",
+  "last_updated": "2026-06-04T04:44:50.827Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/com-mao-ensanguentada-shawn-mendes-e-levado-por-marquezine-a-emergencia-veja-fotos",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Mais uma prova de que o amor vence na vida real e nas telas.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-13T23:00:00.000Z",
-      "data_registro": "2026-05-14T03:55:46.340Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/de-baby-doll-virginia-fonseca-posta-foto-vendo-serie-na-cama-com-vini-jr.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-03T12:26:35.000Z",
       "data_registro": "2026-06-03T12:46:07.764Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/06/filhas-de-virginia-e-ze-felipe-invadem-web-e-respondem-seguidores-videos.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-04T02:25:36.000Z",
+      "data_registro": "2026-06-04T04:44:50.825Z"
     }
   ]
 }
