@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-04T21:46:35.055Z",
+  "last_updated": "2026-06-05T04:19:17.137Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/affair-de-bruna-marquezine-shawn-mendes-sofre-acidente-nos-eua",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Revelação bombástica: eles ainda se seguem no Instagram.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-14T12:30:04.000Z",
-      "data_registro": "2026-05-14T14:28:00.084Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-ganha-cafe-da-manha-na-cama.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-04T12:14:04.000Z",
       "data_registro": "2026-06-04T15:28:48.719Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/moda-e-beleza/estetica/noticia/2026/06/influenciadora-apontada-como-pivo-do-termino-de-virginia-e-vini-jr-faz-harmonizacao-apos-ataques-a-beleza.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Mais uma prova de que o amor vence na vida real e nas telas.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-05T00:47:41.000Z",
+      "data_registro": "2026-06-05T04:19:17.135Z"
     }
   ]
 }
