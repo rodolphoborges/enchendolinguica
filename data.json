@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-06T17:20:04.397Z",
+  "last_updated": "2026-06-06T21:10:03.210Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-ganha-cafe-da-manha-na-cama.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Revelação bombástica: eles ainda se seguem no Instagram.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-14T10:28:42.000Z",
-      "data_registro": "2026-05-14T14:28:04.524Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-reage-apos-virginia-fonseca-dar-repaginada-em-jatinho-e-manter-adesivo-de-ze-felipe.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-05T00:47:41.000Z",
       "data_registro": "2026-06-05T04:19:17.135Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/a-espera-do-brasil-virginia-relaxa-no-sofa-antes-de-amistoso-da-selecao.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-06T20:55:17.000Z",
+      "data_registro": "2026-06-06T21:10:03.209Z"
     }
   ]
 }
