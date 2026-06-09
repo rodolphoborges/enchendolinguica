@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-06-09T15:17:23.190Z",
+  "last_updated": "2026-06-09T18:12:26.661Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/bruna-marquezine-troca-beijos-e-cai-na-risada-com-shawn-mendes-durante-passeio-em-parque.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-14T14:53:48.000Z",
-      "data_registro": "2026-05-14T17:59:22.680Z"
-    },
-    {
-      "url": "https://portalleodias.com/famosos/vini-jr-reage-a-nova-decoracao-de-jatinho-de-virginia-que-manteve-adesivo-de-ze-felipe",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-14T19:28:39.000Z",
-      "data_registro": "2026-05-14T21:15:25.682Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-se-derrete-por-vini-jr-durante-partida-do-real-madrid-gato.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-09T11:45:07.000Z",
       "data_registro": "2026-06-09T15:17:19.641Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/vini-jr-nba-virginia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Incrível: o carinho mútuo ainda é legalizado por lei.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-09T15:33:56.000Z",
+      "data_registro": "2026-06-09T18:12:22.404Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/virginia-e-vini-jr-juntos-post-de-assessor-entrega-detalhe-inesperado-nos-eua",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-09T15:37:59.000Z",
+      "data_registro": "2026-06-09T18:12:25.717Z"
     }
   ]
 }
