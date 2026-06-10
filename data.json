@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-10T04:16:27.965Z",
+  "last_updated": "2026-06-10T11:42:32.428Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/vini-jr-traiu-virginia-relembre-os-prints-que-abalaram-o-namoro",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T12:34:41.000Z",
-      "data_registro": "2026-05-15T14:21:21.734Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-jogo-vini-jr-termino",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-10T01:18:12.000Z",
       "data_registro": "2026-06-10T04:16:27.965Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/shawn-mendes-desembarca-no-aeroporto-do-galeao.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-10T11:25:06.000Z",
+      "data_registro": "2026-06-10T11:42:32.427Z"
     }
   ]
 }
