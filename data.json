@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-06-11T12:14:08.148Z",
+  "last_updated": "2026-06-11T18:49:59.322Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-termino-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T11:25:26.000Z",
-      "data_registro": "2026-05-15T14:21:21.735Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/atitude-de-virginia-nas-redes-antes-do-anuncio-de-termino-com-vini-jr-chama-atencao-da-web-veja/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Análise técnica: o nível de 'ship' permanece estável na bolsa.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T12:54:02.000Z",
-      "data_registro": "2026-05-15T14:21:24.265Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/virginia-anuncia-fim-de-namoro-com-vini-jr-quando-algo-deixa-de-fazer-sentido-leia-a-integra/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-10T16:15:36.000Z",
       "data_registro": "2026-06-10T18:34:11.706Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/bruna-marquezine-e-shawn-mendes-sao-flagrados-em-clima-de-romance-em-praia-do-rio",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-11T17:57:58.000Z",
+      "data_registro": "2026-06-11T18:49:57.499Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/preparada-para-a-copa-virginia-fonseca-faz-video-cantando-musica-romantica.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-11T13:16:20.000Z",
+      "data_registro": "2026-06-11T18:49:59.321Z"
     }
   ]
 }
