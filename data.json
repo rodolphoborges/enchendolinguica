@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-11T18:49:59.322Z",
+  "last_updated": "2026-06-11T22:05:32.243Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/virginia-anuncia-fim-de-namoro-com-vini-jr-quando-algo-deixa-de-fazer-sentido-leia-a-integra/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T11:20:15.000Z",
-      "data_registro": "2026-05-15T14:21:24.266Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/viagens-polemicas-e-declaracoes-relembre-a-historia-de-amor-de-virginia-fonseca-e-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-11T13:16:20.000Z",
       "data_registro": "2026-06-11T18:49:59.321Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/saude/fitness/noticia/2026/06/bruna-marquezine-e-shawn-mendes-treinam-juntos-em-academia-no-rio-de-janeiro-video.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-11T21:10:15.000Z",
+      "data_registro": "2026-06-11T22:05:32.242Z"
     }
   ]
 }
