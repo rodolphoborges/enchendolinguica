@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-06-13T14:12:46.989Z",
+  "last_updated": "2026-06-13T17:37:42.458Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/modelo-que-expos-prints-de-vini-jr-reage-a-termino-do-jogador-com-virginia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T15:51:13.000Z",
-      "data_registro": "2026-05-15T17:46:44.412Z"
-    },
-    {
-      "url": "https://tnonline.uol.com.br/noticias/revista-uau/nao-tem-volta-virginia-toma-decisao-apos-termino-do-namoro-com-vini-jr-1089971",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
-      "veiculo": "UOL Splash",
-      "categoria": "Fake Ship",
-      "data_publicacao": "Sex, 15 Mai 2026 14:28:36 -0300",
-      "data_registro": "2026-05-15T17:46:44.598Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/mae-de-virginia-faz-post-enigmatico-e-web-aponta-indireta-para-vini-jr-deixou-mais-do-que-obvio-veja/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-13T10:27:02.000Z",
       "data_registro": "2026-06-13T14:12:46.988Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/vai-ter-volta-ou-nao-publico-opina-sobre-possivel-reconciliacao-entre-virginia-e-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-13T15:01:56.000Z",
+      "data_registro": "2026-06-13T17:37:41.120Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/apontadas-como-pivos-da-separacao-de-vini-jr-e-virginia-reagem-o-tempo-inocentando.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-13T16:04:48.000Z",
+      "data_registro": "2026-06-13T17:37:42.457Z"
     }
   ]
 }
