@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-13T17:37:42.458Z",
+  "last_updated": "2026-06-13T21:21:21.556Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/mae-de-virginia-faz-post-enigmatico-e-web-aponta-indireta-para-vini-jr-deixou-mais-do-que-obvio-veja/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Flagrante histórico pode mudar rumo da civilização.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T14:49:47.000Z",
-      "data_registro": "2026-05-15T17:46:46.816Z"
-    },
     {
       "url": "https://portalleodias.com/redes-sociais/entrevista-de-virginia-a-leo-dias-volta-a-tona-apos-termino-com-vini-jr-acham-que-nao-sofro",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-13T16:04:48.000Z",
       "data_registro": "2026-06-13T17:37:42.457Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/apos-interacao-com-vini-jr-no-dia-dos-namorados-virginia-acompanha-estreia-do-brasil-na-copa-do-mundo.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-13T19:32:18.000Z",
+      "data_registro": "2026-06-13T21:21:21.555Z"
     }
   ]
 }
