@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-14T04:47:39.347Z",
+  "last_updated": "2026-06-14T10:51:40.513Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/horas-antes-de-anunciar-termino-com-vini-jr-virginia-publica-reflexao-sobre-ser-mulher-expressiva.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T17:09:44.000Z",
-      "data_registro": "2026-05-15T17:46:48.585Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/ze-felipe-posta-com-os-filhos-e-fas-avisam-sobre-termino-de-virginia.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-13T22:46:17.000Z",
       "data_registro": "2026-06-14T04:47:39.346Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/eita-post-de-vini-jr-pos-jogo-viraliza-por-motivo-ousado-e-melhor-amigo-de-virginia-comenta.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-14T10:16:30.000Z",
+      "data_registro": "2026-06-14T10:51:40.511Z"
     }
   ]
 }
