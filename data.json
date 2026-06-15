@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-06-14T21:19:38.298Z",
+  "last_updated": "2026-06-15T05:03:15.695Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/noticia/2026/05/e-agora-virginia-fonseca-tinha-planos-de-acompanhar-vini-jr-na-copa-do-mundo-2026-antes-do-termino.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T15:26:51.000Z",
-      "data_registro": "2026-05-15T17:46:48.585Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/influencer-que-abalou-namoro-de-virginia-fonseca-e-vini-jr-posta-apos-termino.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta máximo: demonstração de carinho em via pública.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T14:35:54.000Z",
-      "data_registro": "2026-05-15T17:46:48.585Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/militao-reage-apos-ter-nome-ligado-a-termino-de-vini-jr-e-virginia",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-14T20:10:24.000Z",
       "data_registro": "2026-06-14T21:19:36.897Z"
+    },
+    {
+      "url": "https://portalleodias.com/tv/apos-ganhar-dedicatoria-virginia-reage-ao-gol-de-vini-jr-estava-torcendo-muito-por-ele",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-15T00:33:58.000Z",
+      "data_registro": "2026-06-15T05:03:14.754Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/bruna-marquezine-e-shawn-mendes-trocam-beijos.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Ciência explica: a gravidade ainda mantém o casal unido.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-14T21:49:34.000Z",
+      "data_registro": "2026-06-15T05:03:15.694Z"
     }
   ]
 }
