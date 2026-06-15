@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-15T05:03:15.695Z",
+  "last_updated": "2026-06-15T14:29:46.931Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/militao-reage-apos-ter-nome-ligado-a-termino-de-vini-jr-e-virginia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T20:45:16.000Z",
-      "data_registro": "2026-05-15T21:11:24.531Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/quem-sao-as-modelos-apontadas-como-visitas-de-vini-jr-a-madrid",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-14T21:49:34.000Z",
       "data_registro": "2026-06-15T05:03:15.694Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/novo-video-levanta-suspeita-de-dedicatoria-de-vini-jr-para-virginia-apos-gol-da-selecao-web-reage.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-15T13:00:33.000Z",
+      "data_registro": "2026-06-15T14:29:46.930Z"
     }
   ]
 }
