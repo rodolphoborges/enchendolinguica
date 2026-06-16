@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-16T19:41:21.957Z",
+  "last_updated": "2026-06-16T22:18:37.056Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/o-que-virginia-disse-sobre-visitas-de-modelos-a-vini-jr-em-madrid",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T18:13:26.000Z",
-      "data_registro": "2026-05-15T21:11:24.532Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-teria-descoberto-visitas-de-vini-jr-em-madri-diz-portal",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-16T14:26:34.000Z",
       "data_registro": "2026-06-16T19:41:21.956Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/shawn-mendes-e-bruna-marquezine-posam-com-fa-em-passeio-no-rio-de-janeiro.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-16T21:13:16.000Z",
+      "data_registro": "2026-06-16T22:18:37.055Z"
     }
   ]
 }
