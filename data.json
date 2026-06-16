@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-16T12:59:08.097Z",
+  "last_updated": "2026-06-16T19:41:21.957Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-e-vini-jr-brigaram-em-restaurante-antes-de-termino",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Revelação bombástica: eles ainda se seguem no Instagram.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T18:50:36.000Z",
-      "data_registro": "2026-05-15T21:11:24.532Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/o-que-virginia-disse-sobre-visitas-de-modelos-a-vini-jr-em-madrid",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-15T23:01:50.000Z",
       "data_registro": "2026-06-16T05:06:01.248Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-canta-musica.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-16T14:26:34.000Z",
+      "data_registro": "2026-06-16T19:41:21.956Z"
     }
   ]
 }
