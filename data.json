@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-15T22:23:03.435Z",
+  "last_updated": "2026-06-16T05:06:01.249Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/quem-sao-as-modelos-apontadas-como-visitas-de-vini-jr-a-madrid",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T19:09:57.000Z",
-      "data_registro": "2026-05-15T21:11:24.532Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-e-vini-jr-brigaram-em-restaurante-antes-de-termino",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-15T13:00:33.000Z",
       "data_registro": "2026-06-15T14:29:46.930Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/sensitivo-preve-reconciliacao-de-ze-felipe-e-virginia-e-diz-que-vini-jr-e-influencer-e-marketing.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-15T23:01:50.000Z",
+      "data_registro": "2026-06-16T05:06:01.248Z"
     }
   ]
 }
