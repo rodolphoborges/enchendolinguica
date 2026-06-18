@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-18T11:54:03.866Z",
+  "last_updated": "2026-06-18T15:39:04.977Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-teria-descoberto-visitas-de-vini-jr-em-madri-diz-portal",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T17:58:09.000Z",
-      "data_registro": "2026-05-15T21:11:24.532Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/eder-militao-se-pronuncia-apos-ter-o-nome-envolvido-no-termino-de-virginia-fonseca-e-vini-jr-leia-a-integra/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-16T21:13:16.000Z",
       "data_registro": "2026-06-16T22:18:37.055Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/virginia-abre-mao-da-academia-para-jantar-evita-balada-e-alimenta-rumores-sobre-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Plantão fofoca: a paz mundial depende deste relacionamento.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-18T13:25:44.000Z",
+      "data_registro": "2026-06-18T15:39:02.065Z"
     }
   ]
 }
