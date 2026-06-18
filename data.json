@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-18T18:29:02.228Z",
+  "last_updated": "2026-06-18T22:19:19.626Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/eder-militao-se-pronuncia-apos-ter-o-nome-envolvido-no-termino-de-virginia-fonseca-e-vini-jr-leia-a-integra/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T21:04:52.000Z",
-      "data_registro": "2026-05-15T21:11:26.968Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/virginia-e-vini-jr-assessor-do-jogador-se-pronuncia-apos-rumores-de-que-ele-teria-convidado-tres-mulheres-para-madri/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-18T13:25:44.000Z",
       "data_registro": "2026-06-18T15:39:02.065Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/marcia-sensitiva-diz-que-vini-jr-e-um-banana-na-mao-de-virginia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Flagrante histórico pode mudar rumo da civilização.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-18T19:28:39.000Z",
+      "data_registro": "2026-06-18T22:19:07.139Z"
     }
   ]
 }
