@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-20T14:16:24.401Z",
+  "last_updated": "2026-06-20T17:40:08.037Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/influenciadoras-apontadas-como-pivo-de-termino-entre-virginia-e-vini-jr-negam-envolvimento-foi-coincidencia.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T20:37:53.000Z",
-      "data_registro": "2026-05-15T21:11:28.661Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/eder-militao-se-pronuncia-apos-ser-citado-em-termino-de-virginia-e-vini-assustado.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-20T10:33:49.000Z",
       "data_registro": "2026-06-20T14:16:24.400Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/vini-jr-abre-album-de-fotos-do-jogo-do-brasil-contra-haiti.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-20T15:04:33.000Z",
+      "data_registro": "2026-06-20T17:40:08.035Z"
     }
   ]
 }
