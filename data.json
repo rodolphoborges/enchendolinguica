@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-20T21:23:10.705Z",
+  "last_updated": "2026-06-21T04:56:21.906Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/eder-militao-se-pronuncia-apos-ser-citado-em-termino-de-virginia-e-vini-assustado.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T20:29:04.000Z",
-      "data_registro": "2026-05-15T21:11:28.661Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/quem-sao-as-influenciadoras-apontadas-como-pivo-do-termino-entre-virginia-e-vini-jr.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-20T15:04:33.000Z",
       "data_registro": "2026-06-20T17:40:08.035Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/jantar-de-virginia-em-nova-york-levanta-suspeitas-entre-fas-por-coincidencia-com-grupo-de-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-21T02:21:48.000Z",
+      "data_registro": "2026-06-21T04:56:21.905Z"
     }
   ]
 }
