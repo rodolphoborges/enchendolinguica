@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-21T04:56:21.906Z",
+  "last_updated": "2026-06-21T11:20:07.767Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/quem-sao-as-influenciadoras-apontadas-como-pivo-do-termino-entre-virginia-e-vini-jr.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Flagrante histórico pode mudar rumo da civilização.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T18:14:18.000Z",
-      "data_registro": "2026-05-15T21:11:28.662Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/suposto-motivo-do-termino-entre-virginia-fonseca-e-vini-jr-vem-a-ton-saiba-qual.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-21T02:21:48.000Z",
       "data_registro": "2026-06-21T04:56:21.905Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/after-madrugada-a-dentro-como-foi-jantar-de-virginia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Plantão fofoca: a paz mundial depende deste relacionamento.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-21T10:21:58.000Z",
+      "data_registro": "2026-06-21T11:20:07.765Z"
     }
   ]
 }
