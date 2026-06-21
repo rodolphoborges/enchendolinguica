@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-06-21T14:23:50.340Z",
+  "last_updated": "2026-06-21T17:43:43.947Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/suposto-motivo-do-termino-entre-virginia-fonseca-e-vini-jr-vem-a-ton-saiba-qual.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T17:49:00.000Z",
-      "data_registro": "2026-05-15T21:11:28.662Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/veja-virginia-chegando-ao-brasil-apos-termino-com-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: nada de novo no front, mas o feed precisa rodar.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-16T02:04:55.000Z",
-      "data_registro": "2026-05-16T03:40:44.328Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-e-vini-jr-suposta-pivo-de-termino-fez-teste-de-fidelidade-na-tv",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T20:58:27.000Z",
-      "data_registro": "2026-05-16T03:40:44.328Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/virginia-e-vini-jr-termino-repercute-em-veiculos-internacionais-confira/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-21T10:21:58.000Z",
       "data_registro": "2026-06-21T11:20:07.765Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-vini-jr-jantar-eua",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-21T17:21:32.000Z",
+      "data_registro": "2026-06-21T17:43:40.414Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-e-vini-jr-aumentam-rumores-de-reconciliacao-apos-detalhe-em-video-chamar-atencao-assista/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-21T15:47:01.000Z",
+      "data_registro": "2026-06-21T17:43:42.411Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/flagra-video-apagado-de-amiga-reforca-suspeita-de-volta-de-virginia-e-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-21T15:37:57.000Z",
+      "data_registro": "2026-06-21T17:43:42.554Z"
     }
   ]
 }
