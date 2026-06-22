@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-22T19:35:39.006Z",
+  "last_updated": "2026-06-22T22:08:36.835Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/mazinho-conheca-o-amigo-de-vini-jr-e-militao-apontado-como-peca-chave-no-termino-de-virginia.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-15T21:41:15.000Z",
-      "data_registro": "2026-05-16T03:40:49.905Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-alfineta-vini-jr-em-video-apos-termino-amor-da-minha-vida",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-22T15:13:49.000Z",
       "data_registro": "2026-06-22T19:35:39.005Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/bruna-marquezine-surge-abatida-em-novo-flagra-com-shawn-mendes",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-22T21:02:57.000Z",
+      "data_registro": "2026-06-22T22:08:32.040Z"
     }
   ]
 }
