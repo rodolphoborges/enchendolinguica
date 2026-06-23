@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-22T22:08:36.835Z",
+  "last_updated": "2026-06-23T04:03:23.393Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-alfineta-vini-jr-em-video-apos-termino-amor-da-minha-vida",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-16T13:39:56.000Z",
-      "data_registro": "2026-05-16T13:45:04.209Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/supostas-pivos-do-termino-de-virginia-e-vini-jr-abrem-o-jogo-sobre-encontro",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-22T21:02:57.000Z",
       "data_registro": "2026-06-22T22:08:32.040Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/bruna-marquezine-que-namora-com-shawn-mendes-diz-que-aprendeu-que-pode-escolher-no-amor.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Análise técnica: o nível de 'ship' permanece estável na bolsa.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-23T03:00:13.000Z",
+      "data_registro": "2026-06-23T04:03:23.391Z"
     }
   ]
 }
