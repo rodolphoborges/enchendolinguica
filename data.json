@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-23T18:03:58.783Z",
+  "last_updated": "2026-06-23T21:45:41.642Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/supostas-pivos-do-termino-de-virginia-e-vini-jr-abrem-o-jogo-sobre-encontro",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-16T12:51:27.000Z",
-      "data_registro": "2026-05-16T13:45:04.209Z"
-    },
     {
       "url": "https://tnonline.uol.com.br/noticias/revista-uau/modelos-envolvidas-no-termino-de-virginia-e-vini-jr-se-pronunciam-inventaram-1090261",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-23T03:00:13.000Z",
       "data_registro": "2026-06-23T04:03:23.391Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/mae-de-virginia-curte-critica-a-filha-apos-reaproximacao-com-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-23T18:48:30.000Z",
+      "data_registro": "2026-06-23T21:45:33.049Z"
     }
   ]
 }
