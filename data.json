@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-06-25T18:17:47.177Z",
+  "last_updated": "2026-06-25T21:48:06.786Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/arrasado-amigos-de-vini-jr-contam-como-o-jogador-esta-apos-o-termino-com-virginia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-16T16:52:39.000Z",
-      "data_registro": "2026-05-16T20:56:50.098Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-estaria-arrasado-com-o-fim-do-termino-do-namoro-com-virginia-diz-jornalista.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-16T17:58:03.000Z",
-      "data_registro": "2026-05-16T20:56:51.498Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/amigos-de-vini-jr-expoem-bastidores-do-termino-com-virginia-e-revelam-dificuldade-do-jogador/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-25T17:43:05.000Z",
       "data_registro": "2026-06-25T18:17:47.175Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-chama-atencao-com-comentario-em-post-de-vini-jr-e-jornalista-entrega-ate-supostos-planos-dos-dois-apos-a-copa/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-25T19:08:09.000Z",
+      "data_registro": "2026-06-25T21:48:04.239Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/vini-jr-comenta-foto-de-virginia-apos-marcar-dois-gols-pelo-brasil-e-agita-fas-voltou-para-marcar-territorio.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Especialistas confirmam: casal continua existindo.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-25T19:39:45.000Z",
+      "data_registro": "2026-06-25T21:48:06.785Z"
     }
   ]
 }
