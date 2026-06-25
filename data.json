@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-06-25T14:43:18.494Z",
+  "last_updated": "2026-06-25T18:17:47.177Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/veja-a-ultima-aparicao-de-virginia-e-vini-jr-como-casal",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-16T20:08:02.000Z",
-      "data_registro": "2026-05-16T20:56:50.097Z"
-    },
-    {
-      "url": "https://portalleodias.com/famosos/virginia-celebra-apoio-de-angelica-e-huck-apos-termino-com-vini-jr-melhorou-meu-dia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Novo capítulo da saga romântica que todos acompanhávamos.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-16T19:04:32.000Z",
-      "data_registro": "2026-05-16T20:56:50.097Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/arrasado-amigos-de-vini-jr-contam-como-o-jogador-esta-apos-o-termino-com-virginia",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-25T11:06:44.000Z",
       "data_registro": "2026-06-25T14:43:18.493Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-comenta-em-foto-de-vini-jr-apos-reconciliacao",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-25T17:31:56.000Z",
+      "data_registro": "2026-06-25T18:17:39.130Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-fonseca-e-vini-jr-reatam-namoro-pela-segunda-vez-um-mes-apos-termino-diz-colunista.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-25T17:43:05.000Z",
+      "data_registro": "2026-06-25T18:17:47.175Z"
     }
   ]
 }
