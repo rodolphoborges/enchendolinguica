@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-06-26T17:55:22.794Z",
+  "last_updated": "2026-06-26T21:23:41.711Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-faz-noite-do-cinema-com-os-filhos-apos-termino.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Mais uma prova de que o amor vence na vida real e nas telas.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-16T22:33:01.000Z",
-      "data_registro": "2026-05-17T04:00:18.447Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/video-de-virginia-apos-termino-com-vini-jr-acende-preocupacoes-na-web-bem-abalada.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-26T17:27:49.000Z",
       "data_registro": "2026-06-26T17:55:22.792Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-fonseca-reforca-rumores-de-reconciliacao-com-vino-jr-ao-confirmar-viagem-para-ibiza.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-26T19:07:43.000Z",
+      "data_registro": "2026-06-26T21:23:41.710Z"
     }
   ]
 }
