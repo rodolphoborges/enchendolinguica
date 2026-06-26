@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-06-26T14:36:31.749Z",
+  "last_updated": "2026-06-26T17:55:22.794Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/arrependimento-bateu-vini-jr-curte-post-de-virginia-apos-termino",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-16T22:55:14.000Z",
-      "data_registro": "2026-05-17T04:00:17.111Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-manda-recado-um-dia-apos-o-termino-com-vini-jr-inegociavel.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Novo capítulo da saga romântica que todos acompanhávamos.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-17T00:29:41.000Z",
-      "data_registro": "2026-05-17T04:00:18.447Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-faz-noite-do-cinema-com-os-filhos-apos-termino.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-06-26T12:35:12.000Z",
       "data_registro": "2026-06-26T14:36:31.747Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/equipe-de-virginia-reage-sobre-suposta-reconciliacao-e-viagem-marcada-com-vini-jr-apos-a-copa/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Urgente: nada de novo no front, mas o feed precisa rodar.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-26T14:50:58.000Z",
+      "data_registro": "2026-06-26T17:55:21.471Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/06/vini-jr-deixa-escapar-sobre-viagem-a-ibiza.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Incrível: o carinho mútuo ainda é legalizado por lei.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-06-26T17:27:49.000Z",
+      "data_registro": "2026-06-26T17:55:22.792Z"
     }
   ]
 }
