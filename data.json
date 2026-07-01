@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-01T18:03:16.971Z",
+  "last_updated": "2026-07-01T21:40:45.327Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/mulher-envolvida-na-polemica-de-vini-jr-e-virginia-promete-revelacao.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-17T22:49:35.000Z",
-      "data_registro": "2026-05-18T04:13:06.638Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-faz-pedido-e-cita-desafios-apos-terminar-namoro-com-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T10:58:22.000Z",
-      "data_registro": "2026-05-18T11:49:27.141Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/mae-de-vini-jr-chama-virginia-de-peso-apos-termino-e-causa-polemica",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-01T17:06:19.000Z",
       "data_registro": "2026-07-01T18:03:16.969Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/gripada-virginia-acende-alerta-em-torcedores-sobre-saude-de-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-01T21:40:33.000Z",
+      "data_registro": "2026-07-01T21:40:37.175Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/fotos-mostram-virginia-em-castelo-de-vini-jr-alugado-para-copa-veja",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-01T18:21:59.000Z",
+      "data_registro": "2026-07-01T21:40:37.175Z"
     }
   ]
 }
