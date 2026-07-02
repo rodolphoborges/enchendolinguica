@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-01T21:40:45.327Z",
+  "last_updated": "2026-07-02T04:03:11.969Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/mae-de-vini-jr-chama-virginia-de-peso-apos-termino-e-causa-polemica",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T09:20:13.000Z",
-      "data_registro": "2026-05-18T11:49:27.141Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-viaja-com-affair-apos-termino-com-vini-jr-saiba-quem-e",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-01T18:21:59.000Z",
       "data_registro": "2026-07-01T21:40:37.175Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-aluga-mansao-avaliada-em-r-20-milhoes-a-dois-minutos-do-castelo-de-vini-jr-nos-eua-veja.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Plantão fofoca: a paz mundial depende deste relacionamento.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-01T23:51:29.000Z",
+      "data_registro": "2026-07-02T04:03:11.968Z"
     }
   ]
 }
