@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-03T17:39:01.076Z",
+  "last_updated": "2026-07-03T21:13:41.911Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-viaja-com-affair-apos-termino-com-vini-jr-saiba-quem-e",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T09:02:00.000Z",
-      "data_registro": "2026-05-18T11:49:27.141Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-ora-pedindo-forca-para-vencer-os-desafios-apos-separacao-de-vini-jr.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-01T23:51:29.000Z",
       "data_registro": "2026-07-02T04:03:11.968Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/coincidencia-vini-jr-ganha-presente-de-r-1-milhao-da-joalheria-da-qual-virginia-e-embaixadora",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-03T20:37:34.000Z",
+      "data_registro": "2026-07-03T21:13:40.641Z"
     }
   ]
 }
