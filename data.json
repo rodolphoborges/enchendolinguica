@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-04T13:46:32.108Z",
+  "last_updated": "2026-07-04T17:13:09.474Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-ora-pedindo-forca-para-vencer-os-desafios-apos-separacao-de-vini-jr.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T10:16:10.000Z",
-      "data_registro": "2026-05-18T11:49:31.889Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/mae-de-vini-jr-e-alvo-de-ataques-apos-suposta-curtida-sobre-virginia-fonseca.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-03T20:37:34.000Z",
       "data_registro": "2026-07-03T21:13:40.641Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/07/virginia-fonseca-mostra-forca-tarefa-para-cortar-cabelo-de-jose-leonardo-um-corte-ou-uma-cirurgia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-04T14:32:08.000Z",
+      "data_registro": "2026-07-04T17:13:09.473Z"
     }
   ]
 }
