@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-04T17:13:09.474Z",
+  "last_updated": "2026-07-04T21:05:03.795Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/mae-de-vini-jr-e-alvo-de-ataques-apos-suposta-curtida-sobre-virginia-fonseca.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T09:24:28.000Z",
-      "data_registro": "2026-05-18T11:49:31.889Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/bruna-marquezine-e-shawn-mendes-se-beijam-durante-passeio-por-ny.ghtml",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-04T14:32:08.000Z",
       "data_registro": "2026-07-04T17:13:09.473Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/foi-dificil-virginia-mostra-jose-leonardo-cortando-cabelo-com-barbeiro-de-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-04T18:14:08.000Z",
+      "data_registro": "2026-07-04T21:05:02.263Z"
     }
   ]
 }
