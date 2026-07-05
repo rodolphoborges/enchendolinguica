@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-04T21:05:03.795Z",
+  "last_updated": "2026-07-05T04:00:34.217Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/bruna-marquezine-e-shawn-mendes-se-beijam-durante-passeio-por-ny.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T08:14:19.000Z",
-      "data_registro": "2026-05-18T11:49:31.889Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/mae-de-vini-jr-toma-atitude-apos-comentario-sobre-virginia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T13:34:14.000Z",
-      "data_registro": "2026-05-18T15:45:53.586Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-assistiu-ao-jogo-de-vini-jr-apos-o-termino-entenda-polemica",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-04T18:14:08.000Z",
       "data_registro": "2026-07-04T21:05:02.263Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/07/virginia-fonseca-cita-vini-jr-em-previsao-para-jogo-entre-brasil-e-noruega-veja-o-que-ela-disse.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-04T21:59:11.000Z",
+      "data_registro": "2026-07-05T04:00:34.215Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/07/virginia-fonseca-mostra-resumo-do-dia-ao-lado-dos-filhos-nos-eua.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo: paparazzi confirmam que eles comem comida, como humanos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-04T21:03:48.000Z",
+      "data_registro": "2026-07-05T04:00:34.215Z"
     }
   ]
 }
