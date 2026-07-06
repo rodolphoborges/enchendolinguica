@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-06T18:14:55.632Z",
+  "last_updated": "2026-07-06T21:40:55.985Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-assistiu-ao-jogo-de-vini-jr-apos-o-termino-entenda-polemica",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T12:41:16.000Z",
-      "data_registro": "2026-05-18T15:45:53.587Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/mae-de-vini-jr-causa-com-reacao-na-rede-e-mae-de-virginia-manda-indireta-afiada-veja/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-04T21:03:48.000Z",
       "data_registro": "2026-07-05T04:00:34.215Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/shawn-mendes-e-bruna-marquezine-sao-filmados-em-aeroporto-na-africa-do-sul-assista.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-06T20:45:04.000Z",
+      "data_registro": "2026-07-06T21:40:55.984Z"
     }
   ]
 }
