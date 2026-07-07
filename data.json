@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-07T14:49:50.763Z",
+  "last_updated": "2026-07-07T18:04:44.637Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/vini-jr-se-pronuncia-apos-termino-com-virginia-leia-integra-da-nota",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T17:43:13.000Z",
-      "data_registro": "2026-05-18T18:04:50.429Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/veja-mensagem-que-vini-jr-publicou-para-virginia-apos-termino",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-07T12:43:20.000Z",
       "data_registro": "2026-07-07T14:49:50.762Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-e-vini-jr-aparecem-na-mesma-casa-nos-eua-apos-dias-longe-das-redes-e-detalhe-chama-atencao-assista/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-07T15:32:18.000Z",
+      "data_registro": "2026-07-07T18:04:42.224Z"
     }
   ]
 }
