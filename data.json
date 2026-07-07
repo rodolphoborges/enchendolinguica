@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-07T11:14:05.499Z",
+  "last_updated": "2026-07-07T14:49:50.763Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/influencer-diz-que-sabia-do-termino-de-vini-jr-e-virginia-e-revela-trato-que-fez-com-o-jogador.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T12:26:33.000Z",
-      "data_registro": "2026-05-18T15:45:58.129Z"
-    },
-    {
-      "url": "https://g1.globo.com/pop-arte/noticia/2026/05/18/vini-jr-e-virginia-o-que-disse-cada-um-sobre-o-termino-do-namoro.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
-      "veiculo": "G1 Pop & Arte",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T17:43:00.000Z",
-      "data_registro": "2026-05-18T18:04:48.056Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/vini-jr-se-pronuncia-apos-termino-com-virginia-leia-integra-da-nota",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-06T23:24:25.000Z",
       "data_registro": "2026-07-07T03:57:25.563Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-reaparece-apos-sumico-das-redes-sociais.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-07T13:29:36.000Z",
+      "data_registro": "2026-07-07T14:49:50.762Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/moda-e-beleza/estetica/noticia/2026/07/virginia-fonseca-e-vini-jr-fazem-tratamento-juntinhos-em-mansao-alugada-pelo-jogador.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-07T12:43:20.000Z",
+      "data_registro": "2026-07-07T14:49:50.762Z"
     }
   ]
 }
