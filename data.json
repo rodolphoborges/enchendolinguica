@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-06T21:40:55.985Z",
+  "last_updated": "2026-07-07T03:57:27.176Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/mae-de-vini-jr-causa-com-reacao-na-rede-e-mae-de-virginia-manda-indireta-afiada-veja/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Revelação bombástica: eles ainda se seguem no Instagram.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T13:27:12.000Z",
-      "data_registro": "2026-05-18T15:45:56.381Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/influencer-diz-que-sabia-do-termino-de-vini-jr-e-virginia-e-revela-trato-que-fez-com-o-jogador.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-06T20:45:04.000Z",
       "data_registro": "2026-07-06T21:40:55.984Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/bruna-marquezine-e-shawn-mendes-sao-flagrados-em-aeroporto-na-africa",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-06T23:24:25.000Z",
+      "data_registro": "2026-07-07T03:57:25.563Z"
     }
   ]
 }
