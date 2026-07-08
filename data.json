@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-08T14:27:53.785Z",
+  "last_updated": "2026-07-08T17:43:23.205Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/vini-jr-fala-pela-1a-vez-apos-fim-de-namoro-com-virginia-e-deixa-recado-para-a-ex-confira/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação: a química do casal desafia as leis da termodinâmica.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T17:42:39.000Z",
-      "data_registro": "2026-05-18T18:04:54.026Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/influencer-apontada-como-pivo-de-crise-entre-virginia-e-vini-jr-revela-combinado-com-o-jogador/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-08T08:01:53.000Z",
       "data_registro": "2026-07-08T10:24:22.954Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-surge-em-sao-paulo.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-08T15:00:50.000Z",
+      "data_registro": "2026-07-08T17:43:23.204Z"
     }
   ]
 }
