@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-10T21:10:57.048Z",
+  "last_updated": "2026-07-11T03:18:30.518Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/influencer-apontada-como-pivo-de-crise-entre-virginia-e-vini-jr-revela-combinado-com-o-jogador/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T15:46:04.000Z",
-      "data_registro": "2026-05-18T18:04:54.026Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/amigos-de-virginia-reagem-a-video-sobre-possivel-volta-com-ze-felipe-apos-termino-com-vini-jr.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-08T15:00:50.000Z",
       "data_registro": "2026-07-08T17:43:23.204Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/web-nota-detalhe-em-video-de-virginia-na-espanha-em-meio-a-rumores-de-reconciliacao-com-vini-jr-assista/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-11T02:46:24.000Z",
+      "data_registro": "2026-07-11T03:18:28.030Z"
     }
   ]
 }
