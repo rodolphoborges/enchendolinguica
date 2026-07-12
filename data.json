@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-12T17:05:15.352Z",
+  "last_updated": "2026-07-12T20:57:20.335Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/lucas-guedez-detalha-conversa-e-revela-como-virginia-esta-apos-termino-com-vini-jr-assista/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Flagrante histórico pode mudar rumo da civilização.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T01:01:00.000Z",
-      "data_registro": "2026-05-19T04:06:52.656Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/jovens-apontadas-como-pivos-do-termino-de-virginia-e-vini-jr-esclarecem-relacao-com-o-jogador-e-expoem-decepcao-com-a-influenciadora-assista/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T00:51:56.000Z",
-      "data_registro": "2026-05-19T04:06:52.657Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/lucas-guedez-fala-sobre-conversa-com-virginia-apos-fim-com-vini-jr-ela-vai-ficar-bem",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-12T15:55:10.000Z",
       "data_registro": "2026-07-12T17:05:15.351Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-deixa-misterio-e-posta-foto-em-aniversario-de-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-12T17:07:32.000Z",
+      "data_registro": "2026-07-12T20:57:12.338Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-canta-musica-durante-aniversario-de-vini-jr-e-letra-sugestiva-chama-atencao-assista/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-12T19:56:51.000Z",
+      "data_registro": "2026-07-12T20:57:16.962Z"
     }
   ]
 }
