@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-07-12T13:39:31.525Z",
+  "last_updated": "2026-07-12T17:05:15.352Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/mensagem-gerou-estopim-para-fim-do-relacionamento-entre-virginia-fonseca-e-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T18:56:42.000Z",
-      "data_registro": "2026-05-18T21:17:43.941Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-teria-visto-mensagem-de-outra-mulher-no-celular-de-vini-jr-antes-de-termino.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-18T19:05:58.000Z",
-      "data_registro": "2026-05-18T21:17:44.897Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/amigo-entrega-conversa-com-virginia-apos-termino-com-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T00:44:05.000Z",
-      "data_registro": "2026-05-19T04:06:49.941Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/lucas-guedez-detalha-conversa-e-revela-como-virginia-esta-apos-termino-com-vini-jr-assista/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-12T00:18:41.000Z",
       "data_registro": "2026-07-12T03:30:12.893Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/virginia-curte-aniversario-de-vini-jr-em-iate-de-luxo-na-italia-com-os-filhos",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Mais uma prova de que o amor vence na vida real e nas telas.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-12T15:24:10.000Z",
+      "data_registro": "2026-07-12T17:05:14.090Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/em-iate-com-vini-jr-virginia-fonseca-canta-musica-sugestiva-nao-vou-te-assumir.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Revelação bombástica: eles ainda se seguem no Instagram.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-12T16:43:37.000Z",
+      "data_registro": "2026-07-12T17:05:15.351Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/amiga-de-vini-jr-entrega-presenca-de-virginia-na-comemoracao-do-aniversario-do-jogador.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-12T15:55:10.000Z",
+      "data_registro": "2026-07-12T17:05:15.351Z"
     }
   ]
 }
