@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-14T02:54:41.785Z",
+  "last_updated": "2026-07-14T06:16:45.609Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/milton-cunha-faz-exposed-sobre-o-que-a-mae-de-vini-jr-achava-de-virginia-babado-assista/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação: a química do casal desafia as leis da termodinâmica.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T14:11:33.000Z",
-      "data_registro": "2026-05-19T15:37:37.372Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/tv/luciano-huck-toma-atitude-junto-a-virginia-sobre-quadro-da-copa-no-domingao-diz-jornalista/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-13T20:22:06.000Z",
       "data_registro": "2026-07-14T02:54:41.783Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/famosos-na-praia/noticia/2026/07/nicole-bahls-mariana-goldfarb-e-gianne-albertoni-passeiam-de-iate-e-brincam-virginia-e-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-14T05:12:27.000Z",
+      "data_registro": "2026-07-14T06:16:45.607Z"
     }
   ]
 }
