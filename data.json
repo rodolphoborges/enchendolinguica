@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-13T21:02:21.264Z",
+  "last_updated": "2026-07-14T02:54:41.785Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/ze-felipe-comenta-post-de-virginia-e-cita-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T14:12:11.000Z",
-      "data_registro": "2026-05-19T15:37:34.869Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/ze-felipe-reage-de-forma-inusitada-ao-termino-de-virginia-e-vini-jr-e-deixa-recado-para-a-ex-veja/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Impactante: evidências de que o amor permanece.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T14:24:02.000Z",
-      "data_registro": "2026-05-19T15:37:37.372Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/milton-cunha-faz-exposed-sobre-o-que-a-mae-de-vini-jr-achava-de-virginia-babado-assista/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-13T19:19:12.000Z",
       "data_registro": "2026-07-13T21:02:20.195Z"
+    },
+    {
+      "url": "https://tnonline.uol.com.br/noticias/revista-uau/craque-neto-imita-foto-de-virginia-no-colo-de-vini-jr-e-senta-no-colo-de-jornalista-1117605",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "UOL Splash",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-14T02:31:35.000Z",
+      "data_registro": "2026-07-14T02:54:37.702Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/apos-foto-no-colo-de-vini-virginia-fonseca-usa-look-branco-para-jantar-na-italia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-13T20:22:06.000Z",
+      "data_registro": "2026-07-14T02:54:41.783Z"
     }
   ]
 }
