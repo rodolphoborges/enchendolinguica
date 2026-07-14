@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-14T10:03:47.464Z",
+  "last_updated": "2026-07-14T13:57:45.646Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/tv/luciano-huck-toma-atitude-junto-a-virginia-sobre-quadro-da-copa-no-domingao-diz-jornalista/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Furo: paparazzi confirmam que eles comem comida, como humanos.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T11:55:54.000Z",
-      "data_registro": "2026-05-19T15:37:37.372Z"
-    },
     {
       "url": "https://revistaquem.globo.com/viagem/noticia/2026/05/virginia-abre-album-com-relogio-novo.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-14T05:12:27.000Z",
       "data_registro": "2026-07-14T06:16:45.607Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-sao-vistos-juntos-no-rio.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Impactante: evidências de que o amor permanece.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-14T13:05:08.000Z",
+      "data_registro": "2026-07-14T13:57:45.645Z"
     }
   ]
 }
