@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-14T21:04:40.212Z",
+  "last_updated": "2026-07-15T02:53:17.651Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/viagem/noticia/2026/05/virginia-abre-album-com-relogio-novo.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T13:06:52.000Z",
-      "data_registro": "2026-05-19T15:37:38.427Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-posta-sobre-outra-chance.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-14T13:05:08.000Z",
       "data_registro": "2026-07-14T13:57:45.645Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/apos-virginia-no-colo-de-vini-jr-influencer-que-tatuou-jogador-diz-que-fas-tentaram-derrubar-seu-instagram.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-14T23:05:14.000Z",
+      "data_registro": "2026-07-15T02:53:17.650Z"
     }
   ]
 }
