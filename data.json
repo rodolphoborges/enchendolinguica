@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-15T13:54:03.887Z",
+  "last_updated": "2026-07-15T17:22:26.903Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/saiba-quem-surpreendeu-virginia-fonseca-com-buque-em-dubai-apos-termino-com-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Impactante: evidências de que o amor permanece.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T20:43:01.000Z",
-      "data_registro": "2026-05-19T21:25:00.723Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/comentario-de-ze-felipe-debochando-de-post-de-vini-jr-em-foto-de-virginia-ultrapassa-1-milhao-de-curtidas.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T19:53:17.000Z",
-      "data_registro": "2026-05-19T21:25:02.161Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-fonseca-mostra-dia-em-zoologico-em-dubai-apos-termino-com-vini-jr.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-15T11:01:57.000Z",
       "data_registro": "2026-07-15T13:54:03.885Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/vini-jr-curte-fotos-de-biquini-da-melhor-amiga-de-virginia-e-gera-polemica",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-15T16:22:56.000Z",
+      "data_registro": "2026-07-15T17:22:23.223Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/cafe-com-romance-bruna-marquezine-e-shawn-mendes-trocam-beijos-durante-passeio-no-rio",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Novo capítulo da saga romântica que todos acompanhávamos.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-15T14:40:53.000Z",
+      "data_registro": "2026-07-15T17:22:25.877Z"
     }
   ]
 }
