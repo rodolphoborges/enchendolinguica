@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-15T06:20:09.442Z",
+  "last_updated": "2026-07-15T10:07:34.886Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/virginia-posta-sobre-outra-chance.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: nada de novo no front, mas o feed precisa rodar.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T12:34:42.000Z",
-      "data_registro": "2026-05-19T15:37:38.427Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-e-acusada-de-incitar-racismo-contra-vini-jr-entenda",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-14T23:05:14.000Z",
       "data_registro": "2026-07-15T02:53:17.650Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-celebra-com-amigos-em-iate-e-detalhe-entrega-proximidade-com-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta máximo: demonstração de carinho em via pública.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-15T09:34:31.000Z",
+      "data_registro": "2026-07-15T10:07:34.885Z"
     }
   ]
 }
