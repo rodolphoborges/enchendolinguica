@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-07-15T10:07:34.886Z",
+  "last_updated": "2026-07-15T13:54:03.887Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-e-acusada-de-incitar-racismo-contra-vini-jr-entenda",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Incrível: o carinho mútuo ainda é legalizado por lei.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T16:11:39.000Z",
-      "data_registro": "2026-05-19T18:10:13.625Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/apontadas-como-pivos-de-termino-de-virginia-e-vini-revelam-decepcao-com-influenciadora-e-mandam-recado-ao-ex-casal-assumam-a-verdade.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Especialistas confirmam: casal continua existindo.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T17:32:41.000Z",
-      "data_registro": "2026-05-19T18:10:18.947Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/apos-comentar-post-de-virginia-fonseca-ze-felipe-malha-ouvindo-o-cara-que-voce-merece.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T16:07:55.000Z",
-      "data_registro": "2026-05-19T18:10:18.947Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/ze-felipe-faz-post-sugestivo-apos-comentario-em-foto-de-virginia-e-web-reage-ele-nao-e-inocente-assista/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-19T18:20:52.000Z",
-      "data_registro": "2026-05-19T21:24:58.635Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/saiba-quem-surpreendeu-virginia-fonseca-com-buque-em-dubai-apos-termino-com-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1764,42 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-15T09:34:31.000Z",
       "data_registro": "2026-07-15T10:07:34.885Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/vini-jr-agradece-felicitacoes-pelos-26-anos-durante-viagem-pela-italia-com-virginia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-15T12:27:38.000Z",
+      "data_registro": "2026-07-15T13:54:02.299Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-toma-sol-em-lancha.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-15T12:37:47.000Z",
+      "data_registro": "2026-07-15T13:54:03.885Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-foram-vistos-tomando-cafe-em-um-quiosque-na-praia-da-zona-sul-do-rio.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Plantão fofoca: a paz mundial depende deste relacionamento.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-15T12:12:23.000Z",
+      "data_registro": "2026-07-15T13:54:03.885Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/vini-jr-agradece-mensagens-de-parabens.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-15T11:01:57.000Z",
+      "data_registro": "2026-07-15T13:54:03.885Z"
     }
   ]
 }
