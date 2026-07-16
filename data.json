@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-07-16T17:24:22.523Z",
+  "last_updated": "2026-07-16T21:08:18.042Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/virginia-chama-atencao-ao-interagir-em-posts-sobre-termino-com-vini-jr-e-web-aponta-indireta-veja/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-20T14:30:09.000Z",
-      "data_registro": "2026-05-20T15:37:49.171Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/apos-termino-com-vini-jr-virginia-curte-post-sobre-viloes-mascarados-e-web-interpreta-pegou-varias-falhas-dele.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Especialistas confirmam: casal continua existindo.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-20T11:41:54.000Z",
-      "data_registro": "2026-05-20T15:37:50.263Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/gesto-de-vini-jr-apos-polemicas-com-virginia-chama-atencao-saudade",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Análise profunda revela: casal troca olhares e gestos.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-20T17:48:21.000Z",
-      "data_registro": "2026-05-20T18:23:51.277Z"
-    },
-    {
-      "url": "https://portalleodias.com/famosos/esta-de-olho-vini-jr-e-flagrado-assistindo-live-de-virginia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-20T17:22:33.000Z",
-      "data_registro": "2026-05-20T18:23:54.720Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/famosos-na-praia/noticia/2026/05/apos-polemica-virginia-fonseca-renova-bronzeado-de-biquini-em-praia-de-dubai.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1764,42 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-16T12:18:29.000Z",
       "data_registro": "2026-07-16T14:06:15.688Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/virginia-fonseca-e-vini-jr-ja-tem-destino-definido-apos-ferias-na-italia-descubra",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-16T19:52:38.000Z",
+      "data_registro": "2026-07-16T21:08:16.444Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/nem-o-frio-separou-bruna-marquezine-e-shawn-mendes-em-manha-romantica-no-rio",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-16T19:20:08.000Z",
+      "data_registro": "2026-07-16T21:08:16.444Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/apos-repercussao-melhor-amiga-de-virginia-posta-foto-e-web-aguarda-nova-curtida-de-vini-jr-esperando.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-16T20:50:08.000Z",
+      "data_registro": "2026-07-16T21:08:18.041Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/entretenimento/livros/noticia/2026/07/saiba-do-que-se-trata-o-livro-religioso-que-bruna-marquezine-e-shawn-mendes-leram-no-rio-de-janeiro.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Plantão fofoca: a paz mundial depende deste relacionamento.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-16T18:03:27.000Z",
+      "data_registro": "2026-07-16T21:08:18.041Z"
     }
   ]
 }
