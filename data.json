@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-17T13:50:03.236Z",
+  "last_updated": "2026-07-17T17:17:13.229Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/mae-de-vini-jr-surpreende-ao-reagir-a-foto-de-virginia-apos-polemica",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-21T12:26:38.000Z",
-      "data_registro": "2026-05-21T15:40:58.021Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/mae-de-vini-jr-surpreende-com-comentario-em-foto-pos-termino-de-virginia-veja/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-21T15:12:05.000Z",
-      "data_registro": "2026-05-21T15:41:03.314Z"
-    },
     {
       "url": "https://portalleodias.com/redes-sociais/mae-de-vini-jr-surpreende-ao-elogiar-virginia-nas-redes-apos-boatos-de-climao-familiar",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-17T11:02:44.000Z",
       "data_registro": "2026-07-17T13:50:03.235Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/apos-cafe-romantico-com-marquezine-shawn-mendes-aprende-a-jogar-altinha-com-fas-na-praia.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-17T16:20:40.000Z",
+      "data_registro": "2026-07-17T17:17:13.227Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/detalhe-em-cafe-de-bruna-marquezine-e-shawn-mendes-vira-debate-na-web-ela-pagou-a-conta.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-17T13:51:35.000Z",
+      "data_registro": "2026-07-17T17:17:13.227Z"
     }
   ]
 }
