@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-07-19T09:56:25.746Z",
+  "last_updated": "2026-07-19T13:36:40.182Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/shawn-mendes-compartilha-fotos-de-viagem-ao-mexico-com-bruna-marquezine.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Flagrante histórico pode mudar rumo da civilização.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-23T18:50:13.000Z",
-      "data_registro": "2026-05-23T21:00:08.414Z"
-    },
-    {
-      "url": "https://portalleodias.com/famosos/caetano-veloso-reage-ao-ouvir-o-nome-de-virginia-vini-jr-eu-sei-quem-e-ela-nao",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação: a química do casal desafia as leis da termodinâmica.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-23T22:47:32.000Z",
-      "data_registro": "2026-05-24T04:10:33.305Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/caetano-veloso-diz-nao-saber-quem-e-virginia-vini-jr-eu-sei-quem-e",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-24T18:35:55.000Z",
-      "data_registro": "2026-05-24T21:02:43.724Z"
-    },
     {
       "url": "https://tnonline.uol.com.br/noticias/revista-uau/virginia-fonseca-apaga-video-com-musica-sugestiva-e-fas-apontam-indireta-para-vini-jr-1092710",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-18T23:53:04.000Z",
       "data_registro": "2026-07-19T03:26:45.466Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/te-amo-relembre-todas-as-idas-e-vindas-de-vini-jr-e-virginia-fonseca.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-19T13:23:44.000Z",
+      "data_registro": "2026-07-19T13:36:40.180Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-abre-album-em-sardenha.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-19T13:01:02.000Z",
+      "data_registro": "2026-07-19T13:36:40.180Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/interrompido-e-evacuado-virginia-fonseca-e-vini-jr-vivem-perrengue-em-show-de-bad-bunny.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-19T10:03:45.000Z",
+      "data_registro": "2026-07-19T13:36:40.180Z"
     }
   ]
 }
