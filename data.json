@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-07-19T13:36:40.182Z",
+  "last_updated": "2026-07-19T17:03:45.041Z",
   "news": [
-    {
-      "url": "https://tnonline.uol.com.br/noticias/revista-uau/virginia-fonseca-apaga-video-com-musica-sugestiva-e-fas-apontam-indireta-para-vini-jr-1092710",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "UOL Splash",
-      "categoria": "Fake Ship",
-      "data_publicacao": "Seg, 25 Mai 2026 17:58:48 -0300",
-      "data_registro": "2026-05-25T21:15:28.646Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/eventos/noticia/2026/05/amiga-de-virginia-e-vini-jr-nao-vai-a-festa-de-maria-alice-familiares-do-jogador-tambem-ficaram-de-fora.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-26T01:40:16.000Z",
-      "data_registro": "2026-05-26T04:07:16.799Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-posa-com-a-mae-em-noite-de-festa-de-filha-da-ex-virginia-com-ze-felipe.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-26T05:11:41.000Z",
-      "data_registro": "2026-05-26T15:54:30.617Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-abre-album-de-fotos-pos-termino-com-virginia.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-26T15:54:17.000Z",
-      "data_registro": "2026-05-26T18:32:00.445Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-reencontra-amigo-apontado-como-peca-chave-na-separacao-de-virginia.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1764,42 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-19T10:03:45.000Z",
       "data_registro": "2026-07-19T13:36:40.180Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/bruna-marquezine-feira-shawn-mendes",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Bomba: eles foram vistos em um lugar, fazendo coisas.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-19T15:56:20.000Z",
+      "data_registro": "2026-07-19T17:03:40.816Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/vini-jr-se-declara-a-virginia-em-registro-de-viagem-pela-italia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Urgente: nada de novo no front, mas o feed precisa rodar.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-19T14:31:20.000Z",
+      "data_registro": "2026-07-19T17:03:43.861Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-visitam-feira-e-web-reage-a-detalhe-inusitado-que-ovos-baratos.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-19T15:56:58.000Z",
+      "data_registro": "2026-07-19T17:03:45.039Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-vao-a-feira-no-rio.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Impactante: evidências de que o amor permanece.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-19T13:52:24.000Z",
+      "data_registro": "2026-07-19T17:03:45.039Z"
     }
   ]
 }
