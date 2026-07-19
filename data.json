@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-19T17:03:45.041Z",
+  "last_updated": "2026-07-19T20:57:19.699Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/05/vini-jr-reencontra-amigo-apontado-como-peca-chave-na-separacao-de-virginia.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-27T19:25:07.000Z",
-      "data_registro": "2026-05-27T22:00:39.344Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/05/recem-separado-de-virginia-vini-jr-fala-sobre-sonho-de-ter-filhos-assista.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-19T13:52:24.000Z",
       "data_registro": "2026-07-19T17:03:45.039Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/vini-jr-faz-declaracao-de-amor-para-virginia-apos-ferias-juntos-na-italia-veja/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Impactante: evidências de que o amor permanece.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-19T17:15:41.000Z",
+      "data_registro": "2026-07-19T20:57:17.662Z"
     }
   ]
 }
