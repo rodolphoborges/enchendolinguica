@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-20T11:06:38.983Z",
+  "last_updated": "2026-07-20T14:19:39.485Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-toma-decisao-sobre-filhos-na-copa-apos-termino-com-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-29T11:51:41.000Z",
-      "data_registro": "2026-05-29T15:55:47.822Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/fica-bem-ana-castela-usa-expressao-ligada-a-vini-jr-e-virginia-em-novo-clipe",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-19T22:45:55.000Z",
       "data_registro": "2026-07-20T03:40:29.693Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/shawn-mendes-toma-cafe-no-quiosque-na-zona-sul.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-20T12:55:49.000Z",
+      "data_registro": "2026-07-20T14:19:39.481Z"
     }
   ]
 }
