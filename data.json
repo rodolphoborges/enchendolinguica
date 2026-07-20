@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-19T20:57:19.699Z",
+  "last_updated": "2026-07-20T03:40:34.395Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/05/recem-separado-de-virginia-vini-jr-fala-sobre-sonho-de-ter-filhos-assista.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-05-28T00:31:23.000Z",
-      "data_registro": "2026-05-28T04:11:05.466Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-toma-decisao-sobre-filhos-na-copa-apos-termino-com-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-19T17:15:41.000Z",
       "data_registro": "2026-07-19T20:57:17.662Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-e-vini-jr-desembarcam-em-goiania-apos-viagem-a-italia",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-19T22:45:55.000Z",
+      "data_registro": "2026-07-20T03:40:29.693Z"
     }
   ]
 }
