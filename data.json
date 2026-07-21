@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-21T06:33:59.996Z",
+  "last_updated": "2026-07-21T10:29:09.155Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/vini-jr-deixa-comentario-para-virginia-apos-desabafo-sobre-vaias-em-jogo-do-brasil/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-01T23:08:24.000Z",
-      "data_registro": "2026-06-02T04:41:28.434Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/apontada-como-pivo-de-vini-jr-e-virginia-cita-prejuizo-de-r-180-mil-condenada-por-algo-que-nunca-fiz.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-20T22:11:53.000Z",
       "data_registro": "2026-07-21T03:20:33.483Z"
+    },
+    {
+      "url": "https://g1.globo.com/pop-arte/noticia/2026/07/21/negociando-o-inegociavel-relembre-as-idas-e-vindas-do-relacionamento-de-virginia-e-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
+      "veiculo": "G1 Pop & Arte",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-21T07:00:10.000Z",
+      "data_registro": "2026-07-21T10:29:00.233Z"
     }
   ]
 }
