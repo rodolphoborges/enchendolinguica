@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-21T14:06:20.701Z",
+  "last_updated": "2026-07-21T17:26:33.773Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-fonseca-apaga-publicacao-e-chama-atencao-dos-internautas.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Flagrante histórico pode mudar rumo da civilização.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-03T12:26:35.000Z",
-      "data_registro": "2026-06-03T12:46:07.764Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/06/filhas-de-virginia-e-ze-felipe-invadem-web-e-respondem-seguidores-videos.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-04T02:25:36.000Z",
-      "data_registro": "2026-06-04T04:44:50.825Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/filha-de-virginia-chama-atencao-apos-fala-com-referencia-a-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-21T11:16:18.000Z",
       "data_registro": "2026-07-21T14:06:20.699Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-e-vini-jr-curtem-praia-no-rio-de-janeiro.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentado: prova concreta de que se gostam.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-21T17:11:07.000Z",
+      "data_registro": "2026-07-21T17:26:33.771Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-e-vini-jr-curtem-praia-juntos.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-21T17:10:20.000Z",
+      "data_registro": "2026-07-21T17:26:33.771Z"
     }
   ]
 }
