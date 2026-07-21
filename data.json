@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-21T10:29:09.155Z",
+  "last_updated": "2026-07-21T14:06:20.701Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/apontada-como-pivo-de-vini-jr-e-virginia-cita-prejuizo-de-r-180-mil-condenada-por-algo-que-nunca-fiz.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-02T00:17:54.000Z",
-      "data_registro": "2026-06-02T04:41:30.683Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/esportes/noticia/2026/06/vini-jr-demonstra-apoio-a-virginia-fonseca-apos-desabafo-sobre-ataques-em-jogo-da-selecao.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-01T22:43:55.000Z",
-      "data_registro": "2026-06-02T04:41:30.683Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-fonseca-apaga-publicacao-e-chama-atencao-dos-internautas.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-21T07:00:10.000Z",
       "data_registro": "2026-07-21T10:29:00.233Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-tomam-cafe-da-manha-no-jardim-botanico.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-21T13:53:50.000Z",
+      "data_registro": "2026-07-21T14:06:20.699Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/moda-e-beleza/estetica/noticia/2026/07/virginia-aproveita-ida-de-vini-jr-a-clinica-e-tambem-faz-procedimento-estetico-veja-o-que-foi-feito-e-resultado.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-21T11:16:18.000Z",
+      "data_registro": "2026-07-21T14:06:20.699Z"
     }
   ]
 }
