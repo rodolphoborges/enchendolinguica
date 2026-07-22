@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-07-22T17:25:18.641Z",
+  "last_updated": "2026-07-22T21:14:27.443Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/com-shawn-mendes-a-caminho-do-brasil-bruna-marquezine-e-clicada-em-noite-de-compras.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Documentário: a vida segue, e o casal também, aparentemente.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-10T01:55:12.000Z",
-      "data_registro": "2026-06-10T04:16:27.964Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/shawn-mendes-e-filmado-em-voo-para-o-rio-de-janeiro-antes-de-dia-dos-namorados.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-10T01:18:12.000Z",
-      "data_registro": "2026-06-10T04:16:27.965Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/shawn-mendes-desembarca-no-aeroporto-do-galeao.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Bomba: fontes revelam que continuam juntos.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-10T11:25:06.000Z",
-      "data_registro": "2026-06-10T11:42:32.427Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-toma-atitude-sobre-vini-jr-um-mes-apos-o-fim-do-namoro",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-22T12:46:52.000Z",
       "data_registro": "2026-07-22T14:08:24.447Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/fas-comparam-fotos-de-virginia-e-vini-jr-antes-de-harmonizacoes-veja",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-22T20:49:44.000Z",
+      "data_registro": "2026-07-22T21:14:21.929Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/virginia-fonseca-aparece-em-sao-goncalo-cidade-natal-de-vini-jr-no-rio-de-janeiro",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-22T18:49:20.000Z",
+      "data_registro": "2026-07-22T21:14:25.402Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/07/virginia-participa-de-churrasco-raiz.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-22T17:58:21.000Z",
+      "data_registro": "2026-07-22T21:14:27.442Z"
     }
   ]
 }
