@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-22T06:34:36.725Z",
+  "last_updated": "2026-07-22T10:30:06.471Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/exclusivo-virginia-e-vini-jr-voltaram-saiba-a-verdade-apos-detalhe-chamar-atencao-em-foto/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-09T22:26:11.000Z",
-      "data_registro": "2026-06-10T04:16:26.718Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/apos-rumores-de-volta-com-vini-jr-virginia-dispara-em-video-negue-ate-morrer",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-21T21:59:46.000Z",
       "data_registro": "2026-07-22T03:19:03.918Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/moda-e-beleza/estetica/noticia/2026/07/ele-se-inspirou-video-com-visagismo-de-vini-jr-e-resgatado-e-web-brinca-virginia-viu-e-obrigou.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Urgente: nada de novo no front, mas o feed precisa rodar.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-22T10:03:56.000Z",
+      "data_registro": "2026-07-22T10:30:06.469Z"
     }
   ]
 }
