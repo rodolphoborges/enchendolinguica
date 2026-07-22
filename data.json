@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-22T10:30:06.471Z",
+  "last_updated": "2026-07-22T14:08:24.448Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/apos-rumores-de-volta-com-vini-jr-virginia-dispara-em-video-negue-ate-morrer",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-09T22:32:03.000Z",
-      "data_registro": "2026-06-10T04:16:26.864Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/com-shawn-mendes-a-caminho-do-brasil-bruna-marquezine-e-clicada-em-noite-de-compras.ghtml",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-22T10:03:56.000Z",
       "data_registro": "2026-07-22T10:30:06.469Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/famosos-na-praia/noticia/2026/07/shawn-mendes-faz-sua-caminhada-matinal-na-praia-de-sao-conrado.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Furo: paparazzi confirmam que eles comem comida, como humanos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-22T12:46:52.000Z",
+      "data_registro": "2026-07-22T14:08:24.447Z"
     }
   ]
 }
