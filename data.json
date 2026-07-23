@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-23T14:17:00.130Z",
+  "last_updated": "2026-07-23T17:35:51.062Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-toma-atitude-sobre-vini-jr-um-mes-apos-o-fim-do-namoro",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Incrível: o carinho mútuo ainda é legalizado por lei.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-10T18:09:25.000Z",
-      "data_registro": "2026-06-10T18:34:06.926Z"
-    },
-    {
-      "url": "https://tnonline.uol.com.br/noticias/revista-uau/virginia-fonseca-da-novo-passo-apos-anunciar-fim-do-namoro-com-vini-jr-saiba-qual-1097133",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
-      "veiculo": "UOL Splash",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-10T18:23:03.000Z",
-      "data_registro": "2026-06-10T18:34:07.216Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-apaga-fotos-com-vini-jr-do-instagram-um-mes-apos-termino.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-22T17:58:21.000Z",
       "data_registro": "2026-07-22T21:14:27.442Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-posta-fotos-no-cristo.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-23T14:14:12.000Z",
+      "data_registro": "2026-07-23T17:35:51.061Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/famosos-na-praia/noticia/2026/07/shawn-e-bruna-namoram-muito-na-praia.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-23T14:00:16.000Z",
+      "data_registro": "2026-07-23T17:35:51.061Z"
     }
   ]
 }
