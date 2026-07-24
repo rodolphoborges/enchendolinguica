@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-07-24T10:24:22.917Z",
+  "last_updated": "2026-07-24T13:56:51.107Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/preparada-para-a-copa-virginia-fonseca-faz-video-cantando-musica-romantica.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: eles foram vistos em um lugar, fazendo coisas.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-11T13:16:20.000Z",
-      "data_registro": "2026-06-11T18:49:59.321Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/saude/fitness/noticia/2026/06/bruna-marquezine-e-shawn-mendes-treinam-juntos-em-academia-no-rio-de-janeiro-video.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-11T21:10:15.000Z",
-      "data_registro": "2026-06-11T22:05:32.242Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/vini-jr-toma-atitude-apos-virginia-ganhar-presente-de-dia-dos-namorados",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-12T21:16:00.000Z",
-      "data_registro": "2026-06-12T21:53:53.594Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-toma-atitude-inesperada-apos-ganhar-suposto-presente-de-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-24T10:20:33.000Z",
       "data_registro": "2026-07-24T10:24:16.153Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/irma-de-vini-jr-comemora-volta-do-jogador-com-virginia-apaixonada",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-24T11:57:58.000Z",
+      "data_registro": "2026-07-24T13:56:47.785Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/famosos-na-praia/noticia/2026/07/bruna-marquezine-e-shawn-mendes-curtem-praia-em-dia-nublado-no-rio.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-24T13:01:29.000Z",
+      "data_registro": "2026-07-24T13:56:51.106Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/trend/noticia/2026/07/detalhe-em-foto-de-vini-jr-com-virginia-viraliza.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-24T11:54:28.000Z",
+      "data_registro": "2026-07-24T13:56:51.106Z"
     }
   ]
 }
