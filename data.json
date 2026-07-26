@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-26T13:40:48.087Z",
+  "last_updated": "2026-07-26T17:08:10.751Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-fonseca-ganha-buque-gigantesco-de-flores-nos-eua-antes-da-copa-do-mundo.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-12T20:33:01.000Z",
-      "data_registro": "2026-06-12T21:53:59.206Z"
-    },
     {
       "url": "https://g1.globo.com/pop-arte/noticia/2026/06/12/no-dia-dos-namorados-vini-jr-comenta-com-coracao-em-post-de-virginia-com-buque.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-25T15:39:46.000Z",
       "data_registro": "2026-07-25T17:05:35.468Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/saude/fitness/noticia/2026/07/de-volta-a-vida-fitness-virginia-brinca-sobre-como-ir-a-academia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-26T13:25:19.000Z",
+      "data_registro": "2026-07-26T17:08:10.750Z"
     }
   ]
 }
