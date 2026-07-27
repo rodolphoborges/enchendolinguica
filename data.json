@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-27T11:30:26.071Z",
+  "last_updated": "2026-07-27T14:48:36.913Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/negociou-o-inegociavel-virginia-fonseca-recebe-buque-comentario-de-vini-jr-e-cobranca-dos-internautas.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-13T02:28:33.000Z",
-      "data_registro": "2026-06-13T04:20:24.070Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-fonseca-sofre-consequencia-apos-ganhar-flores-e-fas-desconfiarem-de-vini-jr-entenda.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-13T10:27:02.000Z",
-      "data_registro": "2026-06-13T14:12:46.988Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/vai-ter-volta-ou-nao-publico-opina-sobre-possivel-reconciliacao-entre-virginia-e-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-27T11:02:56.000Z",
       "data_registro": "2026-07-27T11:30:26.070Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/07/vini-jr-posta-fotos-na-jamaica.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Revelação bombástica: eles ainda se seguem no Instagram.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-27T14:08:38.000Z",
+      "data_registro": "2026-07-27T14:48:36.912Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/07/irma-de-shawn-mendes-abre-album-de-ferias-no-brasil-ao-lado-do-cantor-e-de-bruna-marquezine.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-27T11:47:19.000Z",
+      "data_registro": "2026-07-27T14:48:36.912Z"
     }
   ]
 }
