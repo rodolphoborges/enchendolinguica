@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-07-26T21:03:23.418Z",
+  "last_updated": "2026-07-27T03:39:50.038Z",
   "news": [
-    {
-      "url": "https://g1.globo.com/pop-arte/noticia/2026/06/12/no-dia-dos-namorados-vini-jr-comenta-com-coracao-em-post-de-virginia-com-buque.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Análise profunda revela: casal troca olhares e gestos.",
-      "veiculo": "G1 Pop & Arte",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-13T01:01:53.000Z",
-      "data_registro": "2026-06-13T04:20:14.307Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/web-faz-pedido-a-vini-jr-apos-atitude-com-virginia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: nada de novo no front, mas o feed precisa rodar.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-12T21:55:45.000Z",
-      "data_registro": "2026-06-13T04:20:17.108Z"
-    },
-    {
-      "url": "https://portalleodias.com/famosos/virginia-ve-numero-de-seguidores-despencar-apos-flores-e-comentario-de-vini-jr-veja-quanto",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-13T00:34:01.000Z",
-      "data_registro": "2026-06-13T04:20:22.677Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/virginia-recebe-flores-no-dia-dos-namorados-e-reacao-de-vini-jr-chama-atencao",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-26T13:25:19.000Z",
       "data_registro": "2026-07-26T17:08:10.750Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/alem-de-poliana-rocha-e-margareth-serrao-virginia-presenteia-mae-de-vini-jr-no-dia-das-avos.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-26T22:53:49.000Z",
+      "data_registro": "2026-07-27T03:39:50.036Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/07/vini-jr-mantem-ritmo-de-treinos-durante-ferias-com-virginia-na-jamaica.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-26T22:00:13.000Z",
+      "data_registro": "2026-07-27T03:39:50.037Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/07/virginia-fonseca-renova-o-bronzeado-durante-viagem-a-jamaica.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-26T19:12:56.000Z",
+      "data_registro": "2026-07-27T03:39:50.037Z"
     }
   ]
 }
