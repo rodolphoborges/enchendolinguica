@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-28T14:22:53.144Z",
+  "last_updated": "2026-07-28T17:39:17.549Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/apontadas-como-pivos-da-separacao-de-vini-jr-e-virginia-reagem-o-tempo-inocentando.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-13T16:04:48.000Z",
-      "data_registro": "2026-06-13T17:37:42.457Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/apos-interacao-com-vini-jr-no-dia-dos-namorados-virginia-acompanha-estreia-do-brasil-na-copa-do-mundo.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-27T22:11:29.000Z",
       "data_registro": "2026-07-28T02:56:32.419Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/07/virginia-fonseca-reaparece-em-mangaratiba-apos-viagem-romantica-com-vini-jr-a-jamaica.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-28T14:23:23.000Z",
+      "data_registro": "2026-07-28T17:39:17.548Z"
     }
   ]
 }
