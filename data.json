@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-27T21:16:27.656Z",
+  "last_updated": "2026-07-28T02:56:32.421Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/vai-ter-volta-ou-nao-publico-opina-sobre-possivel-reconciliacao-entre-virginia-e-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-13T15:01:56.000Z",
-      "data_registro": "2026-06-13T17:37:41.120Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/apontadas-como-pivos-da-separacao-de-vini-jr-e-virginia-reagem-o-tempo-inocentando.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-27T11:47:19.000Z",
       "data_registro": "2026-07-27T14:48:36.912Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/07/fotografo-mostra-fotos-ineditas-de-viagem-romantica-de-vini-jr-e-virginia-a-jamaica.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-27T22:11:29.000Z",
+      "data_registro": "2026-07-28T02:56:32.419Z"
     }
   ]
 }
