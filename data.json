@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-07-29T10:44:31.026Z",
+  "last_updated": "2026-07-29T14:22:08.744Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/apos-interacao-com-vini-jr-no-dia-dos-namorados-virginia-acompanha-estreia-do-brasil-na-copa-do-mundo.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-13T19:32:18.000Z",
-      "data_registro": "2026-06-13T21:21:21.555Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/copa-veja-reacao-de-virginia-ao-gol-de-vini-jr-em-estadio-nos-eua",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-28T14:23:23.000Z",
       "data_registro": "2026-07-28T17:39:17.548Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/ex-affair-revela-que-vini-jr-trocou-de-numero-apos-reatar-com-virginia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-29T11:52:35.000Z",
+      "data_registro": "2026-07-29T14:22:08.743Z"
     }
   ]
 }
