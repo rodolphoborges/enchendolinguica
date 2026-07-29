@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-29T14:22:08.744Z",
+  "last_updated": "2026-07-29T17:20:17.916Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/copa-veja-reacao-de-virginia-ao-gol-de-vini-jr-em-estadio-nos-eua",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Novo capítulo da saga romântica que todos acompanhávamos.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-13T23:05:40.000Z",
-      "data_registro": "2026-06-14T04:47:35.784Z"
-    },
-    {
-      "url": "https://portalleodias.com/famosos/apos-abrir-o-placar-para-o-brasil-vini-jr-comemora-e-dedica-gol-a-virginia-fonseca",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-14T04:01:34.000Z",
-      "data_registro": "2026-06-14T04:47:37.753Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-e-amigos-comemoram-o-primeiro-gol-de-vini-jr-na-copa-do-mundo.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-29T11:52:35.000Z",
       "data_registro": "2026-07-29T14:22:08.743Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/ex-affair-de-vini-jr-expoe-atitude-do-jogador-apos-reconciliacao-com-virginia/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-29T14:22:09.000Z",
+      "data_registro": "2026-07-29T17:20:15.217Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/aaliyah-mendes-irma-de-shawn-mendes-e-batizada-no-brasil.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-29T14:24:58.000Z",
+      "data_registro": "2026-07-29T17:20:17.915Z"
     }
   ]
 }
