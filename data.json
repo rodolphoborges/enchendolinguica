@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-07-30T21:16:20.740Z",
+  "last_updated": "2026-07-31T03:31:10.230Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-e-amigos-comemoram-o-primeiro-gol-de-vini-jr-na-copa-do-mundo.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-13T22:46:17.000Z",
-      "data_registro": "2026-06-14T04:47:39.346Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/eita-post-de-vini-jr-pos-jogo-viraliza-por-motivo-ousado-e-melhor-amigo-de-virginia-comenta.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-14T10:16:30.000Z",
-      "data_registro": "2026-06-14T10:51:40.511Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/tv/virginia-reage-a-gol-de-vini-jr-revela-detalhe-curioso-de-buque-e-luciano-huck-pergunta-se-teve-volta-assista/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-29T14:24:58.000Z",
       "data_registro": "2026-07-29T17:20:17.915Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/apos-foto-de-vini-jr-com-filho-de-virginia-e-ze-felipe-web-aponta-indireta-em-post-de-poliana-rocha.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-31T02:39:55.000Z",
+      "data_registro": "2026-07-31T03:31:10.229Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-leva-vini-jr-a-aniversario-do-sobrinho-em-goiania.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-30T23:39:21.000Z",
+      "data_registro": "2026-07-31T03:31:10.229Z"
     }
   ]
 }
