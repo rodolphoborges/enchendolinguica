@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-08-01T17:06:07.919Z",
+  "last_updated": "2026-08-01T21:00:13.807Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/sensitivo-preve-reconciliacao-de-ze-felipe-e-virginia-e-diz-que-vini-jr-e-influencer-e-marketing.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-15T23:01:50.000Z",
-      "data_registro": "2026-06-16T05:06:01.248Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-canta-musica.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-16T14:26:34.000Z",
-      "data_registro": "2026-06-16T19:41:21.956Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/shawn-mendes-e-bruna-marquezine-posam-com-fa-em-passeio-no-rio-de-janeiro.ghtml",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-31T23:53:24.000Z",
       "data_registro": "2026-08-01T03:30:21.490Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-se-declara-para-vini-jr-apos-ferias-sou-feliz-ao-seu-lado",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-01T20:15:07.000Z",
+      "data_registro": "2026-08-01T21:00:06.475Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/virginia-abre-album-de-festa-de-despedida-de-vini-jr-do-brasil.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-01T20:07:54.000Z",
+      "data_registro": "2026-08-01T21:00:13.806Z"
     }
   ]
 }
