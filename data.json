@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-07-31T21:12:05.384Z",
+  "last_updated": "2026-08-01T03:30:21.491Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/tv/apos-ganhar-dedicatoria-virginia-reage-ao-gol-de-vini-jr-estava-torcendo-muito-por-ele",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-15T00:33:58.000Z",
-      "data_registro": "2026-06-15T05:03:14.754Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/bruna-marquezine-e-shawn-mendes-trocam-beijos.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Ciência explica: a gravidade ainda mantém o casal unido.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-14T21:49:34.000Z",
-      "data_registro": "2026-06-15T05:03:15.694Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/novo-video-levanta-suspeita-de-dedicatoria-de-vini-jr-para-virginia-apos-gol-da-selecao-web-reage.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-15T13:00:33.000Z",
-      "data_registro": "2026-06-15T14:29:46.930Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/sensitivo-preve-reconciliacao-de-ze-felipe-e-virginia-e-diz-que-vini-jr-e-influencer-e-marketing.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-07-31T14:18:38.000Z",
       "data_registro": "2026-07-31T14:21:38.032Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-aposta-em-top-decotado-para-festa-de-vini-jr-com-tema-anos-2000.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-01T01:10:46.000Z",
+      "data_registro": "2026-08-01T03:30:21.490Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/eventos/noticia/2026/07/vini-jr-e-virginia-fonseca-reunem-amigos-em-festao-de-despedida-com-tema-dos-anos-2000-no-rio-de-janeiro.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo de reportagem: casal não terminou (ainda).",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-01T01:09:57.000Z",
+      "data_registro": "2026-08-01T03:30:21.490Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-vao-ao-show-da-xuxa-em-sao-paulo.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-07-31T23:53:24.000Z",
+      "data_registro": "2026-08-01T03:30:21.490Z"
     }
   ]
 }
