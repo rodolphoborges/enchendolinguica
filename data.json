@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-08-02T17:06:20.511Z",
+  "last_updated": "2026-08-02T21:01:22.305Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/virginia-abre-mao-da-academia-para-jantar-evita-balada-e-alimenta-rumores-sobre-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão fofoca: a paz mundial depende deste relacionamento.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-18T13:25:44.000Z",
-      "data_registro": "2026-06-18T15:39:02.065Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/marcia-sensitiva-diz-que-vini-jr-e-um-banana-na-mao-de-virginia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Flagrante histórico pode mudar rumo da civilização.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-18T19:28:39.000Z",
-      "data_registro": "2026-06-18T22:19:07.139Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/apontada-como-pivo-de-fim-de-vini-jr-e-virginia-diz-que-jogador-a-desbloqueou-na-web-nunca-fui-o-problema.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-01T23:59:35.000Z",
       "data_registro": "2026-08-02T03:30:05.638Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/aaliyah-mendes-irma-de-shawn-mendes-faz-vlog-de-viagem-ao-brasil-com-bruna-marquezine.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Especialistas confirmam: casal continua existindo.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-02T18:51:30.000Z",
+      "data_registro": "2026-08-02T21:01:22.303Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/08/vini-jr-abre-album-de-ferias-com-virginia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-02T17:15:41.000Z",
+      "data_registro": "2026-08-02T21:01:22.304Z"
     }
   ]
 }
