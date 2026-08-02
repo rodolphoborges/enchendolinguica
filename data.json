@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-01T21:00:13.807Z",
+  "last_updated": "2026-08-02T03:30:05.640Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/shawn-mendes-e-bruna-marquezine-posam-com-fa-em-passeio-no-rio-de-janeiro.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-16T21:13:16.000Z",
-      "data_registro": "2026-06-16T22:18:37.055Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/virginia-abre-mao-da-academia-para-jantar-evita-balada-e-alimenta-rumores-sobre-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-01T20:07:54.000Z",
       "data_registro": "2026-08-01T21:00:13.806Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/vini-jr-chama-atencao-por-atitude-disciplinada-em-festa-com-virginia-assista-ao-video.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-01T23:59:35.000Z",
+      "data_registro": "2026-08-02T03:30:05.638Z"
     }
   ]
 }
