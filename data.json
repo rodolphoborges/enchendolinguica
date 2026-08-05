@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-05T02:55:57.477Z",
+  "last_updated": "2026-08-05T06:32:46.453Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-vini-jr-jantar-eua",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-21T17:21:32.000Z",
-      "data_registro": "2026-06-21T17:43:40.414Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/virginia-e-vini-jr-aumentam-rumores-de-reconciliacao-apos-detalhe-em-video-chamar-atencao-assista/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-04T21:21:08.000Z",
       "data_registro": "2026-08-05T02:55:57.476Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/historia-de-bruna-marquezine-shawn-mendes-comecou-em-2017-relembre.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-05T03:01:01.000Z",
+      "data_registro": "2026-08-05T06:32:46.452Z"
     }
   ]
 }
