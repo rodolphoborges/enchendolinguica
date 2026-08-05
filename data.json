@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-05T06:32:46.453Z",
+  "last_updated": "2026-08-05T10:42:03.969Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/virginia-e-vini-jr-aumentam-rumores-de-reconciliacao-apos-detalhe-em-video-chamar-atencao-assista/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-21T15:47:01.000Z",
-      "data_registro": "2026-06-21T17:43:42.411Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/flagra-video-apagado-de-amiga-reforca-suspeita-de-volta-de-virginia-e-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-05T03:01:01.000Z",
       "data_registro": "2026-08-05T06:32:46.452Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/declaracao-de-shawn-mendes-a-bruna-marquezine-repercute-na-imprensa-internacional-assumiu.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-05T08:19:41.000Z",
+      "data_registro": "2026-08-05T10:42:03.967Z"
     }
   ]
 }
