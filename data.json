@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-06T10:44:30.345Z",
+  "last_updated": "2026-08-06T14:25:05.581Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/ze-felipe-revela-que-foi-o-primeiro-a-saber-do-termino-de-virginia-fonseca-e-vini-jr-ela-me-ligou.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-22T18:42:19.000Z",
-      "data_registro": "2026-06-22T19:35:39.005Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/shawn-mendes-bruna-marquezine-sasha-e-joao-embarcaram-no-aeroporto.ghtml",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-06T10:12:15.000Z",
       "data_registro": "2026-08-06T10:44:25.684Z"
+    },
+    {
+      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/06/apos-declaracao-de-shawn-mendes-revista-americana-chama-marquezine-de-uma-das-maiores-estrelas-do-brasil.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "G1 Pop & Arte",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-06T12:39:22.000Z",
+      "data_registro": "2026-08-06T14:25:00.017Z"
     }
   ]
 }
