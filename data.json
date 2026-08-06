@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-06T06:36:00.928Z",
+  "last_updated": "2026-08-06T10:44:30.345Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/ze-felipe-diz-que-foi-a-primeira-pessoa-para-quem-virginia-ligou-apos-termino-com-vini-jr-detalha-conversa-e-explica-como-esta-a-relacao-com-a-ex-assista/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Novo capítulo da saga romântica que todos acompanhávamos.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-22T19:08:47.000Z",
-      "data_registro": "2026-06-22T19:35:36.566Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/ze-felipe-revela-que-foi-o-primeiro-a-saber-do-termino-de-virginia-fonseca-e-vini-jr-ela-me-ligou.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-05T19:59:56.000Z",
       "data_registro": "2026-08-05T21:17:13.867Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/entenda-boatos-que-ligam-neymar-a-post-de-shawn-mendes-com-marquezine",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-06T10:12:15.000Z",
+      "data_registro": "2026-08-06T10:44:25.684Z"
     }
   ]
 }
