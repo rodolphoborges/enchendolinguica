@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-08-06T14:25:05.581Z",
+  "last_updated": "2026-08-07T00:53:48.176Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/shawn-mendes-bruna-marquezine-sasha-e-joao-embarcaram-no-aeroporto.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Documentado: prova concreta de que se gostam.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-22T15:13:49.000Z",
-      "data_registro": "2026-06-22T19:35:39.005Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/bruna-marquezine-surge-abatida-em-novo-flagra-com-shawn-mendes",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Basta: o mundo para para ver o casal passear com o cachorro.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-22T21:02:57.000Z",
-      "data_registro": "2026-06-22T22:08:32.040Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/bruna-marquezine-que-namora-com-shawn-mendes-diz-que-aprendeu-que-pode-escolher-no-amor.ghtml",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-06T12:39:22.000Z",
       "data_registro": "2026-08-06T14:25:00.017Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/vini-jr-toma-atitude-nas-redes-em-meio-a-renovacao-com-o-real-madrid-e-recebe-recado-de-virginia/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação: a química do casal desafia as leis da termodinâmica.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-06T19:54:31.000Z",
+      "data_registro": "2026-08-07T00:53:46.531Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/noticia/2026/08/virginia-comemora-permanencia-de-vini-jr-no-real-madrid.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Furo: paparazzi confirmam que eles comem comida, como humanos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-06T18:09:53.000Z",
+      "data_registro": "2026-08-07T00:53:48.174Z"
     }
   ]
 }
