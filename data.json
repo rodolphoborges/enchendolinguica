@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-09T02:07:09.402Z",
+  "last_updated": "2026-08-09T05:10:33.570Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/brasil-x-escocia-virginia-compartilha-reacao-ao-gol-de-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-24T22:26:00.000Z",
-      "data_registro": "2026-06-25T04:06:13.912Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-e-mae-de-vini-jr-assistem-juntas-a-jogo-da-copa-em-camarote",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-08T21:09:28.000Z",
       "data_registro": "2026-08-09T02:07:09.401Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/virginia-revela-se-fez-acordo-com-vini-jr-e-explica-mudanca-de-comportamento",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Especialistas confirmam: casal continua existindo.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-09T04:22:14.000Z",
+      "data_registro": "2026-08-09T05:10:32.139Z"
     }
   ]
 }
