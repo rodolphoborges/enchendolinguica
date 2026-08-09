@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-08-08T20:36:22.577Z",
+  "last_updated": "2026-08-09T02:07:09.402Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/bruna-marquezine-que-namora-com-shawn-mendes-diz-que-aprendeu-que-pode-escolher-no-amor.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Análise técnica: o nível de 'ship' permanece estável na bolsa.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-23T03:00:13.000Z",
-      "data_registro": "2026-06-23T04:03:23.391Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/mae-de-virginia-curte-critica-a-filha-apos-reaproximacao-com-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-23T18:48:30.000Z",
-      "data_registro": "2026-06-23T21:45:33.049Z"
-    },
-    {
-      "url": "https://g1.globo.com/pop-arte/noticia/2026/06/24/virginia-comemora-gols-de-vini-jr-e-vaia-lance-anulado-pelo-var.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Furo: paparazzi confirmam que eles comem comida, como humanos.",
-      "veiculo": "G1 Pop & Arte",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-24T23:02:31.000Z",
-      "data_registro": "2026-06-25T04:06:11.929Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/brasil-x-escocia-virginia-compartilha-reacao-ao-gol-de-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-06T18:09:53.000Z",
       "data_registro": "2026-08-07T00:53:48.174Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/bruna-marquezine-se-declara-a-shawn-mendes-no-aniversario-do-cantor.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-09T01:49:05.000Z",
+      "data_registro": "2026-08-09T02:07:09.401Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/eventos/noticia/2026/08/virginia-fonseca-vai-a-show-em-sp-com-look-vermelho-decotado-em-meio-a-polemicas-com-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-08T21:53:13.000Z",
+      "data_registro": "2026-08-09T02:07:09.401Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/shawn-mendes-aposta-corrida-no-mar-com-bruna-marquezine-no-dia-de-seu-aniversario.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Documentário: a vida segue, e o casal também, aparentemente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-08T21:09:28.000Z",
+      "data_registro": "2026-08-09T02:07:09.401Z"
     }
   ]
 }
