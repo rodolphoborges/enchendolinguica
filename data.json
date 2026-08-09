@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-08-09T08:50:35.189Z",
+  "last_updated": "2026-08-09T13:01:46.467Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-e-mae-de-vini-jr-assistem-juntas-a-jogo-da-copa-em-camarote",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-24T22:09:03.000Z",
-      "data_registro": "2026-06-25T04:06:13.912Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/vini-jr-reage-a-foto-de-virginia-e-aumenta-rumores-de-reconciliacao-veja/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-25T02:38:27.000Z",
-      "data_registro": "2026-06-25T04:06:19.009Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/ela-avisou-virginia-previu-dois-gols-de-vini-jr-antes-da-partida",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-09T04:22:14.000Z",
       "data_registro": "2026-08-09T05:10:32.139Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/bruna-marquezine-se-declara-a-shawn-mendes-no-aniversario-do-cantor",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Plantão fofoca: a paz mundial depende deste relacionamento.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-09T12:33:30.000Z",
+      "data_registro": "2026-08-09T13:01:41.240Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/virginia-nega-acordo-com-vini-jr-apos-retomada-de-namoro",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-09T11:44:55.000Z",
+      "data_registro": "2026-08-09T13:01:41.241Z"
     }
   ]
 }
