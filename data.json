@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-09T20:39:00.982Z",
+  "last_updated": "2026-08-10T02:11:54.324Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-fonseca-curte-camarote-em-jogo-do-brasil-ao-lado-da-mae-do-vini-jr.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-25T00:50:01.000Z",
-      "data_registro": "2026-06-25T04:06:20.914Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/veja-as-reacoes-de-virginia-fonseca-ao-desempenho-de-vini-jr-em-jogo-da-selecao.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-09T19:52:51.000Z",
       "data_registro": "2026-08-09T20:39:00.980Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/famosos/virginia-fonseca-reage-a-torcida-por-reconciliacao-com-ze-felipe-em-meio-a-polemicas-com-vini-jr/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-09T21:30:09.000Z",
+      "data_registro": "2026-08-10T02:11:50.999Z"
     }
   ]
 }
