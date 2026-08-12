@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-11T20:53:01.925Z",
+  "last_updated": "2026-08-12T02:24:00.059Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-fonseca-comemora-gol-de-vini-jr-em-jogo-da-selecao-contra-a-escocia.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-24T22:18:17.000Z",
-      "data_registro": "2026-06-25T04:06:20.914Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-ao-lado-de-camisa-do-vini-jr-usada-por-seu-amigo.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-10T16:12:53.000Z",
       "data_registro": "2026-08-10T16:58:28.472Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/musico-tieta-shawn-mendes-e-bruna-marquezine-e-conta-bastidores-do-encontro-energia-muito-boa.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Plantão fofoca: a paz mundial depende deste relacionamento.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-11T23:07:27.000Z",
+      "data_registro": "2026-08-12T02:24:00.059Z"
     }
   ]
 }
