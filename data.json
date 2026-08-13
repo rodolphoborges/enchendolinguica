@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-12T20:52:09.400Z",
+  "last_updated": "2026-08-13T02:25:50.116Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-ao-lado-de-camisa-do-vini-jr-usada-por-seu-amigo.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-24T21:53:26.000Z",
-      "data_registro": "2026-06-25T04:06:20.914Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/vini-jr-deixa-comentario-sugestivo-em-foto-de-virginia-fonseca",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-11T23:07:27.000Z",
       "data_registro": "2026-08-12T02:24:00.059Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/vini-jr-reage-ao-anuncio-de-saida-de-virginia-fonseca-do-posto-de-rainha-de-bateria-da-grande-rio.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-12T23:35:01.000Z",
+      "data_registro": "2026-08-13T02:25:50.115Z"
     }
   ]
 }
