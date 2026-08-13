@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-13T02:25:50.116Z",
+  "last_updated": "2026-08-13T05:43:35.618Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/vini-jr-deixa-comentario-sugestivo-em-foto-de-virginia-fonseca",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-25T09:39:24.000Z",
-      "data_registro": "2026-06-25T10:47:59.819Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-fonseca-reage-apos-previsao-de-dois-gols-de-vini-jr-melhor-do-que-eu-imaginava.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-12T23:35:01.000Z",
       "data_registro": "2026-08-13T02:25:50.115Z"
+    },
+    {
+      "url": "https://portalleodias.com/famosos/sempre-a-numero-1-vini-jr-reage-a-saida-de-virginia-da-grande-rio",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Portal Leo Dias",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-13T03:13:48.000Z",
+      "data_registro": "2026-08-13T05:43:34.328Z"
     }
   ]
 }
