@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-13T09:17:34.979Z",
+  "last_updated": "2026-08-13T13:23:22.049Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-fonseca-reage-apos-previsao-de-dois-gols-de-vini-jr-melhor-do-que-eu-imaginava.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-25T09:59:36.000Z",
-      "data_registro": "2026-06-25T10:48:07.136Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/virginia-ganha-presente-misterioso-apos-interacao-de-vini-jr-e-detalhe-chama-atencao-veja/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-13T03:13:48.000Z",
       "data_registro": "2026-08-13T05:43:34.328Z"
+    },
+    {
+      "url": "https://hugogloss.uol.com.br/carnaval/vini-jr-reage-a-saida-de-virginia-como-rainha-da-bateria-da-grande-rio/",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Urgente: nada de novo no front, mas o feed precisa rodar.",
+      "veiculo": "Hugo Gloss (UOL)",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-13T12:38:05.000Z",
+      "data_registro": "2026-08-13T13:23:20.921Z"
     }
   ]
 }
