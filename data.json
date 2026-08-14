@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-14T13:17:52.803Z",
+  "last_updated": "2026-08-14T16:58:44.670Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/virginia-ganha-buque-de-flores-apos-jogo-do-brasil-e-recebe-comentario-de-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-25T12:41:35.000Z",
-      "data_registro": "2026-06-25T14:43:17.411Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/gol-dedicado-a-virginia.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-13T18:34:24.000Z",
       "data_registro": "2026-08-13T20:49:51.914Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/virginia-posa-de-lingerie.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Basta: o mundo para para ver o casal passear com o cachorro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-14T14:28:58.000Z",
+      "data_registro": "2026-08-14T16:58:44.669Z"
     }
   ]
 }
