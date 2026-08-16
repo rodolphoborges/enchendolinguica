@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-15T20:27:53.422Z",
+  "last_updated": "2026-08-16T01:42:15.856Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/gol-dedicado-a-virginia.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Fontes seguras indicam: sentimentos ainda são relevantes.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-25T11:06:44.000Z",
-      "data_registro": "2026-06-25T14:43:18.493Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-comenta-em-foto-de-vini-jr-apos-reconciliacao",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-14T14:28:58.000Z",
       "data_registro": "2026-08-14T16:58:44.669Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/nicole-bahls-recebe-sogra-de-virginia-fonseca-na-fazenda-e-apresenta-novo-bichinho-batizado-do-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta máximo: demonstração de carinho em via pública.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-16T00:12:17.000Z",
+      "data_registro": "2026-08-16T01:42:15.854Z"
     }
   ]
 }
