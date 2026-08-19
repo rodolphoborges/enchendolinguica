@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-18T20:29:58.308Z",
+  "last_updated": "2026-08-19T01:37:23.586Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-comenta-em-foto-de-vini-jr-apos-reconciliacao",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-25T17:31:56.000Z",
-      "data_registro": "2026-06-25T18:17:39.130Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-fonseca-e-vini-jr-reatam-namoro-pela-segunda-vez-um-mes-apos-termino-diz-colunista.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-16T00:12:17.000Z",
       "data_registro": "2026-08-16T01:42:15.854Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/bruna-marquezine-e-shawn-mendes-se-encantam-com-criancas-na-angola.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-19T00:35:10.000Z",
+      "data_registro": "2026-08-19T01:37:23.585Z"
     }
   ]
 }
