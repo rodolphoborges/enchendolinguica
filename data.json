@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-08-20T16:39:48.072Z",
+  "last_updated": "2026-08-20T20:34:15.076Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/apontada-como-pivo-de-fim-de-virginia-e-vini-jr-cancela-ida-a-copa-convite-nao-faltou.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-26T02:35:06.000Z",
-      "data_registro": "2026-06-26T04:13:11.771Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/eventos/festa/sao-joao/noticia/2026/06/apos-rumores-de-volta-com-vini-jr-virginia-fonseca-pede-dicas-de-festas.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Furo: paparazzi confirmam que eles comem comida, como humanos.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-26T12:35:12.000Z",
-      "data_registro": "2026-06-26T14:36:31.747Z"
-    },
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/equipe-de-virginia-reage-sobre-suposta-reconciliacao-e-viagem-marcada-com-vini-jr-apos-a-copa/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: nada de novo no front, mas o feed precisa rodar.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-26T14:50:58.000Z",
-      "data_registro": "2026-06-26T17:55:21.471Z"
-    },
     {
       "url": "https://revistaquem.globo.com/viagem/noticia/2026/06/vini-jr-deixa-escapar-sobre-viagem-a-ibiza.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-20T00:15:11.000Z",
       "data_registro": "2026-08-20T01:36:34.146Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/trend/noticia/2026/08/bruna-marquezine-e-shawn-mendes-na-angola-conheca-projeto-social-criado-por-brasileiros.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Notícia de última hora: o amor é lindo, e o clique é lucro.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-20T18:37:40.000Z",
+      "data_registro": "2026-08-20T20:34:15.075Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/08/em-madri-virginia-mostra-filho-cacula-seguindo-passos-de-vini-jr.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Revelação bombástica: eles ainda se seguem no Instagram.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-20T18:23:58.000Z",
+      "data_registro": "2026-08-20T20:34:15.075Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/virginia-fonseca-posa-com-vini-jr-apos-banho.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Incrível: o carinho mútuo ainda é legalizado por lei.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-20T16:16:48.000Z",
+      "data_registro": "2026-08-20T20:34:15.075Z"
     }
   ]
 }
