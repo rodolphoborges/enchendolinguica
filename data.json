@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-19T20:34:03.437Z",
+  "last_updated": "2026-08-20T01:36:34.147Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/vini-jr-comenta-foto-de-virginia-apos-marcar-dois-gols-pelo-brasil-e-agita-fas-voltou-para-marcar-territorio.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Especialistas confirmam: casal continua existindo.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-25T19:39:45.000Z",
-      "data_registro": "2026-06-25T21:48:06.785Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/apontada-como-pivo-de-fim-de-virginia-e-vini-jr-cancela-ida-a-copa-convite-nao-faltou.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-19T17:47:21.000Z",
       "data_registro": "2026-08-19T20:34:03.436Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/virginia-fonseca-e-vini-jr-fazem-dancinha-sensual-em-mansao-do-jogador.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-20T00:15:11.000Z",
+      "data_registro": "2026-08-20T01:36:34.146Z"
     }
   ]
 }
