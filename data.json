@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-08-21T08:47:23.653Z",
+  "last_updated": "2026-08-21T12:58:01.597Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-fonseca-reforca-rumores-de-reconciliacao-com-vino-jr-ao-confirmar-viagem-para-ibiza.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-26T19:07:43.000Z",
-      "data_registro": "2026-06-26T21:23:41.710Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/06/virginia-posta-fotinho-bonita-pede-apoio-aos-fas-e-atitude-rapida-de-vini-jr-rouba-a-cena.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Urgente: casal continua respirando o mesmo oxigênio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-27T22:30:47.000Z",
-      "data_registro": "2026-06-28T04:21:49.052Z"
-    },
     {
       "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-fonseca-comemora-gol-do-brasil-em-meio-a-rumores-de-volta-com-vini-jr-assista.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-20T22:38:37.000Z",
       "data_registro": "2026-08-21T01:41:29.773Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/virginia-exibe-piercing-novo-durante-treino-na-casa-de-vini-jr-e-diz-acho-que-deu-ruim.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-21T10:32:46.000Z",
+      "data_registro": "2026-08-21T12:58:01.596Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/08/doacoes-musica-21-horas-de-viagem-bastidores-da-visita-de-bruna-marquezine-e-shawn-mendes-a-angola.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-21T09:08:19.000Z",
+      "data_registro": "2026-08-21T12:58:01.596Z"
     }
   ]
 }
