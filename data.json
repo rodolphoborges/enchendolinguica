@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-08-21T12:58:01.597Z",
+  "last_updated": "2026-08-21T16:40:00.795Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/06/virginia-fonseca-comemora-gol-do-brasil-em-meio-a-rumores-de-volta-com-vini-jr-assista.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-29T18:43:19.000Z",
-      "data_registro": "2026-06-29T21:38:52.603Z"
-    },
-    {
-      "url": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/06/29/virginia-usa-chapeu-feito-por-empresaria-de-ms-em-jogo-da-selecao-brasileira-nos-eua.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
-      "veiculo": "G1 Pop & Arte",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-29T21:10:41.000Z",
-      "data_registro": "2026-06-30T04:08:14.266Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/vini-jr-elogia-virginia-apos-vitoria-do-brasil-contra-japao",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-21T09:08:19.000Z",
       "data_registro": "2026-08-21T12:58:01.596Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/virginia-posa-de-biquini-em-madri.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Surpresa: celebridades demonstram afeto publicamente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-21T14:22:09.000Z",
+      "data_registro": "2026-08-21T16:40:00.793Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/08/virginia-fonseca-baba-ao-ver-vini-jr-jogando-futebol-com-seu-filho-cacula.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Análise profunda revela: casal troca olhares e gestos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-21T12:45:13.000Z",
+      "data_registro": "2026-08-21T16:40:00.794Z"
     }
   ]
 }
