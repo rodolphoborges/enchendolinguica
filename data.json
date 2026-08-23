@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-23T12:50:43.764Z",
+  "last_updated": "2026-08-23T16:31:45.256Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/vini-jr-elogia-virginia-apos-vitoria-do-brasil-contra-japao",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-29T21:48:45.000Z",
-      "data_registro": "2026-06-30T04:08:15.885Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/vini-jr-volta-a-comentar-em-postagem-de-virginia-fonseca-apos-vitoria-do-brasil",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-21T12:45:13.000Z",
       "data_registro": "2026-08-21T16:40:00.794Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/de-volta-ao-brasil-bruna-marquezine-e-shawn-mendes-vao-juntos-a-feira.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Documentário: a vida segue, e o casal também, aparentemente.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-23T15:27:10.000Z",
+      "data_registro": "2026-08-23T16:31:45.255Z"
     }
   ]
 }
