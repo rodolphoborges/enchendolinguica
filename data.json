@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-23T20:29:07.630Z",
+  "last_updated": "2026-08-24T01:42:02.612Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/vini-jr-deixa-elogio-em-foto-de-virginia-fonseca-apos-vitoria-do-brasil-na-copa-do-mundo-2026/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-06-30T15:54:24.000Z",
-      "data_registro": "2026-06-30T18:02:40.922Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/virginia-fonseca-publica-conteudos-no-mesmo-castelo-alugado-por-vini-jr-nos-eua",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-23T19:15:39.000Z",
       "data_registro": "2026-08-23T20:29:05.475Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/virginia-brinca-ao-ensinar-vini-jr-a-jogar-buraco-ele-so-sabe-jogar-truco.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-23T20:48:40.000Z",
+      "data_registro": "2026-08-24T01:42:02.611Z"
     }
   ]
 }
