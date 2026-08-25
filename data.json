@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-24T20:36:04.119Z",
+  "last_updated": "2026-08-25T01:37:21.256Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/virginia-fonseca-publica-conteudos-no-mesmo-castelo-alugado-por-vini-jr-nos-eua",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Incrível: o carinho mútuo ainda é legalizado por lei.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-01T16:39:02.000Z",
-      "data_registro": "2026-07-01T18:03:15.450Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-posta-foto-em-castelo-alugado-pela-familia-de-vini-jr.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-23T20:48:40.000Z",
       "data_registro": "2026-08-24T01:42:02.611Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/equipe-de-virginia-nega-contrato-com-jay-z-empresario-de-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-24T23:41:18.000Z",
+      "data_registro": "2026-08-25T01:37:14.421Z"
     }
   ]
 }
