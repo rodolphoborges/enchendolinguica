@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-08-25T12:56:20.723Z",
+  "last_updated": "2026-08-25T16:42:42.274Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/gripada-virginia-acende-alerta-em-torcedores-sobre-saude-de-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-01T21:40:33.000Z",
-      "data_registro": "2026-07-01T21:40:37.175Z"
-    },
-    {
-      "url": "https://www.metropoles.com/celebridades/fotos-mostram-virginia-em-castelo-de-vini-jr-alugado-para-copa-veja",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Ciência explica: a gravidade ainda mantém o casal unido.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-01T18:21:59.000Z",
-      "data_registro": "2026-07-01T21:40:37.175Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-aluga-mansao-avaliada-em-r-20-milhoes-a-dois-minutos-do-castelo-de-vini-jr-nos-eua-veja.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-25T07:02:41.000Z",
       "data_registro": "2026-08-25T08:49:40.225Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/bruna-marquezine-e-shawn-mendes-trocam-beijos.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Exclusivo: fontes próximas confirmam que o sol nasceu para ambos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-25T16:11:19.000Z",
+      "data_registro": "2026-08-25T16:42:42.273Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/virginia-fonseca-e-criticada-apos-melhor-amigo-tentar-beija-la.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta máximo: demonstração de carinho em via pública.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-25T14:36:06.000Z",
+      "data_registro": "2026-08-25T16:42:42.273Z"
     }
   ]
 }
