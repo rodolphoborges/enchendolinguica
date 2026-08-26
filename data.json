@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-08-26T16:51:09.451Z",
+  "last_updated": "2026-08-26T23:11:15.153Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/foi-dificil-virginia-mostra-jose-leonardo-cortando-cabelo-com-barbeiro-de-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Extra: fontes revelam que eles conversam um com o outro.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-04T18:14:08.000Z",
-      "data_registro": "2026-07-04T21:05:02.263Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/esportes/copa-do-mundo/noticia/2026/07/virginia-fonseca-cita-vini-jr-em-previsao-para-jogo-entre-brasil-e-noruega-veja-o-que-ela-disse.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-04T21:59:11.000Z",
-      "data_registro": "2026-07-05T04:00:34.215Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/filhos-dos-famosos/noticia/2026/07/virginia-fonseca-mostra-resumo-do-dia-ao-lado-dos-filhos-nos-eua.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Furo: paparazzi confirmam que eles comem comida, como humanos.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-04T21:03:48.000Z",
-      "data_registro": "2026-07-05T04:00:34.215Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/shawn-mendes-e-bruna-marquezine-sao-filmados-em-aeroporto-na-africa-do-sul-assista.ghtml",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-26T11:11:47.000Z",
       "data_registro": "2026-08-26T13:02:28.479Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/fas-internacionais-de-vini-jr-detonam-virginia-em-meio-a-estadia-em-madrid",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Exclusivo: fontes confirmam óbvio ululante sobre o casal.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-26T19:16:43.000Z",
+      "data_registro": "2026-08-26T23:11:07.865Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/virginia-fonseca-usa-bolsinha-de-luxo-para-acompanhar-jogo-de-vini-jr-em-madri.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-26T21:04:59.000Z",
+      "data_registro": "2026-08-26T23:11:15.152Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/noticia/2026/08/apos-criticas-virginia-marca-presenca-em-jogo-de-vini-jr-com-o-real-madrid.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-26T19:02:39.000Z",
+      "data_registro": "2026-08-26T23:11:15.152Z"
     }
   ]
 }
