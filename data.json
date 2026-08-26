@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-26T01:41:57.867Z",
+  "last_updated": "2026-08-26T04:45:16.982Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-aluga-mansao-avaliada-em-r-20-milhoes-a-dois-minutos-do-castelo-de-vini-jr-nos-eua-veja.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão fofoca: a paz mundial depende deste relacionamento.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-01T23:51:29.000Z",
-      "data_registro": "2026-07-02T04:03:11.968Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/coincidencia-vini-jr-ganha-presente-de-r-1-milhao-da-joalheria-da-qual-virginia-e-embaixadora",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-25T14:36:06.000Z",
       "data_registro": "2026-08-25T16:42:42.273Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/08/quem-e-hebert-gomes-melhor-amigo-de-virginia-fonseca-que-foi-criticado-por-fas-de-vini-jr-apos-tentar-beija-la.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-26T03:00:29.000Z",
+      "data_registro": "2026-08-26T04:45:16.980Z"
     }
   ]
 }
