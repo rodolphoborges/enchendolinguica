@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-08-27T08:39:06.064Z",
+  "last_updated": "2026-08-27T22:05:29.790Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/bruna-marquezine-e-shawn-mendes-sao-flagrados-em-aeroporto-na-africa",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-06T23:24:25.000Z",
-      "data_registro": "2026-07-07T03:57:25.563Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-reaparece-apos-sumico-das-redes-sociais.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-08-26T23:11:23.000Z",
       "data_registro": "2026-08-27T08:39:02.626Z"
+    },
+    {
+      "url": "https://www.metropoles.com/celebridades/marcia-sensitiva-preve-virginia-gravida-de-vini-jr",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Impactante: evidências de que o amor permanece.",
+      "veiculo": "Metrópoles Celebridades",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-08-27T19:19:20.000Z",
+      "data_registro": "2026-08-27T22:05:24.852Z"
     }
   ]
 }
