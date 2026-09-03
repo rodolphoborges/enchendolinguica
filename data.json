@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-02T22:29:04.589Z",
+  "last_updated": "2026-09-03T03:56:04.766Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/famosos/escondido-reflexo-em-video-de-virginia-entrega-presenca-de-vini-jr-em-viagem-a-italia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-12T01:31:28.000Z",
-      "data_registro": "2026-07-12T03:30:11.403Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/apos-surgir-em-video-vini-jr-deixa-comentario-em-foto-de-virginia-durante-viagem-a-italia",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-02T17:37:51.000Z",
       "data_registro": "2026-09-02T22:29:04.588Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/viagem/noticia/2026/09/vini-jr-e-virginia-fonseca-sao-alvos-de-paparazzi-durante-passeio-em-megaiate-em-ibiza-fotos.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Investigação: a química do casal desafia as leis da termodinâmica.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-03T01:53:41.000Z",
+      "data_registro": "2026-09-03T03:56:04.765Z"
     }
   ]
 }
