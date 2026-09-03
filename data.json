@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-03T16:11:37.699Z",
+  "last_updated": "2026-09-03T22:32:06.003Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/vini-jr-elogia-virginia-fonseca-durante-viagem-para-a-italia.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-12T00:18:41.000Z",
-      "data_registro": "2026-07-12T03:30:12.893Z"
-    },
     {
       "url": "https://portalleodias.com/famosos/virginia-curte-aniversario-de-vini-jr-em-iate-de-luxo-na-italia-com-os-filhos",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-03T14:11:47.000Z",
       "data_registro": "2026-09-03T16:11:37.698Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/09/virginia-fonseca-diz-que-vini-jr-e-louco-por-estar-com-ela-e-jogador-reage-te-amo.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Revelação bombástica: eles ainda se seguem no Instagram.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-03T20:37:34.000Z",
+      "data_registro": "2026-09-03T22:32:06.002Z"
     }
   ]
 }
