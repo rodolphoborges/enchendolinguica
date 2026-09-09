@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-09T12:51:31.187Z",
+  "last_updated": "2026-09-09T19:11:01.791Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/amiga-de-vini-jr-entrega-presenca-de-virginia-na-comemoracao-do-aniversario-do-jogador.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Investigação minuciosa aponta: romance segue firme e forte.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-12T15:55:10.000Z",
-      "data_registro": "2026-07-12T17:05:15.351Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/virginia-deixa-misterio-e-posta-foto-em-aniversario-de-vini-jr",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-08T12:04:34.000Z",
       "data_registro": "2026-09-08T12:46:25.843Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/09/na-chuva-e-sem-bruna-marquezine-shawn-mendes-e-tietado-por-fa-no-rio-de-janeiro.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Incrível: o carinho mútuo ainda é legalizado por lei.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-09T17:26:45.000Z",
+      "data_registro": "2026-09-09T19:11:01.790Z"
     }
   ]
 }
