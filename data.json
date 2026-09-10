@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-10T19:02:30.750Z",
+  "last_updated": "2026-09-10T22:23:09.748Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/postura-de-vini-jr-em-nova-foto-com-virginia-irrita-internautas",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-12T23:24:42.000Z",
-      "data_registro": "2026-07-13T03:33:06.906Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/perfil-divulga-foto-de-virginia-no-colo-de-vini-jr-durante-aniversario-do-jogador-na-italia-veja/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-10T16:09:35.000Z",
       "data_registro": "2026-09-10T19:02:30.749Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/09/virginia-fonseca-surge-vestindo-moletom-dp-ex-marido-ze-felipe.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta de fofura: o nível de glicose na internet subiu 20%.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-10T21:43:38.000Z",
+      "data_registro": "2026-09-10T22:23:09.747Z"
     }
   ]
 }
