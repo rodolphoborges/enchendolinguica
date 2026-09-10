@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-10T12:48:56.528Z",
+  "last_updated": "2026-09-10T19:02:30.750Z",
   "news": [
-    {
-      "url": "https://hugogloss.uol.com.br/famosos/virginia-canta-musica-durante-aniversario-de-vini-jr-e-letra-sugestiva-chama-atencao-assista/",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
-      "veiculo": "Hugo Gloss (UOL)",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-12T19:56:51.000Z",
-      "data_registro": "2026-07-12T20:57:16.962Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/postura-de-vini-jr-em-nova-foto-com-virginia-irrita-internautas",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-10T02:45:49.000Z",
       "data_registro": "2026-09-10T04:06:02.727Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/09/vini-jr-abre-album-de-fotos.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Alerta máximo: demonstração de carinho em via pública.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-10T16:09:35.000Z",
+      "data_registro": "2026-09-10T19:02:30.749Z"
     }
   ]
 }
