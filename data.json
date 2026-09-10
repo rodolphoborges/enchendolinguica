@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-09T22:23:45.397Z",
+  "last_updated": "2026-09-10T04:06:02.728Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-deixa-misterio-e-posta-foto-em-aniversario-de-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Bomba: fontes revelam que continuam juntos.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-12T17:07:32.000Z",
-      "data_registro": "2026-07-12T20:57:12.338Z"
-    },
     {
       "url": "https://hugogloss.uol.com.br/famosos/virginia-canta-musica-durante-aniversario-de-vini-jr-e-letra-sugestiva-chama-atencao-assista/",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-09T17:26:45.000Z",
       "data_registro": "2026-09-09T19:11:01.790Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/eventos/noticia/2026/09/sem-vini-jr-virginia-fonseca-curte-festao-ao-lado-da-mae-do-namorado.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-10T02:45:49.000Z",
+      "data_registro": "2026-09-10T04:06:02.727Z"
     }
   ]
 }
