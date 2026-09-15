@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-15T13:20:43.937Z",
+  "last_updated": "2026-09-15T19:36:37.935Z",
   "news": [
-    {
-      "url": "https://www.metropoles.com/celebridades/virginia-divulga-marido-da-amiga-de-vini-jr-e-gera-climao-entenda",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Plantão urgente: nada mudou, mas estamos aqui mesmo assim.",
-      "veiculo": "Metrópoles Celebridades",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-13T12:25:51.000Z",
-      "data_registro": "2026-07-13T14:47:37.724Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/web-resgata-virginia-fonseca-no-colo-de-ze-felipe-e-compara-com-foto-com-vini-jr.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "Dom, 13 Set 2026 18:15:18 -0300",
       "data_registro": "2026-09-13T22:15:38.071Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/09/apos-desistir-de-viajar-virginia-fonseca-coloca-bronzeado-em-dia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-15T13:42:26.000Z",
+      "data_registro": "2026-09-15T19:36:37.934Z"
     }
   ]
 }
