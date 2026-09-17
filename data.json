@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-09-17T13:15:55.916Z",
+  "last_updated": "2026-09-17T19:38:52.715Z",
   "news": [
-    {
-      "url": "https://portalleodias.com/tv/virginia-esta-diferente-craque-neto-recria-foto-da-influenciadora-no-colo-de-vini-jr",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Documentário: a vida segue, e o casal também, aparentemente.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-13T19:19:12.000Z",
-      "data_registro": "2026-07-13T21:02:20.195Z"
-    },
-    {
-      "url": "https://tnonline.uol.com.br/noticias/revista-uau/craque-neto-imita-foto-de-virginia-no-colo-de-vini-jr-e-senta-no-colo-de-jornalista-1117605",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Notícia de última hora: o amor é lindo, e o clique é lucro.",
-      "veiculo": "UOL Splash",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-14T02:31:35.000Z",
-      "data_registro": "2026-07-14T02:54:37.702Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/apos-foto-no-colo-de-vini-virginia-fonseca-usa-look-branco-para-jantar-na-italia.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Histórico: o primeiro beijo do dia (provavelmente) já aconteceu.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-13T20:22:06.000Z",
-      "data_registro": "2026-07-14T02:54:41.783Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/famosos-na-praia/noticia/2026/07/nicole-bahls-mariana-goldfarb-e-gianne-albertoni-passeiam-de-iate-e-brincam-virginia-e-vini-jr.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1773,33 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-15T20:58:18.000Z",
       "data_registro": "2026-09-15T22:47:42.238Z"
+    },
+    {
+      "url": "https://g1.globo.com/pop-arte/noticia/2026/09/17/virginia-fonseca-e-vini-jr-mostram-aliancas-apos-um-ano-de-namoro-veio-ai-grupo.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Sensacional: demonstração de afeto em 4K disponível.",
+      "veiculo": "G1 Pop & Arte",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-17T18:27:04.000Z",
+      "data_registro": "2026-09-17T19:38:47.903Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/09/virginia-comemora-relacao-com-vini-jr-com-alianca.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Relatório especial: o amor não é apenas uma construção social.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-17T18:02:49.000Z",
+      "data_registro": "2026-09-17T19:38:52.714Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/09/diogo-nogueira-mostra-bastidores-de-reencontro-com-paolla-oliveira-para-trabalho.ghtml",
+      "casal_referenciado": "Paolla Oliveira & Diogo Nogueira",
+      "titulo": "[Paolla Oliveira & Diogo Nogueira] Mais uma prova de que o amor vence na vida real e nas telas.",
+      "veiculo": "Revista Quem",
+      "categoria": "Real",
+      "data_publicacao": "2026-09-17T13:55:20.000Z",
+      "data_registro": "2026-09-17T19:38:52.714Z"
     }
   ]
 }
