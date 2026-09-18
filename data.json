@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-17T22:45:21.227Z",
+  "last_updated": "2026-09-18T04:09:03.643Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/famosos-na-praia/noticia/2026/07/nicole-bahls-mariana-goldfarb-e-gianne-albertoni-passeiam-de-iate-e-brincam-virginia-e-vini-jr.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Marco histórico: mais de 24 horas sem boatos de separação.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-14T05:12:27.000Z",
-      "data_registro": "2026-07-14T06:16:45.607Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-sao-vistos-juntos-no-rio.ghtml",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1791,15 @@
       "categoria": "Real",
       "data_publicacao": "2026-09-17T13:55:20.000Z",
       "data_registro": "2026-09-17T19:38:52.714Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/moda-e-beleza/estetica/noticia/2026/09/mudaram-muito-simone-mendes-virginia-vini-jr-e-mais-os-famosos-que-chamam-atencao-por-procedimentos-esteticos.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-18T03:00:00.000Z",
+      "data_registro": "2026-09-18T04:09:03.641Z"
     }
   ]
 }
