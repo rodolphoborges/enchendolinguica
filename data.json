@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-18T22:25:21.649Z",
+  "last_updated": "2026-09-19T04:06:11.670Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-sao-vistos-juntos-no-rio.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Impactante: evidências de que o amor permanece.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-14T13:05:08.000Z",
-      "data_registro": "2026-07-14T13:57:45.645Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/apos-virginia-no-colo-de-vini-jr-influencer-que-tatuou-jogador-diz-que-fas-tentaram-derrubar-seu-instagram.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-18T03:00:00.000Z",
       "data_registro": "2026-09-18T04:09:03.641Z"
+    },
+    {
+      "url": "https://g1.globo.com/fato-ou-fake/noticia/2026/09/18/e-fake-que-virginia-fonseca-e-vini-jr-postaram-fotos-com-anuncio-de-gravidez-imagens-foram-fabricadas-com-inteligencia-artificial.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Breaking news: romance persiste apesar dos pesares.",
+      "veiculo": "G1 Pop & Arte",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-18T22:23:03.000Z",
+      "data_registro": "2026-09-19T04:06:02.613Z"
     }
   ]
 }
