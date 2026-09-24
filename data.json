@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-09-23T22:51:03.735Z",
+  "last_updated": "2026-09-24T04:11:41.592Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-celebra-com-amigos-em-iate-e-detalhe-entrega-proximidade-com-vini-jr.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Alerta máximo: demonstração de carinho em via pública.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-15T09:34:31.000Z",
-      "data_registro": "2026-07-15T10:07:34.885Z"
-    },
-    {
-      "url": "https://portalleodias.com/famosos/vini-jr-agradece-felicitacoes-pelos-26-anos-durante-viagem-pela-italia-com-virginia",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
-      "veiculo": "Portal Leo Dias",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-15T12:27:38.000Z",
-      "data_registro": "2026-07-15T13:54:02.299Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-toma-sol-em-lancha.ghtml",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-20T10:23:15.000Z",
       "data_registro": "2026-09-20T12:58:16.903Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/09/bruna-marquezine-e-clicada-com-shawn-mendes-em-milao-apos-desfiles.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Bomba: fontes revelam que continuam juntos.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-24T02:56:24.000Z",
+      "data_registro": "2026-09-24T04:11:41.591Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/noticias/noticia/2026/09/virginia-reage-apos-documentario-sobre-vini-jr-ser-indicado-ao-emmy-internacional-voce-e-fod.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Repórteres de elite cobram detalhes do relacionamento alheio.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-24T01:04:03.000Z",
+      "data_registro": "2026-09-24T04:11:41.591Z"
     }
   ]
 }
