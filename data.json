@@ -1,15 +1,6 @@
 {
-  "last_updated": "2026-09-24T13:26:12.966Z",
+  "last_updated": "2026-09-24T19:54:26.304Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/virginia-fonseca-toma-sol-em-lancha.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] Jornalismo de ponta: cobrindo o que realmente importa para a humanidade.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-15T12:37:47.000Z",
-      "data_registro": "2026-07-15T13:54:03.885Z"
-    },
     {
       "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-foram-vistos-tomando-cafe-em-um-quiosque-na-praia-da-zona-sul-do-rio.ghtml",
       "casal_referenciado": "Bruna & Shawn Mendes",
@@ -1800,6 +1791,15 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-24T01:04:03.000Z",
       "data_registro": "2026-09-24T04:11:41.591Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/entretenimento/musica/pop/noticia/2026/09/bruna-marquezine-prestigia-shawn-mendes-no-evento-de-10-anos-do-album-illuminate.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Urgente: nada de novo no front, mas o feed precisa rodar.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-24T17:16:38.000Z",
+      "data_registro": "2026-09-24T19:54:26.303Z"
     }
   ]
 }
