@@ -1,24 +1,6 @@
 {
-  "last_updated": "2026-09-25T04:24:33.735Z",
+  "last_updated": "2026-09-25T13:30:05.141Z",
   "news": [
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/bruna-marquezine-e-shawn-mendes-foram-vistos-tomando-cafe-em-um-quiosque-na-praia-da-zona-sul-do-rio.ghtml",
-      "casal_referenciado": "Bruna & Shawn Mendes",
-      "titulo": "[Bruna & Shawn Mendes] Plantão fofoca: a paz mundial depende deste relacionamento.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-15T12:12:23.000Z",
-      "data_registro": "2026-07-15T13:54:03.885Z"
-    },
-    {
-      "url": "https://revistaquem.globo.com/noticias/noticia/2026/07/vini-jr-agradece-mensagens-de-parabens.ghtml",
-      "casal_referenciado": "Vini Jr & Virgínia",
-      "titulo": "[Vini Jr & Virgínia] A imprensa cumprindo seu papel: nos distrair com carinho alheio.",
-      "veiculo": "Revista Quem",
-      "categoria": "Fake Ship",
-      "data_publicacao": "2026-07-15T11:01:57.000Z",
-      "data_registro": "2026-07-15T13:54:03.885Z"
-    },
     {
       "url": "https://www.metropoles.com/celebridades/vini-jr-curte-fotos-de-biquini-da-melhor-amiga-de-virginia-e-gera-polemica",
       "casal_referenciado": "Vini Jr & Virgínia",
@@ -1800,6 +1782,24 @@
       "categoria": "Fake Ship",
       "data_publicacao": "2026-09-24T17:16:38.000Z",
       "data_registro": "2026-09-24T19:54:26.303Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/moda-e-beleza/noticia/2026/09/bruna-marquezine-e-shawn-mendes-vao-juntos-a-desfile-da-semana-de-moda-de-milao.ghtml",
+      "casal_referenciado": "Bruna & Shawn Mendes",
+      "titulo": "[Bruna & Shawn Mendes] Mais uma prova de que o amor vence na vida real e nas telas.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-25T12:17:58.000Z",
+      "data_registro": "2026-09-25T13:30:05.139Z"
+    },
+    {
+      "url": "https://revistaquem.globo.com/esportes/noticia/2026/09/virginia-mostra-torcida-por-vini-jr-para-jogo-entre-brasil-e-australia.ghtml",
+      "casal_referenciado": "Vini Jr & Virgínia",
+      "titulo": "[Vini Jr & Virgínia] Registro histórico: mais um dia de relacionamento estável.",
+      "veiculo": "Revista Quem",
+      "categoria": "Fake Ship",
+      "data_publicacao": "2026-09-25T09:58:12.000Z",
+      "data_registro": "2026-09-25T13:30:05.140Z"
     }
   ]
 }
